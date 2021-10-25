@@ -1,0 +1,186 @@
+# Bash
+
+## ---
+
+`bash --norc`
+
+`echo -e '\u`*hhhh*`\u`*hhhhhhhh*`'`
+
+```bash
+set
+declare -p
+```
+
+`for ((` *expr*`;` *expr*`;` *expr* `)); do` *cmd* `done`
+
+```bash
+for x in *.JPG
+do mv "$x" "${x%.*}.jpg"
+done
+
+for i in {1..5}; do echo $i; done
+```
+
+`${a=1}`\quad define, if not defined  
+`${a-1}`\quad print '1' if a is not defined  
+
+```bash
+declare -A myar=([two]="2" [one]="1" )
+myar+=([more]=3)
+myar[${\#myar[*]}]="koko"
+echo ${!array[@]}
+echo ${array[@]:3:2}
+echo ${#array[@]}
+
+for x in "${!arr[@]}"
+do printf "${x@Q} = ${arr[$x]@Q}\n"
+done
+```
+
+diff -u <(ps) <(ps -e)
+
+# Script
+
+`set -eu`  
+The `set -e` option instructs bash to immediately exit if
+any command has a non-zero exit status.
+
+To use aliases in scripts, you need to add:  
+`shopt -s expand_aliases`  
+`source ~/.bashrc`
+
+# Readline
+
+c-b  
+c-f  
+c-s  
+c-a\q (start of line)  
+c-e\q (end of line)  
+
+rlwrap
+
+$\fbox{C-t}$ Buchstaben vertauschen  
+$\fbox{M-t}$ Worte vertauschen  
+$\fbox{M-u}$ Wort uppercase  
+$\fbox{M-l}$ or $\fbox{M-f}$ one word fw  
+$\fbox{M-b}$ one word bw  
+$\fbox{M-d}$ delete rest of word  
+$\fbox{M-C-h}$ or} $\fbox{C-w}$ delete word bw  
+$\fbox{C-M-y}$ first argument  
+$\fbox{C-r}$ and $\fbox{C-s}$ search history  
+$\fbox{M-(numarg)}$  
+$\fbox{M-.}$ last argument of previous line  
+$\fbox{C-x,( ... C-x,) C-x,e}$ record and execute macro  
+$\fbox{C-]}$ move to character  
+$\fbox{M-C-]}$ move to character bw  
+$\fbox{C-_}$ undo
+
+# builtin
+
+```bash
+alias
+bind
+fg
+bg
+fc
+declare
+cd
+```
+
+`printf '%d\n' {1..10}`  
+
+```bash
+printf \
+"\x1b[38;2;255;100;0mTest\x1b[0m\n"
+
+printf \
+"\x1b[38;2;255;100;0mTest\
+huhu
+\x1b[48;2;22;255;22m\
+hoi
+Hallo\x1b[0m\n"
+
+```
+
+`trap`\quad capture an interrupt (signal) and then clean it up within the script
+
+## jobs
+
+A job is suspended when its process group leader
+receives one of the signals
+\texttt{SIGSTOP SIGTSTP SIGTTIN SIGTTOU}.
+
+```bash
+%n
+%str
+%?str
+%% or %+
+%-
+```
+
+`%1` $≡$ `fg %1`  
+`%1 &` $≡$ `bg %1`  
+
+## Regex (ERE)
+
+`var = '`*regex*`'`  
+`[[ `*str* `=~ $var ]]` 
+
+## ---
+
+`${` *var* `:` *offset* `:` *length* `}`\quad substring expansion  
+`${#` *var* `}`\quad length  
+`${` *var* `#` *patt* `}`  
+`${` *var* `##` *patt* `}`  
+`${` *var* `##*.}`\quad => "c" (extension)  
+`${` *var* `##*/}`\quad => "foo.c" (basepath)  
+`${` *var* `%` *patt* `}`  
+`${` *var* `%%` *patt* `}`  
+`${` *var* `/` *patt* `/` *str* `}`\quad replace first match  
+`${` *var* `//` *patt* `}`\quad replace all matches  
+`${` *var* `/` *patt* `}`  
+`?(` *list* `)`\quad matches zero or one occurrences of the given pattern  
+`*(` *list* `)`\quad matches zero or more  
+`+(` *list* `)`\quad matches one or more  
+`@(` *list* `)`\quad matches one of the given patterns  
+`!(` *list* `)`\quad matches anything except one of the given pattern  
+
+```bash
+str=aab
+${str/%ab}
+```
+=> a
+
+# history
+
+```bash
+![!,[-][N[^*$],^*$]
+!:N !N:N
+!string
+!?string?
+history | ag some
+:p :h :t :r :e :q
+!!:gs/some/some/
+!!:s/some/some/
+```
+
+!*cmd*\quad runs the command with the same arguments that were used last time
+with that command
+
+# ---
+
+`find . -name "*jpeg" | parallel -I% --max-args 1 convert % %.png`
+
+--max-args 1 limits the rate at which Parallel requests a new object from the
+queue. Since the command Parallel is running requires only one file, you limit
+the rate to 1. Were you doing a more complex command that required two files
+(such as cat 001.txt 002.txt > new.txt), you would limit the rate to 2.
+                                                                
+-I% creates a placeholder, called %, to stand in for whatever find hands over
+to Parallel.
+
+convert % %.png is the command you want to run in Parallel.
+▐                                                                
+`ls -1 | parallel --max-args=2 cat {1} {2} ">" {1}_{2}.person`
+
+`find /path/to/dir -name "searchterm"`

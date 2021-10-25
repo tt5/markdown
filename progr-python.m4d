@@ -1,0 +1,93 @@
+# python
+
+## ipython
+
+`save -a` *file N*
+
+c-o ²q¹ add newline below
+
+## django
+
+```bash
+django-admin startproject name  
+python manage.py runserver  
+python manage.py startapp hello  
+
+proj/settings.py  
+proj/urls.py  
+proj/hello/urls.py  
+proj/hello/views.py  
+proj/hello/templates/hello/index.html  
+
+python manage.py makemigrations  
+python manage.py migrate  
+
+python manage.py createsuperuser
+
+python manage.py shell
+```
+
+to start fresh:
+delete db.sqlite3 and all migration files
+
+### html template
+
+{{ ... }} variables
+{% ... %} tags
+
+for loop
+{% for i in numbers %}
+
+if
+{% if i > 10 %}
+
+{% regroup %}
+{% resetcycle %}
+{% comment "blablabla" %}
+commenttext
+{% endcomment %}
+
+{# commentext #}
+
+# json, xml
+
+`pip install dicttoxml`
+
+```python
+from dicttoxml import dicttoxml
+import json
+file = json.load(open("file.json", "r"))
+xml = dicttoxml(file)
+```
+
+## pythonanywhere
+
+`python3 -m pip install --user` ...
+
+## ---
+
+pip install virtualenv
+virtualenv myenv
+source ./myenv/bin/activate
+pip freeze > requirements.txt
+pip install -r requirements.txt
+deactivate
+
+python3 -m venv .
+source bin/activate
+pip freeze > requirements.txt
+pip install -r requirements.txt
+deactivate
+
+## poetry
+
+self update
+new proj
+install
+
+init
+
+add
+run
+shell
+update

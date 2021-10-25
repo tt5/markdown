@@ -1,0 +1,28 @@
+# install
+
+`# echo "`*username*` ALL=(ALL)ALL" > /etc/sudoers.d/`*username*
+
+alsa-utils
+```bash
+$ amixer sset Master unmute
+```
+
+## pacman
+
+`pacman -Sy`  
+`pacman -Sl`
+
+`/etc/pacman.conf`
+
+`pacman -Syu` *package*
+
+`aura -A`  
+`auro -Au`
+`auro -As`
+
+`git clone https://aur.archlinux.org/aura-bin.git`  
+`cd aura-bin`  
+`makepgk`  
+`sudo pacman -U` \<the package file that makepkg produces\>  
+
+xinput --set-prop 8 'libinput Accel Speed' 1▐

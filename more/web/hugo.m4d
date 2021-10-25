@@ -1,0 +1,43 @@
+---
+{
+"title": "hugo notes"
+}
+---
+
+²0¹
+---
+single pages and
+list pages
+
+.Site.RegularPages filters out index pages
+
+url, slug
+
+_index.md
+
+`---`
+yaml
+`---`
+
++++
+toml
++++
+
+archetype folder:
+
+filenames correspond to directories in the content folder
+
+#---
+
+mix md and html
+```
+{{< readFile file = "file.md" markdown="true" >}}
+```
+```
+{{ $file := readFile (.Get "file") }}
+{{ if eq (.Get "markdown") "true" }}
+  {{ $file | markdownify }}
+{{ else }}
+  {{ $file }}
+{{ end }}
+```

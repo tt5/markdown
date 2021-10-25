@@ -1,0 +1,49 @@
+# rust
+
+rustup update
+cargo new name
+cargo build
+cargo run
+cargo check
+cargo clippy
+cargo build --release
+cargo doc
+cargo test
+
+install: wasm-pack
+wasm-pack build
+wasm-pack build --target web
+
+Rust gives you the following ways to lay out composite data:
+    structs (named product types)
+    tuples (anonymous product types)
+    arrays (homogeneous product types)
+    enums (named sum types -- tagged unions)
+    unions (untagged unions)
+
+## vim
+
+rust-analyzer
+https://rust-analyzer.github.io/manual.html#rust-analyzer-language-server-binary
+
+##
+
+cargo watch -q -c -x 'run -q'
+
+rustup component add
+
+release channels: stable, beta and nightly
+
+The profiles available at this time are minimal, default, and complete
+
+rustup set profile minimal
+
+rustup components:
+cargo
+rust-std-x86-64
+rust-std-wasm32
+rustc
+rustfmt
+clippy
+rust-src
+rust-docs

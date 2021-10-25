@@ -1,0 +1,5 @@
+
+/etc/rc.local
+/etc/default/console-setup
+tput civis
+tput cvvis

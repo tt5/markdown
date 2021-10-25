@@ -1,0 +1,51 @@
+```bash
+apt update
+apt upgrade
+apt full-upgrade
+
+apt autoremove
+apt-file search file
+apt-file list package
+```
+
+systemctl reboot
+
+cat /etc/os-release
+
+fonts-mononoki
+
+python3-pip
+python3-rpi.gpio
+spidev
+
+# ---
+
+apt-show-versions
+
+/usr/local/
+programs compiled and installed manually
+
+iso-image, usb key
+debian-installer
+dmesg
+
+cat debian-10.0.0-amd64-netinst.iso > /dev/sdb; sync
+
+apt-get remove -- purge package
+
+dpkg -i file.deb
+dpkg -r package
+dpkg -P package
+
+/etc/bash.bashrc
+/etc/profile
+
+# boot
+
+init (systemd)
+/lib/systemd/system
+/etc/systemd/system
+
+# ---
+
+ls -al /proc/N/exe

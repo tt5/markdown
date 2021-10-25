@@ -1,0 +1,7 @@
+
+in constructive mathematics one demands a proof $\rho$ that two equivalences
+$\lambda_1, \lambda_2 \colon \big( \nabla_1 \simeq \nabla_2 \big) $ are
+equivalent, and hence a term $\rho \colon \big(\lambda_1 \simeq \lambda_2\big)$
+of a higher identity type. If this goes ever on, and one speak of
+intensional type theory or homotopy type theory.
+

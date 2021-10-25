@@ -1,0 +1,3 @@
+mkdir demo
+cd demo
+gradle init

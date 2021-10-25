@@ -1,0 +1,145 @@
+---
+{
+"title" : "Some",
+"latex": "true"
+}
+---
+
+²0¹
+A mathematical theory could be definded as a coherent collection of non-trivial theorems.
+
+"If and only if" is the same as logical equivalence. "A if and only if B" means that
+A and B are equally true.
+
+Material implication is not causal. "Is A, then B" is a statement purely about the
+truth values of A and B, and can hold even if there is no causal link betweeen A and B. (e.g.
+"if 1+1=2, then Fermat's last theorem is true")
+
+
+$\displaystyle
+\pi =4\sum_{i=0}^\infty \frac{❨˗1❩^i}{2i+1}
+$
+²>¹
+$\displaystyle
+e^{ix}=\cos x+i\sin x
+$
+
+$
+z\in \mathbb{C} $, ²q¹
+$
+z = \big| z \big| \cdot \big( \cos\theta + i\sin\theta \big)
+$
+
+$
+\cos n \theta +i \sin n \theta = \big( \cos \theta +i \sin \theta \big) ^n
+$
+
+   
+**Involution,** ²q¹ $f(f(x))=x $.
+
+   
+**Binomial coefficient:** ²q¹
+$
+\begin{pmatrix}
+6\\\\3
+\end{pmatrix}
+=\frac{6!}{3!\big(6-3\big)!}
+$
+²q¹ "six over three"
+
+$\displaystyle
+\begin{pmatrix} x\\\\k \end{pmatrix}
+=\frac{\big(x\big)_k}{k!}
+$
+
+   
+$(x)_k$ falling factorial
+
+$\displaystyle
+(x+y)^{n} = \sum_{0 \leq k \leq n}
+\begin{pmatrix} n \\\\k \end{pmatrix}
+x^{n-k} y^k
+$
+
+$\displaystyle
+\frac{1}{\sqrt{1-4x}} =
+1+2x+6x^2+20x^3 \ldots =
+\sum_{n=0}^\infty
+\begin{pmatrix} 2 n \\\\ n \end{pmatrix} x^{n}
+$
+
+   
+Golden ratio $φ = \frac{\big(1+\sqrt 5\big)}{2}$ (approximately 1.618).
+
+$\displaystyle
+n! \sim \sqrt{2\pi n} {(\frac{n}{e})}^{n}
+$
+²>¹
+$\displaystyle
+\frac{1}{1-x}=\sum_0^{\infty}x^n,\quad 0<x<1
+$
+
+$x_{1,2}=\frac{1}{2}a(-b±\sqrt{b^2-4ac})$, for $ax^2+bx+c=0$
+
+$\displaystyle
+\int_0^1 x^2 \,\mathrm{d}x = \frac{1}{3}$
+
+*Weak König’s Lemma*: Every infinite binary tree has an infinite path.
+
+The volume $V$ and surface $S$
+of the $n$-dimensional spere of radius
+$r$ are given by:
+
+
+$\displaystyle
+V=\frac{\pi^{\frac{1}{2}n}r^n}{\Gamma(\frac{1}{2}n+1)}
+$
+
+
+$\displaystyle
+S=\frac{2\pi^{\frac{1}{2}n}r^{n-1}}
+{\Gamma(\frac{1}{2}n)}
+= \frac{n}{r}V
+$
+
+
+#### Scheme
+
+Schemes connect the fields of algebraic geometry,
+commutative algebra and number theory. Schemes were
+introduced by Alexander Grothendieck in 1960
+
+#### Conic Sections
+
+Johannes Kepler extended the theory of conics through the
+"principle of continuity", a precursor to the concept of
+limits. Kepler first used the term foci in 1604.
+
+In polar coordinates, a conic section with one focus at
+the origin and, if any, the other at a negative value (for
+an ellipse) or a positive value (for a hyperbola) on the
+x-axis, is given by the equation
+
+$r=\frac{l}{1+e\cos\theta}$
+
+where $e$ is the eccentricity and $l$ is the semi-latus rectum.
+
+As above, for $e = 0$, we have a circle, for $0 < e < 1$ we
+obtain an ellipse, for $e = 1$ a parabola, and for $e > 1 a$.
+hyperbola.
+
+#### Algebraic Geometrie
+
+**Algebraic variety** is a central object of study in algebraic geometry.
+
+In classical algebraic geometry, all varieties were by definition
+*quasiprojective varieties*.
+
+# some
+
+in constructive mathematics one demands a proof $\rho$ that two equivalences
+$\lambda_1, \lambda_2 \colon \big( \nabla_1 \simeq \nabla_2 \big) $ are
+equivalent, and hence a term $\rho \colon \big(\lambda_1 \simeq \lambda_2\big)$
+of a higher identity type. If this goes ever on, and one speak of
+intensional type theory or homotopy type theory.
+
