@@ -91,3 +91,11 @@ add
 run
 shell
 update
+
+# packages
+
+itertools
+
+more-itertools
+
+bitstring

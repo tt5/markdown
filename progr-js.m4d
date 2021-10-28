@@ -552,3 +552,16 @@ type never, not even null or undefined.
 The rules for converting strings and numbers to Boolean values state that 0,
 NaN, and the empty string ("") count as false, while all the other values count
 as true.
+
+# optimization
+
+https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e
+
+always instantiate your object properties in the same order
+
+assign all of an object's properties in its constructor
+
+code that executes the same methos repeatedly will run faster
+than code that executes many different methods only once
+
+

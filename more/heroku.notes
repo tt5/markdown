@@ -1,0 +1,45 @@
+poetry new myproj
+cd myproj
+poetry intall
+poetry add django whitenoise gunicorn
+poetry shell
+django-admin startproject mysite
+cd mysite
+python manage.py startapp news
+
+sudo su - postgres
+initdb -D /var/lib/postgres/data
+exit
+sudo systemctl start postgresql
+sudo su - postgres
+psql
+CREATE DATABASE mydb;
+CREATE USER user123 WITH ENCRYPTED PASSWORD '123';
+ALTER ROLE user123 SET client_encoding TO 'utf8';
+ALTER ROLE user123 SET default_transaction_isolation TO 'read committed';
+ALTER ROLE user123 SET timezone TO 'UTC';
+GRANT ALL PRIVILEGES ON DATABASE mydb TO user123;
+python manage.py migrate:w
+
+python manage shell
+from polls.models import Choice, Question
+q.choices.create(choice_text='Not much', votes=0)
+q.choices.create(choice_text='The sky', votes=0)
+q.choices.all()
+
+mkdir /var/log/gunicorn
+https://djangocentral.com/deploy-django-with-nginx-gunicorn-postgresql-and-lets-encrypt-ssl-on-ubuntu/
+https://djangocentral.com/environment-variables-in-django/
+
+CREATE DATABASE hello;
+CREATE USER userhello WITH PASSWORD '123';
+ALTER ROLE <yourname> SET client_encoding TO 'utf8';
+ALTER ROLE <yourname> SET default_transaction_isolation TO 'read committed';
+ALTER ROLE <yourname> SET timezone TO 'UTC';
+GRANT ALL PRIVILEGES ON DATABASE helloworld TO <yourname>;
+
+heroku login
+heroku apps
+heroku pg:info -a <app-name>
+heroku pg:credentials:url -a <app-name>
+heroku config -a dhfirst
