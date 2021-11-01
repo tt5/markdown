@@ -130,7 +130,10 @@ matrix.
 The matrix $\mathcal{X}(g)$ is simila to a diagonal matrix whose diagonal entries are nth
 roots of unity.
 
-If $\mathcal{X}$ affords the char $\chi$, then $\chi(g) = \text{trace}(\mathcal{X}(g)) = \epsilon_1 + \dots + \epsilon_d$, where $\epsilon_i$ for $1\leq i \leq d$ are nth root of unity.
+If $\mathcal{X}$ affords the char $\chi$, then $\chi(g) =
+\text{trace}(\mathcal{X}(g)) = \epsilon_1 + \dots + \epsilon_d$, where
+$\epsilon_i$ for $1\leq i \leq d$ are nth root of unity.
 
-$\chi(g^{-1}) = \text{trace}(\mathcal{X}(g)^{-1} = \bar\epsilon_1 \dots \bar\epsilon_d = \overline{\chi(g)}$
+$\chi(g^{-1}) = \text{trace}(\mathcal{X}(g)^{-1} = \bar\epsilon_1 \dots
+\bar\epsilon_d = \overline{\chi(g)}$
 

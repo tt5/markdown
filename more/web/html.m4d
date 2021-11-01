@@ -1,9 +1,5 @@
----
-{
-"title": "notes"
-}
----
-²0¹
+# html
+
 It is generally bad practice to encode dimensions directly into the HTML.
 
 If you have a section in your page, you can link to that section using
@@ -46,7 +42,8 @@ The simplest way to add JavaScript code in an HTML page, is by using the <script
 
 # canvas
 
-The canvas has been designed for pixel-based graphics, while SVG (Scalable Vector Graphics, another W3C standard) is for vector-based graphics.
+The canvas has been designed for pixel-based graphics, while SVG (Scalable
+Vector Graphics, another W3C standard) is for vector-based graphics.
 
 fillRect(top left X coordinate, top left Y coordinate, width, height)
 
@@ -54,7 +51,8 @@ The DOM Level 2 Events specification says: "The load event occurs when
 the DOM implementation finishes loading all content within a document,
 all frames within a FRAMESET, or an OBJECT element."
 
-Immediate mode = executing a call to a drawing method means immediately drawing in the canvas
+Immediate mode = executing a call to a drawing method means immediately drawing
+in the canvas
 
 There is another drawing mode called "path drawing mode" where you
 first send drawing orders to the graphics processor, and these orders
@@ -63,23 +61,31 @@ at once. There are also methods to erase the buffer's content.
 
 A call to ctx.beginPath() will reset the buffer (empty its contents). 
 
-Put the "pencil" somewhere with a call to ctx.moveTo(x1, y1). This will be the origin of the first line.
+Put the "pencil" somewhere with a call to ctx.moveTo(x1, y1). This will be the
+origin of the first line.
 
-Call the ctx.lineTo(x2, y2) method to draw a line from the previous position (previous step) to the position passed as parameters to the lineTo(...) method. This position will serve as the origin for the next line to be drawn.
+Call the ctx.lineTo(x2, y2) method to draw a line from the previous position
+(previous step) to the position passed as parameters to the lineTo(...) method.
+This position will serve as the origin for the next line to be drawn.
 
-Call lineTo(x3, y3) again to draw a line that goes from (x2, y2) to (x3, y3). This line will start at the end of the previous one.
+Call lineTo(x3, y3) again to draw a line that goes from (x2, y2) to (x3, y3).
+This line will start at the end of the previous one.
 
 Repeat step 3 to draw more connected lines.
 
-Call the ctx.stroke() or the ctx.fill() methods to draw the path defined by the different lines.
+Call the ctx.stroke() or the ctx.fill() methods to draw the path defined by the
+different lines.
 
-It is possible to call ctx.moveTo(x, y) in the middle of steps 1 through 5 in order to move the pen somewhere else without connecting to the last drawn line.
+It is possible to call ctx.moveTo(x, y) in the middle of steps 1 through 5 in
+order to move the pen somewhere else without connecting to the last drawn line.
 
-fill() or stroke() draws the whole path, even if it is disconnected, and even if it has already been drawn!
-If you do not want to draw parts of the same path several times, you need to draw two different paths.
-using the ctx.beginPath()
+fill() or stroke() draws the whole path, even if it is disconnected, and even
+if it has already been drawn!  If you do not want to draw parts of the same
+path several times, you need to draw two different paths.  using the
+ctx.beginPath()
 
-The ctx.closePath() method indicates that we would like a closed path: draw from the last point to the first.
+The ctx.closePath() method indicates that we would like a closed path: draw
+from the last point to the first.
 
 ## animations
 
@@ -93,7 +99,10 @@ unpredictable results.
 BEST PRACTICE: AVOID using setInterval for animating in a canvas,
 except for trivial cases  (change a color every second).
 
-One thing you should always remember about using setInterval: if we set number of milliseconds at - let’s say 20ms - it will call our game loop function EACH 20ms, even if the previous one is not yet finished. This may lead to many problems (incomplete rendering, etc.).
+One thing you should always remember about using setInterval: if we set number
+of milliseconds at - let’s say 20ms - it will call our game loop function EACH
+20ms, even if the previous one is not yet finished. This may lead to many
+problems (incomplete rendering, etc.).
 
 That's where we can use another function: 
 
@@ -101,9 +110,17 @@ That's where we can use another function:
 
 This function works like setInterval(...) with one difference: it calls your function ONCE and AFTER a given amount of time.
 
-setTimeout does not "wait"  during the timeout period. It lets the rest of the JavaScript code run. It schedules a new call to the function passed as first parameter with a timer running in the background. This might cause it to take slightly longer than the expected timeout period to start executing. 
+setTimeout does not "wait"  during the timeout period. It lets the rest of the
+JavaScript code run. It schedules a new call to the function passed as first
+parameter with a timer running in the background. This might cause it to take
+slightly longer than the expected timeout period to start executing. 
 
-This problem also occurs with setInterval, the timing is not "very" reliable. If you plan to run a function every 20ms, and if you measure precisely the real timing, sometimes you will discover big differences between what is scheduled and what is performed. This is because these methods were designed a long time ago, when high precision timers and 60 frames per second animation were not an option.
+This problem also occurs with setInterval, the timing is not "very" reliable.
+If you plan to run a function every 20ms, and if you measure precisely the real
+timing, sometimes you will discover big differences between what is scheduled
+and what is performed. This is because these methods were designed a long time
+ago, when high precision timers and 60 frames per second animation were not an
+option.
 
 
 
@@ -115,30 +132,58 @@ For 60 frames/second animation, use requestAnimationFrame!
 ## requestAnimationFrame
 
 
-        The scheduling is much more accurate: if the code inside the function can be executed in less than 16.6ms, then the average error between the scheduled time and the real time will be much smaller than with the old functions.
-        High resolution timer: even if this difference is small, the function that is called after 16.6ms has an extra parameter that is a high resolution time, very useful for writing games that do time-based animation. Time-based animation will be studied in detail in the HTML5 Part 2 course at W3Cx. It is a technique that comprises measuring the amount of time elapsed between two frames, then computing the distance in pixels to move objects on screen so that the visible speed for a human eye remains constant, even if the frame rate is not.
-        Multiple animations are merged: browsers can bundle animations happening at the same time into a single paint redraw (thus happening faster/with less CPU cycles), solving the problems that can occur with simultaneous setInterval calls.
-        CPU/GPU optimization, battery saved on mobiles:  if the JavaScript execution is occurring in a tab/window which is not visible, it doesn’t have to be drawn. However the animation loop is still executed (objects will be moved, not drawn). This is the same when a mobile phone or tablet screen is black or if the application is put in background.
+The scheduling is much more accurate: if the code inside the function can be
+executed in less than 16.6ms, then the average error between the scheduled time
+and the real time will be much smaller than with the old functions.
+
+High resolution timer: even if this difference is small, the function that is
+called after 16.6ms has an extra parameter that is a high resolution time, very
+useful for writing games that do time-based animation. Time-based animation
+will be studied in detail in the HTML5 Part 2 course at W3Cx. It is a technique
+that comprises measuring the amount of time elapsed between two frames, then
+computing the distance in pixels to move objects on screen so that the visible
+speed for a human eye remains constant, even if the frame rate is not.
+
+Multiple animations are merged: browsers can bundle animations happening at the
+same time into a single paint redraw (thus happening faster/with less CPU
+cycles), solving the problems that can occur with simultaneous setInterval
+calls.
+
+CPU/GPU optimization, battery saved on mobiles:  if the JavaScript execution is
+occurring in a tab/window which is not visible, it doesn’t have to be drawn.
+However the animation loop is still executed (objects will be moved, not
+drawn). This is the same when a mobile phone or tablet screen is black or if
+the application is put in background.
 
 Is the 16.6ms delay really accurate? Can we trust it?
 
 This target may be hard to reach if:
 
-        The animation loop content is too complex,
-        The target device that runs the animation is a low end phone or an old computer,
-        The scheduler may be a bit late or a bit in advance (even if this kind of error is much smaller with requestAnimationFrame than with setInterval or setTimeout).
+The animation loop content is too complex,
+The target device that runs the animation is a low end phone or an old computer,
+The scheduler may be a bit late or a bit in advance (even if this kind of error is much smaller with requestAnimationFrame than with setInterval or setTimeout).
 
-Many HTML5 games perform what we call a "time-based animation". For this, we need an accurate timer that will tell us the elapsed time between each animation frame.
+Many HTML5 games perform what we call a "time-based animation". For this, we
+need an accurate timer that will tell us the elapsed time between each
+animation frame.
 
-The timeStamp parameter of the animationLoop function (line 1 in the above code) is useful for exactly that: it gives a high resolution time. By measuring deltas between two consecutive calls of the animationLoop, we will know exactly, with a sub-millisecond accuracy, the elapsed time between two frames.
+The timeStamp parameter of the animationLoop function (line 1 in the above
+code) is useful for exactly that: it gives a high resolution time. By measuring
+deltas between two consecutive calls of the animationLoop, we will know
+exactly, with a sub-millisecond accuracy, the elapsed time between two frames.
 
 Current support is really good and all modern browsers support this API.
 
 # input
 
-In JavaScript, we treat events made by users as an input, and we manipulate the DOM structure as an output. Most of the time in games/animations, we will change state variables of moving objects, such as position or speed of an alien ship, and the animation loop will take care of these variables to move the objects.
+In JavaScript, we treat events made by users as an input, and we manipulate the
+DOM structure as an output. Most of the time in games/animations, we will
+change state variables of moving objects, such as position or speed of an alien
+ship, and the animation loop will take care of these variables to move the
+objects.
 
-The events are called DOM events, and we use the DOM JavaScript API to create event handlers.
+The events are called DOM events, and we use the DOM JavaScript API to create
+event handlers.
 
 ```
 document.getElementById('someDiv').addEventListener('click', function(evt) {
@@ -157,39 +202,42 @@ document.getElementById('someDiv').addEventListener('click', function(evt) {
 ## mouse
 
 
-    canvas.addEventListener('mousedown', function (evt) {
-    // do something with to the mousedown event
-    });
-
+```js
+canvas.addEventListener('mousedown', function (evt) {
+// do something with to the mousedown event
+});
+```
 
 There are other events related to the mouse:
 
-        mouseleave: similar to mouseout, fired when the mouse leaves the surface of the element. The difference between mouseleave and mouseout is that mouseleave does not fire when the cursor moves over descendant elements, and mouseout is fired when the element moved is outside of the bounds of the original element or is a child of the original element.
-        mouseover: the mouse cursor is moving over the element that listens to that event. A mouseover event occurs on an element when you are over it - coming from either its child OR parent element, but a mouseenter event only occurs when the mouse moves from the parent element to the child element.
-        mousedown: fired when a mouse button is pressed.
-        mouseup: fired when a mouse button is released.
-        mouseclick: fired after a mousedown and a mouseup have occured.
-        mousemove: fired while the mouse moves over the element. Each time the mouse moves, a new event is fired, unlike with mouseover or mouseenter, where only one event is fired.
+mouseleave: similar to mouseout, fired when the mouse leaves the surface of the element. The difference between mouseleave and mouseout is that mouseleave does not fire when the cursor moves over descendant elements, and mouseout is fired when the element moved is outside of the bounds of the original element or is a child of the original element.
+mouseover: the mouse cursor is moving over the element that listens to that event. A mouseover event occurs on an element when you are over it - coming from either its child OR parent element, but a mouseenter event only occurs when the mouse moves from the parent element to the child element.
+mousedown: fired when a mouse button is pressed.
+mouseup: fired when a mouse button is released.
+mouseclick: fired after a mousedown and a mouseup have occured.
+mousemove: fired while the mouse moves over the element. Each time the mouse moves, a new event is fired, unlike with mouseover or mouseenter, where only one event is fired.
 
 getBoundingClientRect()
 
 
 
-    function getMousePos(canvas, evt) {
-       // necessary to take into account CSS boundaries
-       var rect = canvas.getBoundingClientRect();
-       return {
-          x: evt.clientX - rect.left,
-          y: evt.clientY - rect.top
-       };
-    }
+```js
+function getMousePos(canvas, evt) {
+   // necessary to take into account CSS boundaries
+   var rect = canvas.getBoundingClientRect();
+   return {
+      x: evt.clientX - rect.left,
+      y: evt.clientY - rect.top
+   };
+}
+```
 
----
+# ---
 
 
 
-        Changing the width or height property of a canvas in JavaScript erases its content and resets its context,
-        Using percentages (%) in the CSS width and height properties of a canvas does not change its number of pixels/resolution. Instead, it scales the existing pixels without erasing the content, giving a blurry effect when a canvas becomes larger, for example.
+Changing the width or height property of a canvas in JavaScript erases its content and resets its context,
+Using percentages (%) in the CSS width and height properties of a canvas does not change its number of pixels/resolution. Instead, it scales the existing pixels without erasing the content, giving a blurry effect when a canvas becomes larger, for example.
 
 BEST PRACTICE: never use CSS percentages on a canvas width or height!
 
@@ -201,15 +249,15 @@ localStorage is a simple key-value store, in which the keys and values are strin
 
 
 
-    // Using localStorage
-    // store data
-    localStorage.lastName = "Bunny";
-    localStorage.firstName = "Bugs";
-    localStorage.location = "Earth";
-    // retrieve data
-    var lastName = localStorage.lastName;
-    var firstName = localStorage.firstName;
-    var location = localStorage.location;
+// Using localStorage
+// store data
+localStorage.lastName = "Bunny";
+localStorage.firstName = "Bugs";
+localStorage.location = "Earth";
+// retrieve data
+var lastName = localStorage.lastName;
+var firstName = localStorage.firstName;
+var location = localStorage.location;
 
 Cookies are also a popular way to store key-value pairs. Web Storage, however, is a more powerful technique than cookies. The main difference is in size limits: cookies are limited to a few KBytes whereas Web Storage may extend to several MBytes.
 
@@ -217,22 +265,18 @@ Objects managed by Web Storage are no longer carried on the network and HTTP, an
 
 
 
-    var counter = localStorage.getItem("count") || 0;
-    counter++;
-    localStorage.setItem("count", counter);
+var counter = localStorage.getItem("count") || 0;
+counter++;
+localStorage.setItem("count", counter);
 
 The key can contain spaces, for example we can write: localStorage.setItem("Instructor's name", "Michel"); and var name =  localStorage.getItem("Instructor's name");, while var name = localStorage.Instructor's name; will not work!
 
-
 Deleting a key can be performed through removeItem(). And if you wish to reset the entire store, simply call localStorage.clear().
 
-
-
-    for (var i = 0, n = localStorage.length; i < n; i++) {
-        var k = localStorage.key(i);
-        console.log(k + ": " + localStorage[k]); // get the ith value, the one with a key that is in the variable k.
-    }
-
+for (var i = 0, n = localStorage.length; i < n; i++) {
+    var k = localStorage.key(i);
+    console.log(k + ": " + localStorage[k]); // get the ith value, the one with a key that is in the variable k.
+}
 
 for (var i = 0, n = localStorage.length; i < n; i++) {
         var key = localStorage.key(i);
@@ -240,24 +284,21 @@ for (var i = 0, n = localStorage.length; i < n; i++) {
         console.log(key + ": " + value);
         }
 
-For serious applications, you might want to synchronize existing data with the server on a regular basis, in order to avoid data loss (and in general, because users enjoy using the same service from multiple devices at once). This is a rather complex feat, and frameworks such as Firebase can help.
+For serious applications, you might want to synchronize existing data with the
+server on a regular basis, in order to avoid data loss (and in general, because
+users enjoy using the same service from multiple devices at once). This is a
+rather complex feat, and frameworks such as Firebase can help.
 
 # file api
 
+locaStorage.key = JSON.stringify(object); // or...
+localStorage.setItem(key, JSON.stringify(object));
 
+var reader = new FileReader();
 
-    locaStorage.key = JSON.stringify(object); // or...
-    localStorage.setItem(key, JSON.stringify(object));
-
-
-
-    var reader = new FileReader();
-
-
-
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA
-    AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO
-    9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red square" width=50 height=50/>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA
+AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO
+9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red square" width=50 height=50/>
 
 ---
 

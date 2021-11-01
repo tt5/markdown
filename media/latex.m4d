@@ -1,9 +1,5 @@
-{
-"titel": "latex notes"
-}
+# latex
 
-²0¹
----
 TEXLIVE_INSTALL_PREFIX
 
 tlmgr install name

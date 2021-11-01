@@ -1,11 +1,5 @@
----
-{
-"title": "Multilinear Algebra",
-"latex": "true"
-}
----
+# Multilinear Algebra
 
-¹0²
 ```tex
 \begin{tikzpicture}
 \matrix (mymat) [matrix of nodes,

@@ -1,4 +1,4 @@
-
+# java
 
 An interface is a blueprint for a class. Or, in other words, its a collection
 of unimplemented method signatures.
@@ -21,7 +21,7 @@ public record Person (String name, String address) {}
 
 https://www.baeldung.com/gradle-source-sets
 
-The Java plugin assumes src/main/java and src/test/java as default source directories.  
+The Java plugin assumes src/main/java and src/test/java as default source directories.
 
 custom:
 ```

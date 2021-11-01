@@ -172,26 +172,23 @@ $
 
 The metric is not pos. def.
 
-The Lorentz transformation is a linear transformation. It
-may include a rotation of space; a rotation-free Lorentz
-transformation is called a **Lorentz boost**. In Minkowski
-space, the mathematical model of spacetime in special
-relativity, the Lorentz transformations preserve the
-spacetime interval between any two events. This property
-is the defining property of a Lorentz transformation. They
-describe only the transformations in which the spacetime
-event at the origin is left fixed. They can be considered as
-a hyperbolic rotation of Minkowski space. The more general
-set of transformations that also includes translations is
-known as the Poincaré group.
-The elements of the Lorentz group are rotations and boosts and mixes thereof.
-If the spacetime translations are included, then one obtains the inhomogeneous
-Lorentz group or the Poincaré group.
-The Lorentz group is the group of all Lorentz transformations of Minkowski spacetime
+The Lorentz transformation is a linear transformation. It may include a
+rotation of space; a rotation-free Lorentz transformation is called a **Lorentz
+boost**. In Minkowski space, the mathematical model of spacetime in special
+relativity, the Lorentz transformations preserve the spacetime interval between
+any two events. This property is the defining property of a Lorentz
+transformation. They describe only the transformations in which the spacetime
+event at the origin is left fixed. They can be considered as a hyperbolic
+rotation of Minkowski space. The more general set of transformations that also
+includes translations is known as the Poincaré group.  The elements of the
+Lorentz group are rotations and boosts and mixes thereof.  If the spacetime
+translations are included, then one obtains the inhomogeneous Lorentz group or
+the Poincaré group.  The Lorentz group is the group of all Lorentz
+transformations of Minkowski spacetime
 
-The angular momentum tensor forms 6 of the 10 generators of the
-Poingaré group, the other four are the components of the four-momentum
-for spacetime translation
+The angular momentum tensor forms 6 of the 10 generators of the Poingaré group,
+the other four are the components of the four-momentum for spacetime
+translation
 
 $M^{0i} = -M^{i0} = K_i$
 
@@ -231,11 +228,10 @@ the tangent space at each point in spacetime, with signature either
 Elements of Minkowski space are called events.
 It is perhaps the simplest example of a pseudo-Riemannian manifold.
 
-For comparison in general relativity, a Lorentzian manifold $L$ is
-likewise equipped with a metric tensor $g$, which is a nondegenerate symmetric
-bilinear form on the tangent space $T_pL$ at each point $p$ of $L$.
-In coordinates, it may be represented by a $4\times 4$ matrix
-*depending on spacetime position*.
+For comparison in general relativity, a Lorentzian manifold $L$ is likewise
+equipped with a metric tensor $g$, which is a nondegenerate symmetric bilinear
+form on the tangent space $T_pL$ at each point $p$ of $L$.  In coordinates, it
+may be represented by a $4\times 4$ matrix *depending on spacetime position*.
 
 Minkowski metric:
 
@@ -267,18 +263,16 @@ v^\mu w_\mu = v_\mu w^\mu$
 
 $\eta(v,v)=\eta_{\mu\nu}v^\mu v^\nu = v^\mu v_\mu$
 
-If $v^\mu$ are the components of a vector in a tangent
-space, then $\eta_{mu\nu}v^\mu=v_\nu$ are the components of a vector
-in the cotangent space (a linear functional).
-Vectors with lower indices are referred to as covariant vectors.
-The covariant vectors are (almost always implicitly) identified with
-vectors (linear functionals) in the dual of Minkowski space.
-The ones with upper idices are contravariant vectors.
-The inverse of the map from tangent to cotangent spaces, explicitly
-given by the inverse of $\eta$ in matrix multiplication, can
-be used to define **raising of an index**.
-The components of this inverse are denoted $\eta^{\mu\nu}$.
-It happens that $\eta_{\mu\nu}=\eta^{\mu\nu}$.
+If $v^\mu$ are the components of a vector in a tangent space, then
+$\eta_{mu\nu}v^\mu=v_\nu$ are the components of a vector in the cotangent space
+(a linear functional).  Vectors with lower indices are referred to as covariant
+vectors.  The covariant vectors are (almost always implicitly) identified with
+vectors (linear functionals) in the dual of Minkowski space.  The ones with
+upper idices are contravariant vectors.  The inverse of the map from tangent to
+cotangent spaces, explicitly given by the inverse of $\eta$ in matrix
+multiplication, can be used to define **raising of an index**.  The components
+of this inverse are denoted $\eta^{\mu\nu}$.  It happens that
+$\eta_{\mu\nu}=\eta^{\mu\nu}$.
 
 
 d'Alembert operator $□$.
@@ -764,14 +758,18 @@ $l$ azimuthal q.n.
 
 deutsch ("Eich-")
 
-The history of gauge theories begins with General Relativity, which can be regarded as a non-Abelian gauge theory of a special type. To a large extent the other
-gauge theories emerged in a slow and complicated process gradually from General Relativity. Their common geometrical structure – best expressed in terms of
-connections on fiber bundles – is now widely recognized.
+The history of gauge theories begins with General Relativity, which can be
+regarded as a non-Abelian gauge theory of a special type. To a large extent the
+other gauge theories emerged in a slow and complicated process gradually from
+General Relativity. Their common geometrical structure – best expressed in
+terms of connections on fiber bundles – is now widely recognized.
 
 It was Weyl who emphasized the role of gauge invariance as a constructive
 principle from which electromagnetism can be derived.
 
-(Electromagnetics) An **isotropic** medium is one such that the permittivity, ε, and permeability, μ, of the medium are uniform in all directions of the medium, the simplest instance being free space.
+(Electromagnetics) An **isotropic** medium is one such that the permittivity,
+ε, and permeability, μ, of the medium are uniform in all directions of the
+medium, the simplest instance being free space.
 
 # angular momentum
 
@@ -843,7 +841,13 @@ $E_j = hBJ(J+1) - \underbrace{hDJ^2(J+1)^2{\text{centrifugal distortion term
 
 # some
 
-Technically, "radians" is not a unit like meters or seconds since it is defined as the length along the circular arc defined by an angle divided by the radius of the circle and, therefore, is length/length which is dimensionless. Nonetheless, it is common to use "radians" as a "unit" to indicate that what is being referred to is an angle and not some other dimensionless quantity. For this reason, the radian is officially designated as an SI derived unit (as opposed to SI base units like meters and seconds). 
+Technically, "radians" is not a unit like meters or seconds since it is defined
+as the length along the circular arc defined by an angle divided by the radius
+of the circle and, therefore, is length/length which is dimensionless.
+Nonetheless, it is common to use "radians" as a "unit" to indicate that what is
+being referred to is an angle and not some other dimensionless quantity. For
+this reason, the radian is officially designated as an SI derived unit (as
+opposed to SI base units like meters and seconds). 
 
  Another quantity that will be occasionally referred to as a value in radians is a "phase shift". When two objects are oscillating and are not perfectly in sync, i.e., they don't reach the maximum of their oscillations at the same time, they are said to be "out of phase". The phase shift is a measure of how far apart the two oscillations are.
 

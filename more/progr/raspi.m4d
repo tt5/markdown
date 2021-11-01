@@ -1,4 +1,3 @@
-
 # raspi
 
 rpi-update
@@ -30,3 +29,7 @@ setupcon
 "ctrl:swapcaps"
 
 gpasswd -a username uucp
+/etc/rc.local
+/etc/default/console-setup
+tput civis
+tput cvvis

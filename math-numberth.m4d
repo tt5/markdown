@@ -180,12 +180,11 @@ A **amicable** number has a repeating aliquot sequence of period 2.
 A **sociable** number has a repeating aliquot sequence of period 3 or greater.
 
 Some numbers have an aliquot sequence which is eventually periodic, but the
-number itself is not perfect, amicable, or sociable.
-Numbers like 95 that are not perfect, but have an eventually repeating aliquot
-sequence of period 1 are called **aspiring numbers**.
-As of April 2015, there were 898 positive integers less than 100,000 whose
-aliquot sequences have not been fully determined, and 9190 such integers less
-than 1,000,000.
+number itself is not perfect, amicable, or sociable.  Numbers like 95 that are
+not perfect, but have an eventually repeating aliquot sequence of period 1 are
+called **aspiring numbers**.  As of April 2015, there were 898 positive
+integers less than 100,000 whose aliquot sequences have not been fully
+determined, and 9190 such integers less than 1,000,000.
 
 If $s(n) > n$ then $n$ is an **abundant** number and if $s(n) < n$ then $n$ is
 a **deficient** number.
@@ -301,12 +300,11 @@ For an integer $a > 1$, if a composite integer $x$ divides $a^{x−1} − 1$, th
 called a **Fermat** pseudoprime to base $a$.
 
 A Fermat pseudoprime is often called a pseudoprime, with the modifier Fermat
-being understood.
-Pseudoprimes to base 2 are sometimes called Poulet numbers.
+being understood.  Pseudoprimes to base 2 are sometimes called Poulet numbers.
 
-An integer $q$ is called a **quadratic residue** modulo $n$ if it is congruent to a
-perfect square modulo $n$.
-Otherwise, $q$ is called a **quadratic nonresidue** modulo $n$.
+An integer $q$ is called a **quadratic residue** modulo $n$ if it is congruent
+to a perfect square modulo $n$.  Otherwise, $q$ is called a **quadratic
+nonresidue** modulo $n$.
 
 Let f and g be two functions defined on the positive integers. Then the
 **Dirichlet convolution** of $f$ and $g$, written $f \ast g$, is another function on the
@@ -600,7 +598,8 @@ More generally, if m is a positive odd number, the function
 
 $\chi (n)=\left({\frac {n}{m}}\right)$, where $\left({\frac {n}{m}}\right)$ is the Jacobi symbol, is a Dirichlet character modulo m.[9]
 
-These are examples of real characters. In general, all real characters arise from the Kronecker symbol.
+These are examples of real characters. In general, all real characters arise
+from the Kronecker symbol.
 
 # Some
 
@@ -687,12 +686,11 @@ to the complex numbers $\mathbb{C}$ such that $\chi$ has the following propertie
 $s$ complex number, $\Re >1$.
 $L(s,χ)=\sum_{n\geqslant 1} \frac{χ(n)}{n^s}=\prod_{p} (1-\frac{χ(n)}{p^s})^{-1}$
 
-Da für endliche abelsche Gruppen die Charaktergruppe isomorph zur
-Ausgangsgruppe ist, gibt es $\varphi (n)$
-verschiedene Charaktere auf der Gruppe
+There are $\varphi (n)$
+different characters on the group
 $(\mathbb {Z} /n\mathbb {Z} )^{\times }$,
-dabei ist $\varphi (n)$ die Eulersche
-Phi-Funktion.
+$\varphi (n)$ is the Euler
+Phi function.
 
 # Some
 
@@ -865,11 +863,6 @@ SeidelEulerTriangle(11)
 [0,50521,101042,150178,196544,238816,275792,306448,329984,345856,353792,353792]
 ```
 
-Abgesehen von der 1 an der Spitze, und von den Nullen, mit welchen die Zeilen
-abwechselnd links und rechts beginnen, ist jede Zahl der Tafel die Summe aus
-der neben ihr stehenden kleineren, und der gerade über der letzteren
-befindlichen.
-
 Seidel describes the course of the computation "... always starts on the side
 where the 0 is, and alternately calculates from left to right and from right to
 left (boustrophedon).") ("... stets auf der Seite beginnt, wo in ihnen die 0
@@ -881,8 +874,8 @@ The triangle above computes the secant $U_{2n}$ and the tangent $T_{2n+1}$
 numbers (n≥0) in unparalleled simplicity and elegance just starting from the 1.
 
 The elements of the left diagonal (the secant numbers) are the signless Euler
-numbers, a name given by Raabe in 1851 [2] to the secant numbers.  For some
-reason R. P. Stanley [4] does not follow this traditional convention. He calls
+numbers, a name given by Raabe in 1851 to the secant numbers.  For some
+reason R. P. Stanley does not follow this traditional convention. He calls
 the number of alternating permutations Euler numbers.
 
 The elements of the right diagonal are the tangent numbers.
@@ -953,8 +946,11 @@ looking at the even and the odd indexed numbers gives the classical and the
 secant Bernoulli numbers, respectively.
 The Euler zeta numbers and all flavors of the Bernoulli numbers are fractions.
 
-Euler Zeta Numerator A099612 		Numerators of coefficients in expansion of sec(x) + tan(x).
-Euler Zeta DenominatorA099617 		Denominators of coefficients in expansion of sec(x) + tan(x).
+Euler Zeta Numerator A099612  
+Numerators of coefficients in expansion of sec(x) + tan(x).
+
+Euler Zeta DenominatorA099617  
+enominators of coefficients in expansion of sec(x) + tan(x).
 
 ```txt
 ZetaBS := z -> (Zeta(0,z,1/4) - Zeta(0,z,3/4))/(2^z-2):

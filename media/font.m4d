@@ -1,13 +1,6 @@
-
-# math
-
-features: ssty, dtls
-MathML (firefox)
-STIX Two Math
+# fonts
 
 ttx
-
-# Fonts
 
 Linux:
 
@@ -537,3 +530,8 @@ Vectors and matrices are bold and italic type.
 
 Symbols for units and mathematical
 operators, numbers, labels are Roman (upright) type.
+
+features: ssty, dtls
+MathML (firefox)
+STIX Two Math
+

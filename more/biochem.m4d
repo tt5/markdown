@@ -11,7 +11,7 @@ within membranes.
 **Prokaryotes** can be divided into two domains, **Archaea** and **bacteria**. In contrast,
 species with nuclei and organelles are placed in the domain Eukaryota.
 
----
+# ---
 
 transcription
 
@@ -66,11 +66,11 @@ molecules.
 
 # apoptosis
 
-apoptosis is a highly regulated and controlled process that confers advantages during
-an organism's lifecycle. 
-unlike necrosis, apoptosis produces cell fragments called apoptotic bodies that phagocytic cells
-are able to engulf and quickly remove before the contents of the
-cell can spill out onto surrounding cells and cause damage.
+apoptosis is a highly regulated and controlled process that confers advantages
+during an organism's lifecycle.  unlike necrosis, apoptosis produces cell
+fragments called apoptotic bodies that phagocytic cells are able to engulf and
+quickly remove before the contents of the cell can spill out onto surrounding
+cells and cause damage.
 
 apoptotic proteins that target mitochondria affect them in different ways. they may
 cause mitochondrial swelling through the formation of membrane pores, or they may
@@ -79,11 +79,12 @@ leak out.
 
 # neurologie
 
-in the nervous system, afferent neurons (otherwise known as sensory, receptor neurons,
-and afferent axons), carry nerve impulses from receptors or sense organs
-toward the central nervous system. this term can also be used to
-describe relative connections between structures. afferent neurons communicate with specialized interneurons. the
-opposite direction of activity or flow is efferent.
+in the nervous system, afferent neurons (otherwise known as sensory, receptor
+neurons, and afferent axons), carry nerve impulses from receptors or sense
+organs toward the central nervous system. this term can also be used to
+describe relative connections between structures. afferent neurons communicate
+with specialized interneurons. the opposite direction of activity or flow is
+efferent.
 
 # microorganismus
 
@@ -113,19 +114,21 @@ only if camp is present. once pka is activated, it phosphorylates a number of
 other proteins including:
 
 -    enzymes that convert glycogen into glucose
--    enzymes that promote muscle contraction in the heart leading to an increase in heart rate
+-    enzymes that promote muscle contraction in the heart leading to an
+     increase in heart rate
 -    transcription factors, which regulate gene expression
 
 molecules that activate camp pathway include:
 
 -    cholera toxin - increase camp levels
 -    forskolin - a diterpene natural product that activates adenylyl cyclase
--    caffeine and theophylline inhibit camp phosphodiesterase, which degrades camp - thus enabling
-     higher levels of camp than would otherwise be had.
+-    caffeine and theophylline inhibit camp phosphodiesterase, which degrades
+     camp - thus enabling higher levels of camp than would otherwise be had.
 -    bucladesine (dibutyryl camp, db camp) - also a phosphodiesterase inhibitor
 -    pertussis toxin, which increase camp levels by inhibiting gi to its gdp
-     (inactive) form. this leads to an increase in adenylyl cyclase activity, thereby
-     increasing camp levels, which can lead to an increase in insulin and therefore hypoglycemia
+     (inactive) form. this leads to an increase in adenylyl cyclase activity,
+     thereby increasing camp levels, which can lead to an increase in insulin
+     and therefore hypoglycemia
 
 the gs alpha subunit slowly catalyzes the hydrolysis of gtp to gdp,
 which in turn deactivates the gs protein, shutting off the camp pathway. 
@@ -154,21 +157,22 @@ frizzled leads to activation of dishevelled in the cytosol.
 ## mevalonate pathway
 
 plants, most bacteria, and some protozoa such as malaria parasites have the
-ability to produce isoprenoids using an alternative pathway called the methylerythritol phosphate
-(mep) or non-mevalonate pathway.
+ability to produce isoprenoids using an alternative pathway called the
+methylerythritol phosphate (mep) or non-mevalonate pathway.
 
 ## non-mevalonate pathway
 
-isopentenyl pyrophosphate (ipp, isopentenyl diphosphate, or idp)[1] is an intermediate in the
-classical, hmg-coa reductase pathway (commonly called the mevalonate pathway), and is used
-by organisms in the biosynthesis of terpenes and terpenoids. 
+isopentenyl pyrophosphate (ipp, isopentenyl diphosphate, or idp)[1] is an
+intermediate in the classical, hmg-coa reductase pathway (commonly called the
+mevalonate pathway), and is used by organisms in the biosynthesis of terpenes
+and terpenoids. 
 
-isoprene is
-made through the methyl-erythritol 4-phosphate pathway (mep pathway, also called
-the non-mevalonate pathway) in the chloroplasts of plants. one of the two
-end products of mep pathway, dimethylallyl pyrophosphate (dmapp), is catalyzed by the
-enzyme isoprene synthase to form isoprene. therefore, inhibitors that block the mep
-pathway, such as fosmidomycin, also blocks isoprene formation. 
+isoprene is made through the methyl-erythritol 4-phosphate pathway (mep
+pathway, also called the non-mevalonate pathway) in the chloroplasts of plants.
+one of the two end products of mep pathway, dimethylallyl pyrophosphate
+(dmapp), is catalyzed by the enzyme isoprene synthase to form isoprene.
+therefore, inhibitors that block the mep pathway, such as fosmidomycin, also
+blocks isoprene formation. 
 
 ## the reductive pentose-phosphate pathway (calvin cycle)
 
@@ -188,27 +192,20 @@ all photosynthetic organisms, including cyanobacteria, algae and higher plants,
 use the reductive pentose-phosphate pathway (rppp) to convert co 2 into organic
 molecules. in eukaryotic autotrophs these reactions take place in the chloroplast
 stroma and the rppp utilizes the products of the light reactions of photosynthesis,
-atp and nadph, to fix atmospheric co 2 into carbon skeletons that are used di-
-rectly for starch and sucrose biosynthesis
+atp and nadph, to fix atmospheric co 2 into carbon skeletons that are used directly for starch and sucrose biosynthesis
 
 the rppp
 comprises 11 different enzymes, catalysing 13 reactions, and can be divided into
-three phases: carboxylation, reduction and regeneration. the first phase, carboxyla-
-tion, is catalysed by the enzyme ribulose 1,5-bisphosphate carboxylase oxygenase
-(rubisco), which brings about the fixation of co 2 into the acceptor molecule, ribu-
-lose 1,5-bisphosphate (rubp). the 3-phosphoglycerate (3-pga) formed by this
-reaction is then utilized in the reductive stage to form triose-phosphates, glycer-
-aldehyde 3-phosphate (g-3-p) and dihydroxyacetone phosphate (dhap), via two
+three phases: carboxylation, reduction and regeneration. the first phase, carboxylation, is catalysed by the enzyme ribulose 1,5-bisphosphate carboxylase oxygenase
+(rubisco), which brings about the fixation of co 2 into the acceptor molecule, ribulose 1,5-bisphosphate (rubp). the 3-phosphoglycerate (3-pga) formed by this
+reaction is then utilized in the reductive stage to form triose-phosphates, glyceraldehyde 3-phosphate (g-3-p) and dihydroxyacetone phosphate (dhap), via two
 reactions that consume atp and nadph. the final and most complex phase of
 the cycle involves a series of reactions that regenerate the co 2 acceptor molecule,
 rubp from triose-phosphates. the rppp is autocatalytic, and for this reason five of
-every six molecules of triose-phosphate produced remain within the cycle to regen-
-erate rubp, the co 2 acceptor molecule, otherwise the cycle would come to a halt.
+every six molecules of triose-phosphate produced remain within the cycle to regenerate rubp, the co 2 acceptor molecule, otherwise the cycle would come to a halt.
 this means that one in every six molecules represents net product and can leave the
 cycle to be used to synthesize an array of compounds essential for plant growth and
-development. two major pathways that utilize this output are those for the biosyn-
-thesis of sucrose and starch. the rppp also supplies carbon compounds to an ar-
-ray of other metabolic pathways in the chloroplast, including erythrose 4-phosphate
+development. two major pathways that utilize this output are those for the biosynthesis of sucrose and starch. the rppp also supplies carbon compounds to an array of other metabolic pathways in the chloroplast, including erythrose 4-phosphate
 to the shikimate pathway for the biosynthesis of amino acids and lignin, and
 g-3-p for isoprenoid biosynthesis (lichtenthaler, 1999). in addition, the rppp
 shares enzymes and intermediates with the oxidative pentose-phosphate pathway
@@ -229,8 +226,7 @@ nucleosomes.
 
 ### cell membrane (plasma membrane)
 
-enclosing the protoplast is a bounding membrane, the plasma mem-
-brane (fig. 3.2), or plasmalemma, sometimes also called the ectoplast.
+enclosing the protoplast is a bounding membrane, the plasma membrane (fig. 3.2), or plasmalemma, sometimes also called the ectoplast.
 
 the cell membrane consists of three classes of amphipathic lipids:
 phospholipids, glycolipids, and sterols. 
@@ -240,8 +236,7 @@ the cell membrane has large content of proteins, typically around 50% of membran
 ### ribosom
 
 the actual sites of protein synthesis are the ribosomes.
-during protein synthesis the ribosomes aggre-
-gate along tubules of endoplasmic reticulum forming polyribosomes
+during protein synthesis the ribosomes aggregate along tubules of endoplasmic reticulum forming polyribosomes
 (fig. 3.3b). ribosomes may be dispersed within the cytoplasm or bound
 to the surface of the internal membrane system (fig. 3.3a). they also
 occur in mitochondria and plastids.
@@ -255,15 +250,12 @@ the cuticle is a translucent film of polymeric lipids (chapter 4) and soluble wa
 
 only the epidermal cells of aerial organs are
 known to be capable of synthesising the constituents of the cuticle, and it is always
-absent from the root epidermis. the primary function of the cuticle is as a permeab-
-ility barrier against water vapour loss from tissues (schönherr and mérida, 1981;
+absent from the root epidermis. the primary function of the cuticle is as a permeability barrier against water vapour loss from tissues (schönherr and mérida, 1981;
 riederer, 1991; schreiber et al., 1996), one of a system of innovations including
-stomata, intercellular spaces in a photosynthetic mesophyll and a vascular conduct-
-ing system for water (xylem) and assimilates (phloem) that enable homoiohydry in
+stomata, intercellular spaces in a photosynthetic mesophyll and a vascular conducting system for water (xylem) and assimilates (phloem) that enable homoiohydry in
 land plants
 
-the outer surface of the cuticle is coated with epicutic-
-ular waxes (ew) which confer water-repellency (adam, 1963; holloway, 1969a,b,
+the outer surface of the cuticle is coated with epicuticular waxes (ew) which confer water-repellency (adam, 1963; holloway, 1969a,b,
 1970), keep the plant surface clean and dry (barthlott and neinhuis, 1997; neinhuis
 and barthlott, 1997), attenuate short-wave radiation (chapter 6; krauss et al., 1997)
 and discourage attachment of microorganisms (chapters 11 and 12) and climbing
@@ -277,14 +269,12 @@ while developing in-bud
 both plant and animal cells are composed of a cytoplasm that is bounded by a plasma
 membrane, but only plant cells are surrounded by a ‘wall’.
 this wall, which is exterior to the plasma membrane, is itself part of the apoplast.
-the apoplast, which is largely self-contiguous, contains everything that is located be-
-tween the plasma membrane and the cuticle.
+the apoplast, which is largely self-contiguous, contains everything that is located between the plasma membrane and the cuticle.
 thus, the apoplast includes the primary
 wall, the middle lamella (a polysaccharide-rich region between primary walls of
 adjacent cells), intercellular air spaces, water, and solutes. the symplast is another
 major feature of plant tissues that distinguishes them from their animal counterparts.
-this self-contiguous phase exists because of the tube-like structures known as plas-
-modesmata that connect the cytoplasm of adjacent plant cells
+this self-contiguous phase exists because of the tube-like structures known as plasmodesmata that connect the cytoplasm of adjacent plant cells
 
 each cell in a plant is surrounded by an extracellular matrix called the cell wall that
 is responsible for determining cell size and shape. primary walls surround growing
@@ -304,8 +294,7 @@ forms after nuclear division. the cell plate fuses with the plasma membrane of t
 parental cell and divides it into two new cells. the wall material fi rst added to the
 cell plate persists as the thin pectin-rich ‘middle lamella’ between adjacent cells.
 meristematic cells are initially small and undifferentiated, and the different cell
-types of mature tissues are produced through subsequent cell expansion and dif-
-ferentiation. expanding cells are surrounded by a thin (100 nm or less) and highly
+types of mature tissues are produced through subsequent cell expansion and differentiation. expanding cells are surrounded by a thin (100 nm or less) and highly
 hydrated (~60% of wet weight) primary wall able to yield to the hydrostatic forces
 exerted by the protoplast that drive growth. once the cell has reached its mature size,
 the primary wall is modifi ed so that it is no longer extensible, and deposition of new
@@ -314,8 +303,7 @@ secondary wall, which may also contain lignin, may completely surround a cell or
 may be formed only in localized regions producing, for example, spirally thickened
 tracheary elements.
 
-only two wall polysaccharides are made at the plant plasma membrane: the β-glu-
-cans cellulose and callose. cellulose is the main fi brillar component of plant walls
+only two wall polysaccharides are made at the plant plasma membrane: the β-glucans cellulose and callose. cellulose is the main fi brillar component of plant walls
 and is made by all cells. callose, in contrast, is synthesized transiently at a variety
 of sites during development, such as cell plates, and as a response to wounding, but
 is only a permanent component of the wall of one cell type, the pollen tube (stone
@@ -324,14 +312,12 @@ and clarke, 1992).
 cellulose is a (1,4)-β-glucan, a polymer of (1,4)-β-linked glc residues, and is the
 most ubiquitous and abundant plant wall polysaccharide. in general, primary walls
 contain 10–40% cellulose, whereas secondary walls contain 40–60% cellulose
-(bacic et al., 1988). cellulose is synthesized by terminal complexes that are em-
-bedded in the plasma membrane; in higher plants, these take the form of hexagonal
+(bacic et al., 1988). cellulose is synthesized by terminal complexes that are embedded in the plasma membrane; in higher plants, these take the form of hexagonal
 ‘rosettes’ roughly 25 nm across
 a primary wall cellulose microfi bril contains about 36 individual (1,4)-β-glucan
 chains.
 
-the plant golgi apparatus is responsible for synthesis of wall matrix polysaccha-
-rides that bind to and surround cellulose microfi brils. there are two main classes
+the plant golgi apparatus is responsible for synthesis of wall matrix polysaccharides that bind to and surround cellulose microfi brils. there are two main classes
 of matrix polysaccharides, non-cellulosic polysaccharide (cross-linking glycans
 also known as hemicelluloses) and pectins, and these polymers form two distinct
 domains within the cell wall matrix
@@ -358,12 +344,13 @@ cytoplasmic kinase domain
 
 #### primary cell wall
 
-in some plants and cell types, after a maximum size or point
-in development has been reached, a secondary wall is constructed between the
-plasma membrane and primary wall.[8] unlike the primary wall, the microfibrils are
-aligned mostly in the same direction, and with each additional layer the orientation changes slightly.
-meristematic cells are typically isodiametric and are surrounded by a semi-rigid,
-polysaccharide-rich matrix (0.1–1 μm thick) that is referred to as a primary wall.
+in some plants and cell types, after a maximum size or point in development has
+been reached, a secondary wall is constructed between the plasma membrane and
+primary wall.[8] unlike the primary wall, the microfibrils are aligned mostly
+in the same direction, and with each additional layer the orientation changes
+slightly.  meristematic cells are typically isodiametric and are surrounded by
+a semi-rigid, polysaccharide-rich matrix (0.1–1 μm thick) that is referred to
+as a primary wall.
 
 there are two general types of wall based on the relative
 amounts of pectic polysaccharides and the structure and amounts of hemicellulosic
@@ -372,12 +359,10 @@ polysaccharides.
 hemicelluloses are operationallydefined as those plant cell wall polysaccharides that
 are not solubilized by hot water or chelating agents, but are solubilized by aqueous
 alkali. according to this defi nition, the hemicelluloses include xyloglucan, xylans
-(including glucuronoxylan, arabinoxylan, glucuronoarabinoxylan), mannans (in-
-cluding glucomannan, galactomannan, galactoglucomannan), and arabinogalactan.
+(including glucuronoxylan, arabinoxylan, glucuronoarabinoxylan), mannans (including glucomannan, galactomannan, galactoglucomannan), and arabinogalactan.
 hemicelluloses may also be defined chemically as plant cell wall polysaccharides
 (usually branched) that are structurally homologous to cellulose, in that they have
-a backbone composed of 1,4-linked β- d -pyranosyl residues such as glucose, man-
-nose, and xylose, in which o4 is in the equatorial orientation. xyloglucan, xylans,
+a backbone composed of 1,4-linked β- d -pyranosyl residues such as glucose, mannose, and xylose, in which o4 is in the equatorial orientation. xyloglucan, xylans,
 and mannans but not arabinogalactan are included under this chemical defi nition of
 hemicelluloses. the structural similarity between hemicellulose and cellulose most
 likely gives rise to a conformational homology that can lead to a strong, noncovalent
@@ -386,22 +371,18 @@ association of the hemicellulose with cellulose microfi brils.
 xyloglucan is the most abundant hemicellulosic polysaccharide in the primary cell
 walls of non-graminaceous plants, often comprising 20% of the dry mass of the wall.
 
-three pectic polysaccharides have been isolated from primary cell walls and struc-
-turally characterized. these are homogalacturonan, substituted galacturonans, and
+three pectic polysaccharides have been isolated from primary cell walls and structurally characterized. these are homogalacturonan, substituted galacturonans, and
 rhamnogalacturonans.
 
 homogalacturan polymers with a high degree of methyl esterifi cation are referred to
 as ‘pectin’ whereas hg with low or no methyl esterifi cation is termed ‘pectic acid’.
 
-the cellulose/xyloglucan network is believed to be the major load-bearing struc-
-ture in the cell wall. load-bearing functions are less frequently attributed to the
-pectin network, which may rather function as a ‘scaffolding’ that controls wall po-
-rosity and electrostatically binds to positively charged molecules, such as enzymes in
+the cellulose/xyloglucan network is believed to be the major load-bearing structure in the cell wall. load-bearing functions are less frequently attributed to the
+pectin network, which may rather function as a ‘scaffolding’ that controls wall porosity and electrostatically binds to positively charged molecules, such as enzymes in
 the cell wall. thus, the pectin network may compartmentalize the apoplastic space,
 preventing enzymes and other macromolecules from diffusing to inappropriate sites.
 such a network may also confer orientational order on other cell wall components,
-thereby directing, for example, the effects of enzymes that catalyse the macromo-
-lecular assembly or reorganization of the wall. another possibility is that the pectic
+thereby directing, for example, the effects of enzymes that catalyse the macromolecular assembly or reorganization of the wall. another possibility is that the pectic
 network may function as a sensor of mechanical stress or elastic strain in the cell
 wall, thereby allowing the cell to respond by modulating the activities of cell wall
 modifying enzymes or by controlling the rate at which cell wall polysaccharides are
@@ -426,23 +407,18 @@ of the xylem. further ‘decoration’ of the wall may involve the deposition of
 molecular weight components, such as phenolic acids, fl avonoids, tannins, stilbenes
 and lignans, which are important during the last stages of wall differentiation, for
 example, in the heartwood of many tree species (beritognolo et al., 2002). all these
-processes which increase the mechanical resistance of the walls reduce the suscepti-
-bility of the plant to abiotic and biotic stress factors (nicholson and hammerschmidt,
+processes which increase the mechanical resistance of the walls reduce the susceptibility of the plant to abiotic and biotic stress factors (nicholson and hammerschmidt,
 1992). these complex forms of differentiated cell walls and particularly the lignifi ed
 walls represent the major proportion of the plant biomass and an immense reservoir
 of carbon in the form of lignocelluloses. various data are available to demonstrate
-that the chemical composition of lignocellulosics is variable depending on the spe-
-cies, the developmental stage and the environmental conditions. this gross compo-
-sition has a dramatic impact on the technological value of raw materials, including
-wood fi bres and forage material, but also fruits and vegetables, and numerous strat-
-egies have been and are being developed to optimize the composition of plant cell
+that the chemical composition of lignocellulosics is variable depending on the species, the developmental stage and the environmental conditions. this gross composition has a dramatic impact on the technological value of raw materials, including
+wood fi bres and forage material, but also fruits and vegetables, and numerous strategies have been and are being developed to optimize the composition of plant cell
 walls for different agro-industrial purposes.
 
 lignins result from the polymerization of phenoxy radicals that are essentially
 derived from three hydroxycinnamyl alcohols, termed the monolignols. coupling
 these radicals with monomeric or oligomeric molecules builds up the lignin polymer
-by a non-enzymatic process involving at least eleven kinds of intermonomeric link-
-ages. lignin polymers, which are deposited within the carbohydrate matrix of the
+by a non-enzymatic process involving at least eleven kinds of intermonomeric linkages. lignin polymers, which are deposited within the carbohydrate matrix of the
 cell wall, represent about a third of the terrestrial biomass. typically the lignifi ed
 cell wall consists of a thin primary layer, a thicker multilamellar secondary layer
 and sometimes a tertiary layer. the secondary wall layer is rich in cellulose and the
@@ -452,17 +428,14 @@ wall.
 ## transport in der zelle
 
 while short-range movements of supramolecular aggregates in cells can be driven
-effectively by diffusion, the translocation of such aggregates is clearly diffusion-
-limited in large and polarized cells. in such cells, more or less extensive long-range
+effectively by diffusion, the translocation of such aggregates is clearly diffusionlimited in large and polarized cells. in such cells, more or less extensive long-range
 transport systems in the form of dynamic cytoskeletal tracks (microfilaments (mfs)
-and microtubules (mts)) permit effective translocation of cargo hooked on track-
-associated molecular motor proteins (myosins, kinesins, dyneins) fuelled by atp.
+and microtubules (mts)) permit effective translocation of cargo hooked on trackassociated molecular motor proteins (myosins, kinesins, dyneins) fuelled by atp.
 such translocation is supposed to have evolved primarily as a means of intracellular
 convection, to compensate for the limited efficiency of mere diffusion to support
 metabolism in cells larger than 10 μm (hochachka, 1999).
 
-the fastest (subcortical) trans-
-location velocities in plant cells range up to 10 −4 m s −1 (chara & nitella, fig. 5.1),
+the fastest (subcortical) translocation velocities in plant cells range up to 10 −4 m s −1 (chara & nitella, fig. 5.1),
 with this upper extreme being the highest velocity observed in eukaryotic cells.
 
 ## photoreceptors
@@ -477,7 +450,7 @@ interpreted to produce a wide range of growth and developmental outputs. higher
 plants contain a collection of photoreceptors that perceive different wavelengths
 of light in order that the plant may detect light quality, quantity and duration.
 
----
+# ---
 
 golgi cisternae range in diameter
 from about 0.5 to 1.0 $\mu$m
@@ -547,9 +520,7 @@ conjugates linked to sugars, amino acids or to small peptides have been isolated
 (cohen & bandurski, 1978; 1982; tam et al., 2000).
 
 another means of controlling auxin homoeostasis at specific locations involves the
-controlled, coordinated transport of auxin throughout the plant body. the first indi-
-cation for a biological relevance of auxin transport dates back to darwin’s experi-
-ments on phototropism, which indicated the existence of transported signals
+controlled, coordinated transport of auxin throughout the plant body. the first indication for a biological relevance of auxin transport dates back to darwin’s experiments on phototropism, which indicated the existence of transported signals
 (darwin & darwin, 1881). several decades later, went and cholodny performed
 growth experiments suggestive of a scenario in which transport of an externally
 applied regulator would regulate plant tropisms (cholodny, 1928; went & thimann,
@@ -613,17 +584,14 @@ in the past 15 years, jasmonic acid (ja) and metabolites, such as its methyl est
 were recognized as important signals in plant responses to biotic and abiotic stress.
 jasmonates originate from the common precursors 12-oxophytodienoic acid (opda)
 and dinor-opda (dnopda), which are collectively called octadecanoids. these
-ja precursors are formed within the lipoxygenase (lox) pathway, which is initi-
-ated by oxygenation of free or esterified polyunsaturated fatty acids (pufas) leading
-to many different products collectively named oxylipins. more recently, octade-
-canoids and some other oxylipins were recognized to be ja-independent signals in
+ja precursors are formed within the lipoxygenase (lox) pathway, which is initiated by oxygenation of free or esterified polyunsaturated fatty acids (pufas) leading
+to many different products collectively named oxylipins. more recently, octadecanoids and some other oxylipins were recognized to be ja-independent signals in
 plant stress responses.
 
 the majority of loxs are 13-loxs, which are localized in chloroplasts (feussner
 et al., 1995; feussner & wasternack, 2002). the 13-lox product 13-hpot formed
 by oxygenation of -lea (18:3), and the 18:2 fatty acid oxygenation product
-13-hydroperoxyoctadecadienoic acid (13-hopd) are substrates of at least seven dif-
-ferent enzymes, which initiate individual branches within the lox pathway (fig. 7.2):
+13-hydroperoxyoctadecadienoic acid (13-hopd) are substrates of at least seven different enzymes, which initiate individual branches within the lox pathway (fig. 7.2):
 (1) the allene oxide synthases (13-aoss) leading to octadecanoids and
 jasmonates.
 (2) the hydroperoxy lyases (13-hpls) leading to -oxo fatty acids, aldehydes
@@ -647,48 +615,20 @@ stage 3: preventing premature genome separation.
 stage 4: separating the genome.
 stage 5: exit from mitosis.
 
-## nährstoffe
-
-licht, wärme  
-\water  
-\ce{co2}  
-\ce{no3-}  
-\ce{po4^{3-}}  
-\ce{k+}  
-\ce{ca^{2+}}  
-\ce{mg^{2+}}  
-\ce{mn^{2+}}  
-\ce{so4^{2-}}  
-\ce{fe^{3+}}  
-
-im boden finden wir eine unmenge von kleinlebewesen,
-bakterien, algen, protozoen, pilze, würmer, tausendfüssler,
-insekten, spinnen, milben u.a. sie bauen die grossen
-mengen von organischen substanzen ab, die alljährlich
-z.b. durch den blattfall in den boden gelangen. als folge
-der tätigkeit dieser bodenbewohner ensteht ein krümeliger
-humus mit guter durchlüfgung: aus ton-humus-komplexen und
-mineralischen partikeln entstehen krümel, die das hyphengeflecht
-der pilze und natürlich auch durch physikalisch-chemische
-kräfte (wie wasserstoffbrücken)
-zusammengehalten werden. diese krümel enthalten mit
-waser oder luft gefüllte hohlräume und besitzen eine grosse innere und äussere
-oberfläche. dank diesen unzähligen hohlräumen im gefüge
-wirkt ein guter boden auch als filter für das auftreffende wasser.
-
 ## embryo
 
 the embryo along with other cells from the mother plant develops into
 the seed or the next generation, which, after germination, grows into a new plant.
 
 in both gymnosperms and angiosperms, the young plant contained in the seed,
-begins as a developing egg-cell formed after fertilization (sometimes without fertilization
-in a process called apomixis) and becomes a plant embryo. this embryonic
-condition also occurs in the buds that form on stems. the buds
-have tissue that has differentiated but not grown into complete structures. they
-can be in a resting state, lying dormant over winter or when
-conditions are dry, and then commence growth when conditions become suitable. before
-they start growing into stem, leaves, or flowers, the buds are said to be in an embryonic state.
+begins as a developing egg-cell formed after fertilization (sometimes without
+fertilization in a process called apomixis) and becomes a plant embryo. this
+embryonic condition also occurs in the buds that form on stems. the buds have
+tissue that has differentiated but not grown into complete structures. they can
+be in a resting state, lying dormant over winter or when conditions are dry,
+and then commence growth when conditions become suitable. before they start
+growing into stem, leaves, or flowers, the buds are said to be in an embryonic
+state.
 
 a sporophyte (/spɔːroʊˌfaɪt/) is the diploid multicellular stage in the life
 cycle of a plant or alga.
@@ -708,12 +648,10 @@ autotroph: fix inorganic carbon.
 whilst heterotrophic organisms obtain their energy and carbon from other organisms through
 nutrition, the ultimate source of this energy must be inorganic.
 
-although
-some chemoautotrophic bacteria fix inorganic carbon by using energy derived from
-the oxidation of chemical sources such as h 2 s, the vast
-majority of autotrophic life,
-and subsequently heterotrophic life, is based on the harnessing of energy from the
-sun.
+although some chemoautotrophic bacteria fix inorganic carbon by using energy
+derived from the oxidation of chemical sources such as h 2 s, the vast majority
+of autotrophic life, and subsequently heterotrophic life, is based on the
+harnessing of energy from the sun.
 
 ### anaeorobe atmung
 
@@ -770,11 +708,11 @@ directional or non-directional active movements.
 
 nucleus
 
----
+# ---
 
-assimilation:
-(lat. assimilatio ‚angleichung‘, ‚eingliederung‘) ist der stoff- und energiewechsel, bei dem aufgenommene,
-körperfremde stoffe - meistens unter energiezufuhr - in körpereigene verbindungen umgewandelt werden.
+assimilation: (lat. assimilatio ‚angleichung‘, ‚eingliederung‘) ist der stoff-
+und energiewechsel, bei dem aufgenommene, körperfremde stoffe - meistens unter
+energiezufuhr - in körpereigene verbindungen umgewandelt werden.
 
 vascular tissue:
 the vascular system of plants is composed of con-
@@ -789,10 +727,9 @@ kein murein
 
 ## bacteria
 
-mycoplasma refers to a genus of bacteria that lack a cell wall
-around their cell membrane
-mycoplasma are the smallest bacterial cells yet discovered,
-can survive without oxygen and are typically about 0.1 µm in diameter.
+mycoplasma refers to a genus of bacteria that lack a cell wall around their
+cell membrane mycoplasma are the smallest bacterial cells yet discovered, can
+survive without oxygen and are typically about 0.1 µm in diameter.
 
 fruiting body formation. 10^4^ to 10^6 cells.
 only a small number of cells form spors; other lyse
@@ -813,31 +750,31 @@ diploid cells have two homologous copies of each chromosome, usually one from
 the mother and one from the father.
 
 a zygote (from greek ζυγωτός zygōtos "joined" or "yoked", from ζυγοῦν zygoun
-"to join" or "to yoke"),[1] is a eukaryotic cell formed by a
-fertilization event between two gametes. the zygote's genome is a combination of
-the dna in each gamete, and contains all of the genetic information
-necessary to form a new individual. in multicellular organisms, the zygote is
-the earliest developmental stage. in single-celled organisms, the zygote can divide asexually
-by mitosis to produce identical offspring.
+"to join" or "to yoke"),[1] is a eukaryotic cell formed by a fertilization
+event between two gametes. the zygote's genome is a combination of the dna in
+each gamete, and contains all of the genetic information necessary to form a
+new individual. in multicellular organisms, the zygote is the earliest
+developmental stage. in single-celled organisms, the zygote can divide
+asexually by mitosis to produce identical offspring.
 
-a gamete (from ancient greek γαμετή gamete "wife"[1]) is a cell that
-fuses with another cell during fertilization (conception) in organisms that sexually reproduce.
-in species that produce two morphologically distinct types of gametes, and in
-which each individual produces only one type, a female is any individual
-that produces the larger type of gamete—called an ovum (or egg)—and a
-male produces the smaller tadpole-like type—called a sperm. 
+A gamete (from ancient greek γαμετή gamete "wife"[1]) is a cell that fuses with
+another cell during fertilization (conception) in organisms that sexually
+reproduce.  in species that produce two morphologically distinct types of
+gametes, and in which each individual produces only one type, a female is any
+individual that produces the larger type of gamete—called an ovum (or egg)—and
+a male produces the smaller tadpole-like type—called a sperm. 
 
 animals, fungi, plants.
 
-actin is a globular multi-functional protein that forms microfilaments. it is found
-in essentially all eukaryotic cells (the only known exception being nematode sperm),
-where it may be present at concentrations of over 100 μm. an
-actin protein's mass is roughly 42-kda and it is the monomeric subunit
-of two types of filaments in cells: microfilaments, one of the three
-major components of the cytoskeleton, and thin filaments, part of the contractile
-apparatus in muscle cells. it can be present as either a free
-monomer called g-actin (globular) or as part of a linear polymer microfilament
-called f-actin (filamentous), both of which are essential for such important cellular
+actin is a globular multi-functional protein that forms microfilaments. it is
+found in essentially all eukaryotic cells (the only known exception being
+nematode sperm), where it may be present at concentrations of over 100 μm. an
+actin protein's mass is roughly 42-kda and it is the monomeric subunit of two
+types of filaments in cells: microfilaments, one of the three major components
+of the cytoskeleton, and thin filaments, part of the contractile apparatus in
+muscle cells. it can be present as either a free monomer called g-actin
+(globular) or as part of a linear polymer microfilament called f-actin
+(filamentous), both of which are essential for such important cellular
 functions as the mobility and contraction of cells during cell division.
 
 ###  embryophyte
@@ -867,11 +804,10 @@ have evolved from a freshwater multicellular green alga of the order coleochaeta
 about 450 million years ago, when various adaptations such as a waxy cuticle per-
 mitted survival in the desiccating terrestrial environment (niklas, 1997).
 
-from this ancestral land
-plant evolved the monophyletic group of embryophytes observable today.
-apart
-from a limited number of parasitic angiosperms, all of these organisms derive their
-energy from photosynthesis, and all contain a plastid compartment within their cells.
+From this ancestral land plant evolved the monophyletic group of embryophytes
+observable today.  apart from a limited number of parasitic angiosperms, all of
+these organisms derive their energy from photosynthesis, and all contain a
+plastid compartment within their cells.
 
 ## plastid
 
@@ -890,25 +826,20 @@ with those in higher (vascular) plants in various ways. unicellular green algae 
 chlamydomonas possess only one plastid, which occupies a large proportion of
 the cell volume. many multicellular algae also contain single, spiral plastids that
 span the entire length of a cell, e.g. spirogyra, a common filamentous green alga
-of ponds and streams. in contrast, vascular plants possess from several to hun-
-dreds of plastids per cell, which is presumably an adaptation to coping with varying
+of ponds and streams. in contrast, vascular plants possess from several to hundreds of plastids per cell, which is presumably an adaptation to coping with varying
 light conditions, because several, smaller chloroplasts can move within a cell to
 intercept or avoid light more efficiently than fewer, larger ones (pyke, 1999; jeong
-et al., 2002). secondly, the extent of plastid differentiation in the lower plants is re-
-stricted relative to higher plants, whose plastids perform a variety of functions and
-differentiate concomitantly with the cell type. full chloroplast differentiation in an-
-giosperms requires light, but most green algae synthesise chlorophyll in the dark. in
+et al., 2002). secondly, the extent of plastid differentiation in the lower plants is restricted relative to higher plants, whose plastids perform a variety of functions and
+differentiate concomitantly with the cell type. full chloroplast differentiation in angiosperms requires light, but most green algae synthesise chlorophyll in the dark. in
 chlamydomonas reinhardtii, although transcript levels for chlorophyll biosynthetic
 genes and rubisco are attenuated when it is grown in the dark (cahoon and timko,
 2000), the plastid still accumulates some chlorophyll and is competent to carry out
 photosynthesis upon transfer to the light. the ability to synthesise chlorophyll in
 the dark is also retained in mosses and some pteridiophytes such as selaginella
 and isoetes, but not in others such as the equisitaceae (kirk and tilney-bassett,
-1978). thirdly, the segregation of plastids between daughter cells during cell divi-
-sion varies amongst different taxa. in the moss anthoceros, plastids are passed on
+1978). thirdly, the segregation of plastids between daughter cells during cell division varies amongst different taxa. in the moss anthoceros, plastids are passed on
 to the daughter cell during mitosis in the form of chloroplasts, which contrasts with
-isoetes and higher vascular plants that have either one or several colourless pro-
-plastids, respectively, in meristematic cells (kirk and tilney-bassett, 1978). such
+isoetes and higher vascular plants that have either one or several colourless proplastids, respectively, in meristematic cells (kirk and tilney-bassett, 1978). such
 evidence upholds the established view that plastids are not created de novo but are
 part of a continuum of multiplying plastids transmitted from cell to cell. given that
 plastids in these lower plants are generally chloroplastic in nature, even in the dark,
@@ -922,32 +853,27 @@ plastids found in meristematic tissues and from which all plastids within a plan
 ultimately derived.
 the original source of the plastid population within an entire plant
 is the plastids contained within the egg cell and the pollen prior to gamete fertilization
-and zygote formation. in the majority of angiosperms the pollen is devoid of func-
-tional plastids so that the plastid population is derived entirely from the few plastids
+and zygote formation. in the majority of angiosperms the pollen is devoid of functional plastids so that the plastid population is derived entirely from the few plastids
 within the egg cell
 
 upon germination, a seedling must establish an independent energy source before
-it depletes the storage reserves present in the seed. attainment of this state is de-
-pendent on the formation of photosynthetically competent chloroplasts, triggered
+it depletes the storage reserves present in the seed. attainment of this state is dependent on the formation of photosynthetically competent chloroplasts, triggered
 by the perception of light. the light signal is translated into an induction of novel
 gene expression and protein synthesis, marking the beginnings of a complex chain
 of events that require tight metabolic coordination between the nuclear and plastid
 compartments and to ensure that chloroplast biogenesis proceeds in concert with
 cell differentiation.
 
-during the process of higher plant evolution, plants developed symbiotic interac-
-tions with other life forms. such interactions proved highly beneficial to plants
+during the process of higher plant evolution, plants developed symbiotic interactions with other life forms. such interactions proved highly beneficial to plants
 in two particular areas of plant function, namely pollination of floral structures
 by insects and seed consumption and subsequent dispersal by animals. in both of
 these situations the display of coloured plant structures as a form of attractant was
 required and a specialised form of plastid, the chromoplast (figure 2.5b), evolved
 to carry out this function. the coloured pigments that accumulate in chromoplasts
-are mostly members of the carotenoid family, starting with the c 40 molecule phy-
-toene and undergoing a variety of complex reactions to give rise to other carotenoids
+are mostly members of the carotenoid family, starting with the c 40 molecule phytoene and undergoing a variety of complex reactions to give rise to other carotenoids
 including carotenes, lycopene, lutein, violaxanthin and neoxanthin (camara et al.,
 1995; cunningham and gantt, 1998; bramley, 2002). although many coloured plant
-structures rely entirely on chromoplasts for their pigmentation, a significant num-
-ber of petals and fruits contain pigmented chromoplasts often in addition to other
+structures rely entirely on chromoplasts for their pigmentation, a significant number of petals and fruits contain pigmented chromoplasts often in addition to other
 pigments, either in cytosolic vesicles or in the vacuole (kay et al., 1981; weston
 and pyke, 1999).
 
@@ -968,8 +894,7 @@ this group are amyloplasts, elaioplasts/oleoplasts and proteinoplasts, which are
 sites of synthesis of starch, lipids and proteins respectively.
 many of the primary metabolic pathways are shared
 within different types of plastids, but perform different functions within them. for
-example, starch made inside amyloplasts acts as a long-term store for the next gen-
-eration, whereas starches produced in chloroplasts and leucoplasts act as temporary
+example, starch made inside amyloplasts acts as a long-term store for the next generation, whereas starches produced in chloroplasts and leucoplasts act as temporary
 carbon stores.
 
 ## root
@@ -999,15 +924,12 @@ invariably, the endosperm begins mitosis earlier and at a faster rate that the z
 
 ## calcium
 
-calcium is the most abundant divalent cation in higher plants and its es-
-sential nature as a plant nutrient has been recognized for over 100 years
+calcium is the most abundant divalent cation in higher plants and its essential nature as a plant nutrient has been recognized for over 100 years
 (epstein, 1972; kirkby and pilbeam, 1984; bush, 1995; hepler, 2005). in roots,
-ca 2+ moves rapidly through the cortical extracellular space (apoplast) by dif-
-fusion and together with water enters the xylem in the root apical region
+ca 2+ moves rapidly through the cortical extracellular space (apoplast) by diffusion and together with water enters the xylem in the root apical region
 (clarkson, 1984; hepler, 2005). in the xylem, ca 2+ is transported by mass
 flow and chromatographic movement along the ca 2+ -exchange sites in the
-cell wall (clarkson, 1984). the xylem branches as it ascends the stem and per-
-meates leaves and organs, and the growing tissues provide a “sink” for ca 2+
+cell wall (clarkson, 1984). the xylem branches as it ascends the stem and permeates leaves and organs, and the growing tissues provide a “sink” for ca 2+
 in the xylem. thus, ca 2+ is transported from roots to shoots mainly through
 the apoplastic xylem. in contrast, the symplast is not an effective pathway
 for ca 2+ uptake and transport because the cytosolic free ca 2+ concentration
@@ -1015,8 +937,7 @@ is extremely low compared to extracellular free ca 2+ concentration (sanders
 et al., 2002; white and broadley, 2003).
 in plant tissues, a high proportion of the total ca 2+ is often located in the
 cell wall and at the exterior surface of the plasma membrane (clarkson, 1984;
-hepler, 2005). thus, together with boron, ca 2+ is termed as an apoplastic ele-
-ment among 16 essential elements. in the cell wall, ca 2+ ions bind to pectins,
+hepler, 2005). thus, together with boron, ca 2+ is termed as an apoplastic element among 16 essential elements. in the cell wall, ca 2+ ions bind to pectins,
 which are polymers of galacturonic acid molecules and are very hydrophilic
 and soluble. ca 2+ then forms salt bridges with pectins to become pectic gels
 that are insoluble. the pectic gels occur primarily in a specialized region in
@@ -1024,15 +945,11 @@ the wall, called the middle lamella, which is shared by neighboring cells and
 cements them firmly together. pectic gels are also found in the primary cell
 wall.
 
-the distribution of ca 2+ in the plant is affected by the rate of water trans-
-portation and evaporation (clarkson, 1984; white and broadley, 2003; hepler,
+the distribution of ca 2+ in the plant is affected by the rate of water transportation and evaporation (clarkson, 1984; white and broadley, 2003; hepler,
 2005). calcium moves in relatively large amounts to highly transpiring old
 leaves, but much less to weakly transpiring young leaves. overall, the ca 2+
-content is higher in old leaves than in young leaves. in addition, ca 2+ can-
-not be remobilized from old leaves, i.e., ca 2+ is an immobile element. conse-
-quently, ca 2+ deficiency symptoms often occur in the young and fast growing
-tissues. from the standpoint of ca 2+ supply, plants must downregulate tran-
-spiration when the ca 2+ unloading rate is high, and vice versa. to do so, plants
+content is higher in old leaves than in young leaves. in addition, ca 2+ cannot be remobilized from old leaves, i.e., ca 2+ is an immobile element. consequently, ca 2+ deficiency symptoms often occur in the young and fast growing
+tissues. from the standpoint of ca 2+ supply, plants must downregulate transpiration when the ca 2+ unloading rate is high, and vice versa. to do so, plants
 need a system monitoring apoplastic ca 2+ as well as transpiration-facilitated
 ca 2+ unloading.
 
@@ -1130,8 +1047,7 @@ in arabidopsis, there are two phototropins: phototropin 1 (phot1) and phot2. the
 phototropin 1 (phot1) gene (formerly nph1) from arabidopsis encodes a
 protein with molecular weight 112 kda (briggs et al., 2001).
 
-the phot2 apoprotein shows 67% simi-
-larity to phot1 along its entire length, but this similarity rises to 82% and 93% in
+the phot2 apoprotein shows 67% similarity to phot1 along its entire length, but this similarity rises to 82% and 93% in
 the two conserved lov domains (sakai et al., 2001).
 
 arabidopsis cry1 and cry2 are 59% identical
@@ -1216,19 +1132,6 @@ uronic acid.
 gulose (very rare in nature)  
 altrose (unnatural)  
 allose (rare)  
-
-# lipopolysaccharide
-
-lipopolysaccharide (lps) sind relativ thermostabile
-(wärmeunempfindliche) verbindungen aus fettähnlichen
-(lipo-) bestandteilen und zucker-bestandteilen
-(polysacchariden). sie sind in der äußeren membran
-gramnegativer bakterien enthalten. sie wirken als antigene
-und dienen der serologischen charakterisierung und
-identifizierung der bakterien. beim zerfall der bakterien
-werden teile davon frei und wirken toxisch. diese teile
-werden als endotoxine bezeichnet und von intakten bakterien
-nicht abgegeben.
 
 # ---
 

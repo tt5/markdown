@@ -59,8 +59,8 @@ c-e\q (end of line)
 
 rlwrap
 
-$\fbox{C-t}$ Buchstaben vertauschen  
-$\fbox{M-t}$ Worte vertauschen  
+$\fbox{C-t}$ exchange chars  
+$\fbox{M-t}$ exchange words  
 $\fbox{M-u}$ Wort uppercase  
 $\fbox{M-l}$ or $\fbox{M-f}$ one word fw  
 $\fbox{M-b}$ one word bw  

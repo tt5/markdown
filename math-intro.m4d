@@ -5,27 +5,13 @@ A mathematical theory could be definded as a coherent collection of non-trivial 
 "If and only if" is the same as logical equivalence. "A if and only if B" means that
 A and B are equally true.
 
-Material implication is not causal. "Is A, then B" is a statement purely about the
-truth values of A and B, and can hold even if there is no causal link betweeen A and B. (e.g.
-"if 1+1=2, then Fermat's last theorem is true")
-²>¹
-$\displaystyle
-\pi =4\sum_{i=0}^\infty \frac{(˗1)^i}{2i+1}
-$
-²>¹
-$\displaystyle
-e^{ix}=\cos x+i\sin x
-$
-²>¹
-$
-z\in \mathbb{C} $, ²q¹
-$
-z = \big| z \big| \cdot \big( \cos\theta + i\sin\theta \big)
-$
-²>¹
-$
-\cos n \theta +i \sin n \theta = \big( \cos \theta +i \sin \theta \big) ^n
-$
+Material implication is not causal. "Is A, then B" is a statement purely about
+the truth values of A and B, and can hold even if there is no causal link
+betweeen A and B. (e.g.  "if 1+1=2, then Fermat's last theorem is true") ²>¹
+$\displaystyle \pi =4\sum_{i=0}^\infty \frac{(˗1)^i}{2i+1} $ ²>¹ $\displaystyle
+e^{ix}=\cos x+i\sin x $ ²>¹ $ z\in \mathbb{C} $, ²q¹ $ z = \big| z \big| \cdot
+\big( \cos\theta + i\sin\theta \big) $ ²>¹ $ \cos n \theta +i \sin n \theta =
+\big( \cos \theta +i \sin \theta \big) ^n $
 
    
 **Involution:** ²q¹ $f(f(x))=x $.

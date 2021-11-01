@@ -1,5 +1,5 @@
 # C
-²>¹ 
+
 A **C Program** is a sequence of text files that contain *declarations*. They
 undergo translation to become an executable program, which is executed when the
 OS calls its **main function** (unless it is itself the OS or another
@@ -418,9 +418,10 @@ as the only item in the list specifies that the function has no parameters.
 A tentative definition is an external declaration without an initializer, and either
 without a storage-class specifier or with the specifier `static`.
 
-A tentative definition is a declaration that may or may not act
-as a definition. If an actual external definition is found earlier or
-later in the same translation unit, then the tentative definition just acts as a declaration. 
+A tentative definition is a declaration that may or may not act as a
+definition. If an actual external definition is found earlier or later in the
+same translation unit, then the tentative definition just acts as a
+declaration. 
 
 If there are no definitions in the same translation unit, then the
 tentative definition acts as an actual definition and be initialized to `0`.
@@ -474,7 +475,8 @@ string-literal
 `sizeof` ( typename )  
 compound literal  
 
-A **full expression** is an expression that is not part of another expression or of a declarator:  
+A **full expression** is an expression that is not part of another expression
+or of a declarator:  
 
 — initalizer that is not part of a compound stat  
 — the expr in an expr stat  
@@ -718,8 +720,8 @@ The three types char, signed char, and unsigned char are collectively called
 the **character types**. The implementation shall define char to have the same range,
 representation, and behavior as either signed char or unsigned char.
 
-`CHAR_MIN`, defined in limits.h, will have one of the values `0` or `SCHAR_MIN`, and this can be
-used to distinguish the two options.
+`CHAR_MIN`, defined in limits.h, will have one of the values `0` or
+`SCHAR_MIN`, and this can be used to distinguish the two options.
 
 An **enumeration** comprises a set of named integer constant values. Each distinct
 enumeration constitutes a different enumerated type.
@@ -907,29 +909,33 @@ none
 An identifier declared in different scopes or in the same scope more than once can be
 made to refer to the same object or function by a process called linkage.
 
-In the set of translation units and libraries that constitutes an entire program, each
-declaration of a particular identifier with external linkage denotes the same object or
-function. Within one translation unit, each declaration of an identifier with internal
-linkage denotes the same object or function. Each declaration of an identifier with no
-linkage denotes a unique entity.
+In the set of translation units and libraries that constitutes an entire
+program, each declaration of a particular identifier with external linkage
+denotes the same object or function. Within one translation unit, each
+declaration of an identifier with internal linkage denotes the same object or
+function. Each declaration of an identifier with no linkage denotes a unique
+entity.
 
-If the declaration of a file scope identifier for an object or a function contains the storage-
-class specifier `static`, the identifier has internal linkage.
+If the declaration of a file scope identifier for an object or a function
+contains the storage- class specifier `static`, the identifier has internal
+linkage.
 
-For an identifier declared with the storage-class specifier extern in a scope in which a
-prior declaration of that identifier is visible, if the prior declaration specifies internal or
-external linkage, the linkage of the identifier at the later declaration is the same as the
-linkage specified at the prior declaration. If no prior declaration is visible, or if the prior
+For an identifier declared with the storage-class specifier extern in a scope
+in which a prior declaration of that identifier is visible, if the prior
+declaration specifies internal or external linkage, the linkage of the
+identifier at the later declaration is the same as the linkage specified at the
+prior declaration. If no prior declaration is visible, or if the prior
 declaration specifies no linkage, then the identifier has external linkage.
 
-If the declaration of an identifier for a function has no storage-class specifier, its linkage
-is determined exactly as if it were declared with the storage-class specifier extern. If
-the declaration of an identifier for an object has file scope and no storage-class specifier,
-its linkage is external.
+If the declaration of an identifier for a function has no storage-class
+specifier, its linkage is determined exactly as if it were declared with the
+storage-class specifier extern. If the declaration of an identifier for an
+object has file scope and no storage-class specifier, its linkage is external.
 
-The following identifiers have no linkage: an identifier declared to be anything other than
-an object or a function; an identifier declared to be a function parameter; a block scope
-identifier for an object declared without the storage-class specifier extern.
+The following identifiers have no linkage: an identifier declared to be
+anything other than an object or a function; an identifier declared to be a
+function parameter; a block scope identifier for an object declared without the
+storage-class specifier extern.
 
 \subsection{universal character name}
 
@@ -967,22 +973,24 @@ Either the whole-number part or the fraction part has to be present; for
 decimal floating constants, either the period or the exponent part has to be
 present.
 
-The value of a **wide character constant** containing a single
-multibyte character that maps to a single member of the extended execution character set
-is the wide character corresponding to that multibyte character, as defined by the
-mbtowc, mbrtoc16, or mbrtoc32 function as appropriate for its type, with an
+The value of a **wide character constant** containing a single multibyte
+character that maps to a single member of the extended execution character set
+is the wide character corresponding to that multibyte character, as defined by
+the mbtowc, mbrtoc16, or mbrtoc32 function as appropriate for its type, with an
 implementation-defined current locale.
 
 # comments
 
-Except within a character constant, a string literal, or a comment, the characters `/*`
-introduce a comment. The contents of such a comment are examined only to identify
-multibyte characters and to find the characters `*/` that terminate it.
+Except within a character constant, a string literal, or a comment, the
+characters `/*` introduce a comment. The contents of such a comment are
+examined only to identify multibyte characters and to find the characters `*/`
+that terminate it.
 
-Except within a character constant, a string literal, or a comment, the characters `//`
-introduce a comment that includes all multibyte characters up to, but not including, the
-next new-line character. The contents of such a comment are examined only to identify
-multibyte characters and to find the terminating new-line character.
+Except within a character constant, a string literal, or a comment, the
+characters `//` introduce a comment that includes all multibyte characters up
+to, but not including, the next new-line character. The contents of such a
+comment are examined only to identify multibyte characters and to find the
+terminating new-line character.
 
 # array
 
@@ -992,14 +1000,16 @@ operators designate an element of a multidimensional array object.
 
 # struct, union
 
-The first operand of the `.` operator shall have an atomic, qualified, or unqualified
-structure or union type, and the second operand shall name a member of that type.
-The first operand of the `->` operator shall have type ‘‘pointer to atomic, qualified, or
-unqualified structure’’ or ‘‘pointer to atomic, qualified, or unqualified union’’, and the
-second operand shall name a member of the type pointed to.
+The first operand of the `.` operator shall have an atomic, qualified, or
+unqualified structure or union type, and the second operand shall name a member
+of that type.  The first operand of the `->` operator shall have type ‘‘pointer
+to atomic, qualified, or unqualified structure’’ or ‘‘pointer to atomic,
+qualified, or unqualified union’’, and the second operand shall name a member
+of the type pointed to.
 
-If `f` is a function returning a structure or union, and `x` is a member of that structure or
-union, `f().x` is a valid postfix expression but is not an lvalue.
+If `f` is a function returning a structure or union, and `x` is a member of
+that structure or union, `f().x` is a valid postfix expression but is not an
+lvalue.
 
 # some
 
@@ -1023,10 +1033,11 @@ Constant expressions shall not contain assignment, increment, decrement,
 function-call, or comma operators, except when they are contained within a
 subexpression that is not evaluated.
 
-If an identifier for an object is declared with no linkage, the type for the object shall be
-complete by the end of its declarator, or by the end of its init-declarator if it has an
-initializer; in the case of function parameters (including in prototypes), it is the adjusted
-type that is required to be complete.
+If an identifier for an object is declared with no linkage, the type for the
+object shall be complete by the end of its declarator, or by the end of its
+init-declarator if it has an initializer; in the case of function parameters
+(including in prototypes), it is the adjusted type that is required to be
+complete.
 
 At most, one storage-class specifier may be given in the declaration specifiers in a
 declaration, except that `_Thread_local` may appear with `static` or `extern`.
@@ -1037,27 +1048,28 @@ extent to which such suggestions are effective is implementation-defined.  The
 only operators that can be applied to an array declared with storage-class
 specifier register are `sizeof` and `_Alignof`.
 
-The declaration of an identifier for a function that has block scope shall have no explicit
-storage-class specifier other than `extern`.
+The declaration of an identifier for a function that has block scope shall have
+no explicit storage-class specifier other than `extern`.
 
-At least one type specifier shall be given in the declaration specifiers in each declaration,
-and in the specifier-qualifier list in each struct declaration and type name.
+At least one type specifier shall be given in the declaration specifiers in
+each declaration, and in the specifier-qualifier list in each struct
+declaration and type name.
 
 A struct-declaration that does not declare an anonymous structure or anonymous union
 shall contain a struct-declarator-list.
 
-The presence of a struct-declaration-list in a struct-or-union-specifier declares a new type,
-within a translation unit. The struct-declaration-list is a sequence of declarations for the
-members of the structure or union.
+The presence of a struct-declaration-list in a struct-or-union-specifier
+declares a new type, within a translation unit. The struct-declaration-list is
+a sequence of declarations for the members of the structure or union.
 
-A bit-field declaration with no declarator, but only a colon and a width, indicates an
-unnamed bit-field. As a special case, a bit-field structure member with a width of 0
-indicates that no further bit-field is to be packed into the unit in which the previous bit-
-field, if any, was placed.
+A bit-field declaration with no declarator, but only a colon and a width,
+indicates an unnamed bit-field. As a special case, a bit-field structure member
+with a width of 0 indicates that no further bit-field is to be packed into the
+unit in which the previous bit- field, if any, was placed.
 
-An unnamed member whose type specifier is a structure specifier with no tag is called an
-anonymous structure; an unnamed member whose type specifier is a union specifier with
-no tag is called an **anonymous union**.
+An unnamed member whose type specifier is a structure specifier with no tag is
+called an anonymous structure; an unnamed member whose type specifier is a
+union specifier with no tag is called an **anonymous union**.
 
 After the declaration:  
 `struct s { int n; double d[]; };`  
@@ -1081,21 +1093,23 @@ expressions that are lvalues.  If the same qualifier appears more than once in
 the same specifier-qualifier-list, either directly or via one or more typedefs,
 the behavior is the same as if it appeared only once.
 
-Function specifiers shall be used only in the declaration of an identifier for a function.
-A function specifier may appear more than once; the behavior is the same as if it
-appeared only once.
+Function specifiers shall be used only in the declaration of an identifier for
+a function.  A function specifier may appear more than once; the behavior is
+the same as if it appeared only once.
 
-If, in the nested sequence of declarators in a full
-declarator, there is a declarator specifying a variable length array type, the type specified
-by the full declarator is said to be variably modified. Furthermore, any type derived by
-declarator type derivation from a variably modified type is itself variably modified.
+If, in the nested sequence of declarators in a full declarator, there is a
+declarator specifying a variable length array type, the type specified by the
+full declarator is said to be variably modified. Furthermore, any type derived
+by declarator type derivation from a variably modified type is itself variably
+modified.
 
-If an identifier is declared as having a variably modified type, it shall be an ordinary
-identifier, have no linkage, and have either block scope or function
-prototype scope. If an identifier is declared to be an object with static or thread storage
-duration, it shall not have a variable length array type.
+If an identifier is declared as having a variably modified type, it shall be an
+ordinary identifier, have no linkage, and have either block scope or function
+prototype scope. If an identifier is declared to be an object with static or
+thread storage duration, it shall not have a variable length array type.
 
-The only storage-class specifier that shall occur in a parameter declaration is `register`.
+The only storage-class specifier that shall occur in a parameter declaration is
+`register`.
 
 An identifier list in a function declarator that is not part of a definition of
 that function shall be empty.  If the list terminates with an ellipsis (, ...),
@@ -1105,8 +1119,9 @@ item in the list specifies that the function has no parameters.
 
 If a typedef name specifies a variably modified type then it shall have block scope.
 
-If the declaration of an identifier has block scope, and the identifier has external or
-internal linkage, the declaration shall have no initializer for the identifier.
+If the declaration of an identifier has block scope, and the identifier has
+external or internal linkage, the declaration shall have no initializer for the
+identifier.
 
 A `case` or `default` label shall appear only in a switch statement.
 
@@ -1139,15 +1154,15 @@ end_loop1: ;
 }
 ```
 
-The expression of each case label shall be an integer constant expression and no two of
-the case constant expressions in the same switch statement shall have the same value
-after conversion. There may be at most one default label in a switch statement.
-(Any enclosed switch statement may have a default label or case constant
-expressions with values that duplicate case constant expressions in the enclosing
-switch statement.)
+The expression of each case label shall be an integer constant expression and
+no two of the case constant expressions in the same switch statement shall have
+the same value after conversion. There may be at most one default label in a
+switch statement.  (Any enclosed switch statement may have a default label or
+case constant expressions with values that duplicate case constant expressions
+in the enclosing switch statement.)
 
-The declaration part of a for statement shall only declare identifiers for objects having
-storage class auto or register.
+The declaration part of a for statement shall only declare identifiers for
+objects having storage class auto or register.
 
 A continue statement shall appear only in or as a loop body.
 
@@ -1156,11 +1171,12 @@ A break statement shall appear only in or as a switch body or loop body.
 The storage-class specifiers auto and register shall not appear in the declaration
 specifiers in an external declaration.
 
-There shall be no more than one external definition for each identifier declared with
-internal linkage in a translation unit. Moreover, if an identifier declared with internal
-linkage is used in an expression (other than as a part of the operand of a `sizeof` or
-`_Alignof` operator whose result is an integer constant), there shall be exactly one
-external definition for the identifier in the translation unit.
+There shall be no more than one external definition for each identifier
+declared with internal linkage in a translation unit. Moreover, if an
+identifier declared with internal linkage is used in an expression (other than
+as a part of the operand of a `sizeof` or `_Alignof` operator whose result is
+an integer constant), there shall be exactly one external definition for the
+identifier in the translation unit.
 
 An **external definition** is an external declaration that is also a definition of
 a function (other than an inline definition) or an object. If an identifier
@@ -1169,8 +1185,8 @@ the operand of a `sizeof` or `_Alignof` operator whose result is an integer
 constant), somewhere in the entire program there shall be exactly one external
 definition for the identifier; otherwise, there shall be no more than one.
 
-if an identifier declared with external linkage is not used in an expression, there need be no
-external definition for it.
+if an identifier declared with external linkage is not used in an expression,
+there need be no external definition for it.
 
 \minisec{function definition}
 
@@ -1198,7 +1214,8 @@ shall be declared in a following declaration list.
 
 Each parameter has automatic storage duration; its identifier is an lvalue.
 
-A parameter identifier cannot be redeclared in the function body except in an enclosed block.
+A parameter identifier cannot be redeclared in the function body except in an
+enclosed block.
 
 ```c
 extern int max(a, b)
@@ -1539,7 +1556,7 @@ $ gcc -c file.c
 $ gcc -L/usr/local/atlas/lib file.o -lgsl -lcblas -latlas -lm
 ```
 
-## zeromq
+# zeromq
 
 Code generation SHALL be treated as a form of dangerous abstraction that
 creates significant barriers to readers. A good rule of thumb is that for code

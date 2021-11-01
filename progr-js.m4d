@@ -41,7 +41,9 @@ a = b;
 
 ## Doc
 
-**Properties** are containers that hold other objects, primitive values or functions. Part of an object that associates a key (String or Symbol) and a value.
+**Properties** are containers that hold other objects, primitive values or
+functions. Part of an object that associates a key (String or Symbol) and a
+value.
 
 Properties are accessed by name, using either the dot notation:
 
@@ -53,8 +55,8 @@ or the bracket notation:
 *MemberExpression* **[** *Expression* **]**
 *CallExpression* **[** *Expression* **]**
 
-Every object created by a constructor has an implicit reference (called the object's prototype)
-to the value of its constructor's "prototype" property.
+Every object created by a constructor has an implicit reference (called the
+object's prototype) to the value of its constructor's "prototype" property.
 
 Properties can be added to objects dynamically by assigning values to them.
 
@@ -66,11 +68,11 @@ An object is a collection of zero or more properties each with attributes
 that determine how each property can be used.
 The prototype may be the null value.
 
-A **function** is a callable object. A function that is associeded with an object via
-a property is called a **method**.
-When a function is called as a method of an object, the object is passed to the function
-as its _this_ value. In addition to its properties, a function contains executable code and
-state that determine how it behaves when invoked.
+A **function** is a callable object. A function that is associeded with an
+object via a property is called a **method**.  When a function is called as a
+method of an object, the object is passed to the function as its _this_ value.
+In addition to its properties, a function contains executable code and state
+that determine how it behaves when invoked.
 
 Defined functions are not required to have their declaration appear textually
 before calls to them.
@@ -87,7 +89,8 @@ Internal value that defines some characteristic of a property.
 
 To specify an empty regular expression, use `/(?:)/`
 
-The export keyword is used to export things. It may appear in front of a function, class, or binding definition (let, const, or var).
+The export keyword is used to export things. It may appear in front of a
+function, class, or binding definition (let, const, or var).
 
 ## Expressions
 
@@ -270,7 +273,8 @@ CoverParenthesizedExpressionAndArrowParameterList:
 `(` Expression **,**$_{opt}$ `)`  
 `(` Expression$_{opt}$  `...` BindingIdentifer or BindingPattern `)`
 
-return the ArrowFormalParameter that is covered by CoverParenthesizedExpressionAndArrowParameterList.
+return the ArrowFormalParameter that is covered by
+CoverParenthesizedExpressionAndArrowParameterList.
 
 An ArrowFunction does not define local bindings for `arguments, super,this, new.target`.
 
@@ -469,8 +473,8 @@ iteration
 
 Promise
 
-A Promise is an object that is used as a placeholder for the eventual result of a deferred (and
-possibly asynchronous) computation.
+A Promise is an object that is used as a placeholder for the eventual result of
+a deferred (and possibly asynchronous) computation.
 
 fulfilled, rejected, pending
 
@@ -496,10 +500,12 @@ Proxy
 
 ## Memory Model
 
-The memory model is defined as relational constraints on events introduced by abstract operations on
-SharedArrayBuffer or by methods on the Atomics object during an evaluaition.
+The memory model is defined as relational constraints on events introduced by
+abstract operations on SharedArrayBuffer or by methods on the Atomics object
+during an evaluaition.
 
-An execution 'execution' is data race free if there are no two events in SharedDataBlockEventSet(execution) that are in a data race.
+An execution 'execution' is data race free if there are no two events in
+SharedDataBlockEventSet(execution) that are in a data race.
 
 A program is data race free if all its executions are data race free.
 

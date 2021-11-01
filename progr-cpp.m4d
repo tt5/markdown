@@ -205,11 +205,11 @@ return std::abs(lhs - rhs) < 0.0001;
 ## Identifiers
 
 C++ grammar formally requires Unicode characters to be escaped with `\u` or
-`\U`, but due to translation phase 1, that is exactly how raw
-unicode characters from the source code are presented to the compiler. Also
-note that support of this feature may be limited, e.g. gcc.
-Gcc supports UCNs in identifiers, not extended characters represented other than with UCNs. 
-So how do you express UCN in the code? By using the `\uNNNN` or `\UNNNNNNNN` syntax. 
+`\U`, but due to translation phase 1, that is exactly how raw unicode
+characters from the source code are presented to the compiler. Also note that
+support of this feature may be limited, e.g. gcc.  Gcc supports UCNs in
+identifiers, not extended characters represented other than with UCNs.  So how
+do you express UCN in the code? By using the `\uNNNN` or `\UNNNNNNNN` syntax. 
 
 # STL
 

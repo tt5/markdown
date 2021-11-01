@@ -49,3 +49,6 @@ init (systemd)
 # ---
 
 ls -al /proc/N/exe
+
+mesa-vulkan-drivers
+apt list *vulkan*

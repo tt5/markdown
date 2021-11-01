@@ -153,11 +153,10 @@ That is, $aH$ is the set we get by combining a (on the left) with every element 
 When the left and right cosets of a subgroup coincide, we say that the subgroup
 is normal. (Hence every subgroup of a group with a commutative binary operation
 is normal; but this can also happen even when the binary operation is not
-commutative.
-you can “divide” a group by one of its normal subgroups to get a “quotient
-group”.
-The coset aH has to have the same size as H: there is exactly one element in aH
-for each element of H, and they all have to be different.
+commutative.  You can “divide” a group by one of its normal subgroups to get a
+“quotient group”.  The coset aH has to have the same size as H: there is
+exactly one element in aH for each element of H, and they all have to be
+different.
 
 Center:
 $$Z(G) = \{z \in G \mid \forall g\in G, zg = gz \}$$
@@ -573,8 +572,8 @@ under ring multiplication.
 A subring of $A$ is a subset that contains $1_A$ and is closed under addition,
 multiplication, and the formation of negatives.
 
-A ring is an integral domain if it is not the zero ring and if $ab = 0$ in the ring implies that
-$a = 0$ or $b = 0$.
+A ring is an integral domain if it is not the zero ring and if $ab = 0$ in the
+ring implies that $a = 0$ or $b = 0$.
 
 The **center** of a ring $R$ is the subset of $R$ consisting of all
 those elements $x$ of $R$ such that $xr = rx$ for all $r$ in $R$. The
@@ -1073,7 +1072,8 @@ redefining the multiplication on $A$. We define $[xy]=xy-yx$.
 
 Number field
 
-A number field $K$ is a finite degree algebraic extension of the rational numbers $\mathbb{Q}$.
+A number field $K$ is a finite degree algebraic extension of the rational
+numbers $\mathbb{Q}$.
 
 # Exterior Algebra
 

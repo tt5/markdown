@@ -151,24 +151,24 @@ Kolmogorov Complexity
 
 ## Boolean satisfiability problem (SAT)
 
-In computer science, the Boolean Satisfiability Problem (sometimes called Propositional Satisfiability Problem
-and abbreviated as SATISFIABILITY or SAT) is the problem of determining if
-there exists an interpretation that satisfies a given Boolean formula. In other
-words, it asks whether the variables of a given Boolean formula can
-be consistently replaced by the values TRUE or FALSE in such a
-way that the formula evaluates to TRUE. If this is the
-case, the formula is called satisfiable. On the other hand, if no
-such assignment exists, the function expressed by the formula is identically FALSE
-for all possible variable assignments and the formula is unsatisfiable. For
-example, the formula "a AND NOT b" is satisfiable because one can
-find the values a = TRUE and b = FALSE, which make
-(a AND NOT b) = TRUE. In contrast, "a AND NOT a" is unsatisfiable.
+In computer science, the Boolean Satisfiability Problem (sometimes called
+Propositional Satisfiability Problem and abbreviated as SATISFIABILITY or SAT)
+is the problem of determining if there exists an interpretation that satisfies
+a given Boolean formula. In other words, it asks whether the variables of a
+given Boolean formula can be consistently replaced by the values TRUE or FALSE
+in such a way that the formula evaluates to TRUE. If this is the case, the
+formula is called satisfiable. On the other hand, if no such assignment exists,
+the function expressed by the formula is identically FALSE for all possible
+variable assignments and the formula is unsatisfiable. For example, the formula
+"a AND NOT b" is satisfiable because one can find the values a = TRUE and b =
+FALSE, which make (a AND NOT b) = TRUE. In contrast, "a AND NOT a" is
+unsatisfiable.
 
 # Type Theory
 
-Type theory can be used as a foundation for mathematics, and indeed,
-it was presented as such by Russell in his 1908 paper,
-which appeared the same year as Zermelo's paper, presenting set theory as a foundation for mathematics.
+Type theory can be used as a foundation for mathematics, and indeed, it was
+presented as such by Russell in his 1908 paper, which appeared the same year as
+Zermelo's paper, presenting set theory as a foundation for mathematics.
 
 ## Homotopy Type Theory
 
@@ -195,17 +195,15 @@ tities are spaces (homotopy types), in the sense of homotopy theory, rather than
 sets.
 
 This approach is justified by the homotopy theoretic interpretation of type
-theory, which was independently discovered by Awodey and Warren [5, 30]
-and Voevodsky [27, 28], building on ideas of Hofmann and Streicher [11, 24],
-Moerdijk, Palmgren, and others. This interpretation relates structures arising
-in homotopy theory, such as Kan complexes and Quillen model categories, with
-Martin-Löf’s [19, 17] dependent type theory.
-At around the same time, Gambino
-and Garner [7], van den Berg and Garner [6], and Lumsdaine [16] showed that this
-interpretation could be turned around to construct homotopy theoretic structures
-from the syntax of type theory. Crucial to this entire endeavor was Voevodsky’s
-discovery of the Univalence Axiom which captures important features of his
-Kan complex model of type theory.
+theory, which was independently discovered by Awodey and Warren and Voevodsky,
+building on ideas of Hofmann and Streicher, Moerdijk, Palmgren, and others.
+This interpretation relates structures arising in homotopy theory, such as Kan
+complexes and Quillen model categories, with Martin-Löf’s dependent type
+theory.  At around the same time, Gambino and Garner, van den Berg and Garner,
+and Lumsdaine showed that this interpretation could be turned around to
+construct homotopy theoretic structures from the syntax of type theory. Crucial
+to this entire endeavor was Voevodsky’s discovery of the Univalence Axiom which
+captures important features of his Kan complex model of type theory.
 
 The form of type theory with which homotopy type theory is concerned is some-
 times called dependent type theory.
@@ -230,14 +228,17 @@ Two infinities: +∞ and −∞.
 
 Two kinds of NaN: a quiet NaN (qNaN) and a signaling NaN (sNaN). 
 
-$c$ must be an integer in the range zero through bp−1 (e.g., if b=10 and p=7 then c is 0 through 9999999)
+$c$ must be an integer in the range zero through bp−1 (e.g., if b=10 and p=7
+then c is 0 through 9999999)
 
-$q$ must be an integer such that 1−emax ≤ q+p−1 ≤ emax (e.g., if p=7 and emax=96 then q is −101 through 90).
+$q$ must be an integer such that 1−emax ≤ q+p−1 ≤ emax (e.g., if p=7 and
+emax=96 then q is −101 through 90).
 
-Hence (for the example parameters) the smallest non-zero positive number that can
-be represented is $1×10^{−101}$ and the largest is $9999999×10^{90}$ ($9.999999×10^{96}$), and the
-full range of numbers is $−9.999999×10^{96}$ through $9.999999×10^{96}$. The numbers −b1−emax and
-b1−emax (here, $−1×10^{−95}$ and $1×10^{−95}$) are the smallest (in magnitude) normal numbers;
+Hence (for the example parameters) the smallest non-zero positive number that
+can be represented is $1×10^{−101}$ and the largest is $9999999×10^{90}$
+($9.999999×10^{96}$), and the full range of numbers is $−9.999999×10^{96}$
+through $9.999999×10^{96}$. The numbers −b1−emax and b1−emax (here,
+$−1×10^{−95}$ and $1×10^{−95}$) are the smallest (in magnitude) normal numbers;
 non-zero numbers between these smallest numbers are called subnormal numbers.
 
 $$x = -1^s \times 2^e \times 1.\text{mantissa}$$
@@ -419,11 +420,13 @@ sorted set
 
 # binary heap
 
-It’s a complete tree, which means it has the smallest possible height
-A heap or a binary heap is a complete binary tree with some additional properties, known as heap properties.
-The Heap differs from a Binary Search Tree. The BST is an ordered data structure, however, the Heap is not.
-The heap can be either Min-Heap or Max-Heap. 
-The main rule of the Max-Heap is that the subtree under each node contains values less or equal than its root node. Whereas, it’s vice versa for the Min-Heap.
+It’s a complete tree, which means it has the smallest possible height A heap or
+a binary heap is a complete binary tree with some additional properties, known
+as heap properties.  The Heap differs from a Binary Search Tree. The BST is an
+ordered data structure, however, the Heap is not.  The heap can be either
+Min-Heap or Max-Heap.  The main rule of the Max-Heap is that the subtree under
+each node contains values less or equal than its root node. Whereas, it’s vice
+versa for the Min-Heap.
 
 # ---
 

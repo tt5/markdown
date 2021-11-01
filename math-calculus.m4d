@@ -178,7 +178,8 @@ The collection of all solutions to any second order linear homogeneous DE is
 
 $x(t) = c_1 x_1(t) + c_2x_2(t)$
 
-$x_1(t)$ and $x_2(t)$ must be linearly independent. They form a basis for the set of all homogeneous solutions.
+$x_1(t)$ and $x_2(t)$ must be linearly independent. They form a basis for the
+set of all homogeneous solutions.
 
 ## some
 
@@ -320,11 +321,13 @@ not homeomorphic to a torus.
 Every metric space is, in a natural way, a topological space.
 There are, however, topological spaces that are not metric spaces.
 
-Let $X$ be a set and $\tau$ be a family of sets. We say that $\tau$ is a topology on $X$ if:
+Let $X$ be a set and $\tau$ be a family of sets. We say that $\tau$ is a
+topology on $X$ if:
 
 -   $X\in\tau, \, \emptyset\in\tau$ ($X$ and $\emptyset$ are in $\tau$)
 
--   $\\{O_i\\}_{i \in I} \subseteq \tau \Rightarrow \cup\_{i \in I} O_i \in \tau$ (any union of sets in $\tau$ is in $\tau$)
+-   $\\{O_i\\}_{i \in I} \subseteq \tau \Rightarrow \cup\_{i \in I} O_i \in
+\tau$ (any union of sets in $\tau$ is in $\tau$)
 
 -   $\\{O_i\\}_{i \in I} \subseteq \tau \Rightarrow
 \cap\_{i=1}^{n}O_i\in\tau$
@@ -422,7 +425,8 @@ A method for solving inhomogeneous linear ODEs.
 
 ${\dot{y_h}}  + p(t){y_h}  = 0.$
 
-2. Substitute $y=uy_h$ into the inhomogeneous equation, $\dot y + p(t)y=q(t)$  to find an equation for the unknown function $u=u(t)$. 
+2. Substitute $y=uy_h$ into the inhomogeneous equation, $\dot y + p(t)y=q(t)$
+to find an equation for the unknown function $u=u(t)$. 
 
 $\frac{d}{dt}(uy_h) +puy_h = q$
 
@@ -432,14 +436,19 @@ $\iff \dot u y_h + u \underbrace{(\dot y_h + py_h)}_{=0} = q$
 
 $\iff \dot u y_h = q$
 
-Note that the term in parentheses is zero because $y_h$ is a solution to the homogeneous differential equation. 
+Note that the term in parentheses is zero because $y_h$ is a solution to the
+homogeneous differential equation. 
 
 3. Solve $\dot u = \frac{q}{y_h}$ for $u(t)$ by integration.
 
-4. Once the general $u(t)$ is found, don't forget to multiply it by the homogeneous solution
-$y_h(t)$ to find $y=u(t)y_h(t)$, the general solution to the inhomogeneous equation.
+4. Once the general $u(t)$ is found, don't forget to multiply it by the
+homogeneous solution $y_h(t)$ to find $y=u(t)y_h(t)$, the general solution to
+the inhomogeneous equation.
 
-The idea is that the functions of the form $cy_h$ are solutions to the homogeneous equation; maybe we can get solutions to the inhomogeneous equation by allowing the parameter $c$ to vary, i.e., if we replace it by a nonconstant function $u(t)$. 
+The idea is that the functions of the form $cy_h$ are solutions to the
+homogeneous equation; maybe we can get solutions to the inhomogeneous equation
+by allowing the parameter $c$ to vary, i.e., if we replace it by a nonconstant
+function $u(t)$. 
 
 # Exponential Integral
 

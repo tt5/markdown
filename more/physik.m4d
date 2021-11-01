@@ -1,10 +1,5 @@
----
-title: physics
-subtitle: notes
-author: me
----
+# physics
 
-²0¹
 Fundamental physics is all based on the gauge principle.  A gauge theory may
 denote either a classical field theory or a quantum field theory whose field
 configurations are cocycles in differential cohomology (abelian or nonabelian).
@@ -12,11 +7,11 @@ An ordinary gauge theory is a quantum field theory whose field configurations
 are vector bundles with connection.  This includes notably the fields that
 carry the three fundamental forces of the standard model of particle physics:
 
-    Ordinary electromagnetism in the absence of magnetic charges is a gauge
-    theory of U(1)U(1)-principal bundles with connection.
+Ordinary electromagnetism in the absence of magnetic charges is a gauge
+theory of U(1)U(1)-principal bundles with connection.
 
-    Fields in Yang-Mills theory (such as appearing in the standard model of
-    particle physics and in GUTs) are vector bundles with connection.
+Fields in Yang-Mills theory (such as appearing in the standard model of
+particle physics and in GUTs) are vector bundles with connection.
 
 The above examples of gauge fields consisted of cocycles in degree-11
 differential cohomology.
@@ -216,8 +211,9 @@ $$F=-kX$$
 Entropie  
 J K^-1^
 
-The standard enthalpy of reaction (denoted $Δ_rH^⊖$) is the enthalpy change that
-occurs in a system when one mole of matter is transformed by a chemical reaction under standard conditions.
+The standard enthalpy of reaction (denoted $Δ_rH^⊖$) is the enthalpy change
+that occurs in a system when one mole of matter is transformed by a chemical
+reaction under standard conditions.
 
 electric charge Q  
 1 C = 1 A s  
@@ -657,7 +653,7 @@ Fine and ultrafine (10 nm bis 1 micrometer)
 things are too small for (1) and (2) and
 too big for (3) in a short period of time.
 
----
+# ---
 
 State some fundamental geometric properties about your coordinate system, and
 the Hamiltonian figures out the rest. It’s the key to unlocking the dynamical

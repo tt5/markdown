@@ -17,9 +17,10 @@ platform-dependent.
 [1] TRUE TRUE
 ```
 
-the expression `a+b` is actually calling the function `` `+`()`` with the arguments a
-and b, as `` `+` (a, b)`` It is possible to create user-defined infix operators in R.
-This is done by naming a function that starts and ends with \%.
+the expression `a+b` is actually calling the function `` `+`()`` with the
+arguments a and b, as `` `+` (a, b)`` It is possible to create user-defined
+infix operators in R.  This is done by naming a function that starts and ends
+with \%.
 
 The complete list of built-in infix operators that don't need  `%` is:
 ` :: ::: $ @ ^ * / + - > >= < <= == != ! & && | || ~ <- <<- `

@@ -1,3 +1,5 @@
+# vim
+
 :mks! file.vim
 vim -S file.vim
 

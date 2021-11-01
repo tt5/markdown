@@ -125,24 +125,22 @@ $x_1 , . . . , x_n$ belong to S and $r_1 x_1 + · · · + r_n x_n = 0$ for some 
 then $r_1 = · · · = r_n = 0$. An R-module M is free if it is contains a basis, that
 is, a linearly independent subset B such that RB = M .
 
-If M is a left R-module, then the action of an element
-r in R is defined to be the map M → M
-that sends each x to rx (or xr in the case of
-a right module), and is necessarily a group endomorphism of the abelian
-group (M,+). The set of all group endomorphisms of M is denoted
-EndZ(M) and forms a ring under addition and composition, and sending a
-ring element r of R to its action actually defines a ring homomorphism from R to EndZ(M).
+If M is a left R-module, then the action of an element r in R is defined to be
+the map M → M that sends each x to rx (or xr in the case of a right module),
+and is necessarily a group endomorphism of the abelian group (M,+). The set of
+all group endomorphisms of M is denoted EndZ(M) and forms a ring under addition
+and composition, and sending a ring element r of R to its action actually
+defines a ring homomorphism from R to EndZ(M).
 
 Such a ring homomorphism R → EndZ(M) is called a representation of
 R over the abelian group M; an alternative and equivalent way of
 defining left R-modules is to say that a left R-module is an
 abelian group M together with a representation of R over it.
 
-A representation is called faithful if and only if the map R
-→ EndZ(M) is injective. In terms of modules, this means that if
-r is an element of R such that rx = 0 for
-all x in M, then r = 0. Every abelian group is
-a faithful module over the integers or over some modular arithmetic Z/nZ.
+A representation is called faithful if and only if the map R → EndZ(M) is
+injective. In terms of modules, this means that if r is an element of R such
+that rx = 0 for all x in M, then r = 0. Every abelian group is a faithful
+module over the integers or over some modular arithmetic Z/nZ.
 
 # Cohen-Macaulay module
 

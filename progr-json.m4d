@@ -1,8 +1,6 @@
 
 # JSON
 
-²>¹ 
-
 *[* object *or* array *]*$^+$
 
 object:  
@@ -159,7 +157,7 @@ string
 ```
 
 # jq
-²>¹ 
+
 `echo '["a", "b", "c", "d"]' | jq '.[1:3]'`
 
 m4 esyscmd(¹ echo '["a", "b", "c", "d"]' | jq '.[1:3]' ²)

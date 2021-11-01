@@ -1,15 +1,11 @@
----
-{
-"title": "titel"
-}
----
-²0¹
+# css
 
 css doesn't run without javascript
 
 selctor declaration
 
-When a selector appears unprefixed by any punctuation, then it is assumed to match to an HTML tag. 
+When a selector appears unprefixed by any punctuation, then it is assumed to
+match to an HTML tag. 
 
 The declaration part of a CSS rule opens and closes with curly braces: {  }  
 And between them, you can put any number of property value pairs.
@@ -34,12 +30,17 @@ descendant selectors
 Direct descendant selectors ( > )
 #intro > a { font-size: large; }
 
-body > * { margin-left: 10px; } /* all the _direct_ children of the body receive the margin */
-p * { text-decoration: underline; } /* the text of the paragraph will be normal, but any children anywhere inside it will be underlined */
+body > * { margin-left: 10px; } /* all the _direct_ children of the body
+receive the margin */ p * { text-decoration: underline; } /* the text of the
+paragraph will be normal, but any children anywhere inside it will be
+underlined */
 
 Everything selector (*)
 
-The class attribute is similar to the id. However, whereas the id must be unique and singular, the values of the class attribute can be shared by multiple tags. And, multiple classes can be assigned to a tag by simply separating them with spaces. 
+The class attribute is similar to the id. However, whereas the id must be
+unique and singular, the values of the class attribute can be shared by
+multiple tags. And, multiple classes can be assigned to a tag by simply
+separating them with spaces. 
 
 <ul>
 <li class="bird flying">eagle</li>
@@ -54,7 +55,11 @@ The class attribute is similar to the id. However, whereas the id must be unique
 
 blockquote.speech { font-color: green; }
 
-In the example above, the blockquote.speech selector is a blockquote tag selector combined with a .speech class selector.  So this rule will not necessarily apply to every blockquote, nor every element with the speech class. Instead, it will only apply to those blockquotes that also have the speech class.
+In the example above, the blockquote.speech selector is a blockquote tag
+selector combined with a .speech class selector.  So this rule will not
+necessarily apply to every blockquote, nor every element with the speech class.
+Instead, it will only apply to those blockquotes that also have the speech
+class.
 
 It isn't unusual to see multiple classes joined this way as well:
 
@@ -69,9 +74,16 @@ property from parent to child is also called "inheritance".
 
 padding: inherit; 
 
-There is no reliable rule for which CSS properties are inheritable by default and which are not. However, generally, the properties associated with positioning and layout are not inherited.  Likewise, the decorative properties (borders, background images, etc.) do not inherit.  Most properties that begin with text- or font- inherit.
+There is no reliable rule for which CSS properties are inheritable by default
+and which are not. However, generally, the properties associated with
+positioning and layout are not inherited.  Likewise, the decorative properties
+(borders, background images, etc.) do not inherit.  Most properties that begin
+with text- or font- inherit.
 
-However, what happens when there are different rules competing to set different values for the same property?  This is where CSS precedence comes into play. When rendering CSS, the browser has some guidelines it follows for resolving conflicting rules. 
+However, what happens when there are different rules competing to set different
+values for the same property?  This is where CSS precedence comes into play.
+When rendering CSS, the browser has some guidelines it follows for resolving
+conflicting rules. 
 
 1 - Most specific rule
 2 - #id selector is the most specific
@@ -84,40 +96,60 @@ margin
 border: 5px solid blue;  
 padding  
 
-The margin is always transparent, and each side can be set individually.  The unique thing about the margin is that the values for any of the sides can be negative
+The margin is always transparent, and each side can be set individually.  The
+unique thing about the margin is that the values for any of the sides can be
+negative
 
 To center an inline element, we use the text-align property of its parent.   
 
-p { text-align: center; } /* the text and any inline children of this element will be centered */
+p { text-align: center; } /* the text and any inline children of this element
+will be centered */
 
 If this isn't satisfactory, consider changing the element to be inline-block or block.
 
-How do you center a block level element? First, you may recall that block level elements take the width of their parent by default. If the element is the same width as its parent, it is already centered.
+How do you center a block level element? First, you may recall that block level
+elements take the width of their parent by default. If the element is the same
+width as its parent, it is already centered.
 
 div { width: 200px; margin: auto; }
 
-Do auto margins seem spooky to you?  There is a better way to achieve centering and its name is flexbox.
+Do auto margins seem spooky to you?  There is a better way to achieve centering
+and its name is flexbox.
 
 Vertical centering:
 
 inline
 
-Inline elements respect the vertical-align property. This determines how the inline element is aligned relative to the baseline it is being laid upon. This may or may not solve your vertical centering conundrum.
-block
+Inline elements respect the vertical-align property. This determines how the
+inline element is aligned relative to the baseline it is being laid upon. This
+may or may not solve your vertical centering conundrum.  block
 
-There is no margin:auto approach to vertical centering. There are some complicated systems that folk have developed, but the shortest and best answer to vertical centering: use flexbox. 
+There is no margin:auto approach to vertical centering. There are some
+complicated systems that folk have developed, but the shortest and best answer
+to vertical centering: use flexbox. 
 
 The 'left', 'top', 'right', and 'bottom' properties
 
-In CSS, there are four properties which can be used to adjust or set the position of an element. Those properties are: left, top, right, and bottom. 
+In CSS, there are four properties which can be used to adjust or set the
+position of an element. Those properties are: left, top, right, and bottom. 
 
-However, in one of the best jokes played by the authors of the CSS specification, using those properties by themselves will have no effect on any element. Surprisingly, most developers struggling with CSS don't find this funny.   
+However, in one of the best jokes played by the authors of the CSS
+specification, using those properties by themselves will have no effect on any
+element. Surprisingly, most developers struggling with CSS don't find this
+funny.   
 
-The reason these properties don't work by default is that they only work when applied to positioned elements. And positioned elements are those that have had their position property changed from the default. 
+The reason these properties don't work by default is that they only work when
+applied to positioned elements. And positioned elements are those that have had
+their position property changed from the default. 
 
-The CSS position property governs how an element is positioned on the page and how it responds to the position adjusting properties (left, top, right, and bottom).  Up to this point in this course, we have not used this property and so everything we've seen has been the default position, which is position:static for all elements.  
+The CSS position property governs how an element is positioned on the page and
+how it responds to the position adjusting properties (left, top, right, and
+bottom).  Up to this point in this course, we have not used this property and
+so everything we've seen has been the default position, which is
+position:static for all elements.  
 
-As of today, the position property has four different values it can take: static, relative, absolute, and fixed.
+As of today, the position property has four different values it can take:
+static, relative, absolute, and fixed.
 
 static
 
@@ -146,26 +178,37 @@ p {
   left: 40px; 
 }
 
-With the z-index you can control overlapping - whether or not an element is in front of or behind other sibling positioned elements.  The z-index can be an integer 0 or higher. The higher the number, the more "topmost" or "overlapping" the element will be.  
+With the z-index you can control overlapping - whether or not an element is in
+front of or behind other sibling positioned elements.  The z-index can be an
+integer 0 or higher. The higher the number, the more "topmost" or "overlapping"
+the element will be.  
 
-If z-index is not set, siblings that appear later in the HTML document overlap (are "higher than") earlier siblings.
+If z-index is not set, siblings that appear later in the HTML document overlap
+(are "higher than") earlier siblings.
 
 # flexbox
 
-If you have a parent element that contains some child elements, then putting display:flex; on the parent is all that is needed to get started. The parent itself behaves like a normal block level element, it is the flex container, and all of its children are flex items. 
+If you have a parent element that contains some child elements, then putting
+display:flex; on the parent is all that is needed to get started. The parent
+itself behaves like a normal block level element, it is the flex container, and
+all of its children are flex items. 
 
 It's not a bad idea to specify the flex-flow for the flex container
 (`flex-flow: row wrap;`), but it isn't required.
 
-It's generally a good idea to also initialize the flex property on the flex items (e.g. flex:1), but again, this isn't required.
+It's generally a good idea to also initialize the flex property on the flex
+items (e.g. flex:1), but again, this isn't required.
 
 p { flex: 1 1 87px;  /* use flex: <flex-grow> <flex-shrink> <flex-basis> */}
 
-The flex-basis provides the starting dimension (width or height) for the flex-item. It may be grown or shrunk from that.
+The flex-basis provides the starting dimension (width or height) for the
+flex-item. It may be grown or shrunk from that.
 
-If you are considering changing the display of several elements to be inline-block, that may indicate that you should be using flexbox instead. 
+If you are considering changing the display of several elements to be
+inline-block, that may indicate that you should be using flexbox instead. 
 
-If you need to center something vertically, unless it is an inline element or the content of a table cell, the best answer is almost certainly flexbox.
+If you need to center something vertically, unless it is an inline element or
+the content of a table cell, the best answer is almost certainly flexbox.
 
 # selectors
 
@@ -189,7 +232,8 @@ grid-template-columns: 200px 200px auto;
 
 # bootstrap
 
-Copy-paste the stylesheet <link> into your <head> before all other stylesheets to load our CSS.
+Copy-paste the stylesheet <link> into your <head> before all other stylesheets
+to load our CSS.
 
 # sass
 
@@ -237,7 +281,9 @@ img {
   height: auto;
 }
 
-The max-width of 100% will make sure the image is never wider than the container it is in, and the height of auto will make the image keep its original aspect ratio.
+The max-width of 100% will make sure the image is never wider than the
+container it is in, and the height of auto will make the image keep its
+original aspect ratio.
 
 The four different viewport units are:
 
@@ -246,7 +292,7 @@ The four different viewport units are:
     vmin (viewport minimum): 70vmin would be 70% of the viewport's smaller dimension (height or width).
     vmax (viewport maximum): 100vmax would be 100% of the viewport's bigger dimension (height or width).
 
----
+# ---
 
 background-image: url(
 'data:image/svg+xml,\

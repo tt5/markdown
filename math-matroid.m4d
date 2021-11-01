@@ -26,7 +26,8 @@ A **matroid** is a set $E$ together with a matroid closure oparator.
 A closed subset of $M$ (i.e. a set that is its own closure) is called
 a **flat** of $M$.
 
-independent sets $\mathcal{I} =  \{ X \subseteq E: \exists B \in \mathcal{B}$ s.t. $X\subseteq B \}$  
+independent sets
+$\mathcal{I} =  \{ X \subseteq E: \exists B \in \mathcal{B}$ s.t. $X\subseteq B \}$  
 $\mathcal{I} \subseteq 2^E$
 
 $\mathcal{C} = \{ X \cup E : X \in 2^E - \mathcal{I}, X$ is minimal \}

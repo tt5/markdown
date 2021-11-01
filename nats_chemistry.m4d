@@ -151,10 +151,9 @@ $M_S$ is the total spin angular momentum of a microstate
 Atomic state:
 A collection of microstates with the same enery.
 
-$L$ gives the total orbital angular momentum of an atomic state (equal to
-the maximum value of $M_L$.
-$S$ gives the total spin angular momentum of an atomic state (equal to
-the maximum value of $M_S$ (for a given $L$ value).
+$L$ gives the total orbital angular momentum of an atomic state (equal to the
+maximum value of $M_L$.  $S$ gives the total spin angular momentum of an atomic
+state (equal to the maximum value of $M_S$ (for a given $L$ value).
 
 Orbitals and spins can also interact giving rise to spin-orbit coupling.
 $J$ is the total angular momentum.
@@ -1220,7 +1219,8 @@ the chemisorption of \ce{N2} .
 
 ethylene \ce{C2H4}
 
-An alkene is an unsaturated hydrocarbon that contains at least one carbon–carbon double bond.
+An alkene is an unsaturated hydrocarbon that contains at least one
+carbon–carbon double bond.
 
 The most heavily practiced reaction of alkenes, is polymerization.
 1,3-Butadiene is a precursor to rubber used in tires, and isoprene is the
@@ -1276,17 +1276,16 @@ Ethylene oxide is a colorless flammable gas at room
 temperature, with a faintly sweet odor; it is the simplest
 epoxide.
 
-The dominant epoxides industrially are ethylene oxide and
-propylene oxide, which are produced respectively on the
-scales of approximately 15 and 3 million tonnes/year.
-Ethylene oxide is important or critical to the production of detergents, thickeners,
-solvents, plastics, and various organic chemicals such as ethylene glycol, ethanolamines, simple
-and complex glycols, polyglycol ethers and other compounds. As a poison gas
-that leaves no residue on items it contacts, pure ethylene oxide is
-a disinfectant that is widely used in hospitals and the medical equipment
-industry to replace steam in the sterilization of heat-sensitive tools and equipment,
-such as disposable plastic syringes.
-It is extremely flammable and explosive and is used as a main
+The dominant epoxides industrially are ethylene oxide and propylene oxide,
+which are produced respectively on the scales of approximately 15 and 3 million
+tonnes/year.  Ethylene oxide is important or critical to the production of
+detergents, thickeners, solvents, plastics, and various organic chemicals such
+as ethylene glycol, ethanolamines, simple and complex glycols, polyglycol
+ethers and other compounds. As a poison gas that leaves no residue on items it
+contacts, pure ethylene oxide is a disinfectant that is widely used in
+hospitals and the medical equipment industry to replace steam in the
+sterilization of heat-sensitive tools and equipment, such as disposable plastic
+syringes.  It is extremely flammable and explosive and is used as a main
 component of thermobaric weapons; therefore, it is commonly handled and shipped
 as a refrigerated liquid.
 
@@ -1549,14 +1548,13 @@ the oxygen, whereas the nucleophilic site on enolates is
 delocalized onto both carbon and oxygen sites.
 Ex. is 2-butanone.
 
-Phenoxides are close relatives of the alkoxides, in
-which the alkyl group is replaced by a derivative of
-benzene. Phenol is more acidic than a typical alcohol;
-thus, phenoxides are correspondingly less basic and less
-nucleophilic than alkoxides. They are, however, often easier
-to handle, and yield derivatives that are more crystalline
-than those of the alkoxides.
-Phenol is weakly acidic and at high pHs gives the phenolate anion C6H5O− (also called phenoxide).
+Phenoxides are close relatives of the alkoxides, in which the alkyl group is
+replaced by a derivative of benzene. Phenol is more acidic than a typical
+alcohol; thus, phenoxides are correspondingly less basic and less nucleophilic
+than alkoxides. They are, however, often easier to handle, and yield
+derivatives that are more crystalline than those of the alkoxides.  Phenol is
+weakly acidic and at high pHs gives the phenolate anion C6H5O− (also called
+phenoxide).
 
 The tetrahedral intermediate of an acyl compound contains a substituent
 attached to the central carbon that can act as a leaving group. After the
@@ -1578,9 +1576,10 @@ are water and ammonia.
 
 \minisec{Tetrahedral intermediate}
 
-A tetrahedral intermediate is a reaction intermediate in which the bond arrangement
-around an initially double-bonded carbon atom has been transformed from trigonal to
-tetrahedral. Tetrahedral intermediates result from nucleophilic addition to a carbonyl group.
+A tetrahedral intermediate is a reaction intermediate in which the bond
+arrangement around an initially double-bonded carbon atom has been transformed
+from trigonal to tetrahedral. Tetrahedral intermediates result from
+nucleophilic addition to a carbonyl group.
 
 Hemiacetals and hemiketals may be thought of as intermediates
 in the reaction between alcohols and aldehydes or ketones, with

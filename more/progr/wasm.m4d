@@ -15,7 +15,8 @@ Pushes the 32-bit value x to the stack.
 return
 Exits the current function and returns the value(s) on the top of the stack.
 
-The return instruction could be omitted as the function returns the value(s) on the top of the stack automatically.
+The return instruction could be omitted as the function returns the value(s) on
+the top of the stack automatically.
 
 Parameters are practically local variables with values initialized by the caller.
 

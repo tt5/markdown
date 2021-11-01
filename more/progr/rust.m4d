@@ -15,11 +15,11 @@ wasm-pack build
 wasm-pack build --target web
 
 Rust gives you the following ways to lay out composite data:
-    structs (named product types)
-    tuples (anonymous product types)
-    arrays (homogeneous product types)
-    enums (named sum types -- tagged unions)
-    unions (untagged unions)
+structs (named product types)
+tuples (anonymous product types)
+arrays (homogeneous product types)
+enums (named sum types -- tagged unions)
+unions (untagged unions)
 
 ## vim
 

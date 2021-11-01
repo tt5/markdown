@@ -56,3 +56,5 @@ the create button
 
 request a review and merge
 repository
+
+find . -type l | sed -e s'/^\.\///g' >> .gitignore
