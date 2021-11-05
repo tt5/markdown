@@ -1,3 +1,5 @@
+# debian
+
 ```bash
 apt update
 apt upgrade

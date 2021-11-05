@@ -3,7 +3,7 @@
 Each prime factor $p_i^{\alpha_i}$ is called a *primary*.
 
 radical:
-$$\text{rad}(n)=\prod_{\mathclap{\substack{p|n\\p\, \text{prime}}}}{p}$$
+$$\text{rad}(n)=\prod_{p|n\\ p\, prime}{p}$$
 
 (Goldbach, 1742)  
 Every even number greater than 2 can be written as the sum of two primes

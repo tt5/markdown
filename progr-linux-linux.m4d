@@ -336,6 +336,8 @@ stty sane
 **bcat**\quad https://github.com/rtomayko/bcat  
 **ln**\quad `ln -s`
 
+`ln -vfns ...` ²q¹ update
+
 ls
 xsel
 

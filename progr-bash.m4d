@@ -59,20 +59,34 @@ c-e\q (end of line)
 
 rlwrap
 
-$\fbox{C-t}$ exchange chars  
+$\fbox{C-t}$ ²q¹ exchange chars  
+
 $\fbox{M-t}$ exchange words  
+
 $\fbox{M-u}$ Wort uppercase  
+
 $\fbox{M-l}$ or $\fbox{M-f}$ one word fw  
+
 $\fbox{M-b}$ one word bw  
+
 $\fbox{M-d}$ delete rest of word  
-$\fbox{M-C-h}$ or} $\fbox{C-w}$ delete word bw  
+
+$\fbox{M-C-h}$ or $\fbox{C-w}$ delete word bw  
+
 $\fbox{C-M-y}$ first argument  
+
 $\fbox{C-r}$ and $\fbox{C-s}$ search history  
+
 $\fbox{M-(numarg)}$  
+
 $\fbox{M-.}$ last argument of previous line  
+
 $\fbox{C-x,( ... C-x,) C-x,e}$ record and execute macro  
+
 $\fbox{C-]}$ move to character  
+
 $\fbox{M-C-]}$ move to character bw  
+
 $\fbox{C-_}$ undo
 
 # builtin

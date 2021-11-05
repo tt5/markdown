@@ -1,12 +1,12 @@
 # cat
 
-The concepts of categories, functors and natural transformations constiture the
+The concepts of categories, functors and natural transformations constitute the
 “language of categories”. This language now allows to formulate the concept of
 adjoint functors and more generally that of adjunctions
 below. This is concept that category theory, as a theory, is all about.
 
 Part of the data involved in an adjunction is its adjunction unit and
-adjunction counit (Def. 1.33 below) and depending on their behaviour special
+adjunction counit and depending on their behaviour special
 cases of adjunctions are identified
 
 "Categorification" refers to the process of turning sets into categories by
@@ -135,7 +135,6 @@ $A = \Omega \mathbf{B} A$
 
 and we say that $\mathbf{B} A$ is the delooping of $A$.
 
-
 A (generalised) element of $\Omega X$ may be thought of as a loop in $X$ at the
 base point $\star$.
 
@@ -151,13 +150,14 @@ homotopies between the transformations in such a groupoid, one speaks of
 plain sets are recovered as the special case of 0-groupoids.
 
 Due to the higher orders nn appearing here, mathematical structures based not
-on sets but on homotopy types are also called higher structures.
-Homotopy theory may be understood as the non-abelian generalization of homological algebra.
-Ideally, abstract homotopy theory would simply be a complete replacement of set
-theory, obtained by removing the assumption of strict equality, relaxing it to
-gauge equivalence/homotopy. As such, abstract homotopy theory would be part and
-parcel of the foundations of mathematics themselves, not requiring any further
-discussion. This ideal perspective is the promise of homotopy type theory.
+on sets but on homotopy types are also called higher structures.  Homotopy
+theory may be understood as the non-abelian generalization of homological
+algebra.  Ideally, abstract homotopy theory would simply be a complete
+replacement of set theory, obtained by removing the assumption of strict
+equality, relaxing it to gauge equivalence/homotopy. As such, abstract homotopy
+theory would be part and parcel of the foundations of mathematics themselves,
+not requiring any further discussion. This ideal perspective is the promise of
+homotopy type theory.
 
 Hence homotopy types are equivalently ∞-groupoids. This perspective makes
 explicit that homotopy types are the unification of plain sets with the concept
@@ -293,7 +293,6 @@ with one binary relation $\in$.  Examples where multisorted signatures are used
 is the theory of categories (with an object sort and a morphism sort) and
 (multi)directed graphs (with a vertex sort and an edge sort).
 
-
 # Functors
 
 Functors are mappings between categories that preserve structure.
@@ -367,10 +366,9 @@ In the category Set,
 (i) Monic ⇒ injective.
 (ii) Epi ⇒ surjective.
 
-If f : a → b and g : b → a are arrows in a category that
-satisfy gf = 1a then we say that f is a section of g, and g is a retraction of
-f.
-In other words, a section of an arrow is a right inverse and a retraction is a
+If $f : a → b$ and $g : b → a$ are arrows in a category that satisfy $gf = 1a$
+then we say that $f$ is a section of $g$, and $g$ is a retraction of f.  In
+other words, a section of an arrow is a right inverse and a retraction is a
 left inverse; hence, in particular, an arrow is both a section and a retraction
 if and only if it is an isomorphism.
 
@@ -539,7 +537,8 @@ product category.
 A multifunctor is a generalization of the functor concept to n variables. So,
 for example, a bifunctor is a multifunctor with n = 2.
 
-a monoidal category (or tensor category) is a category C equipped with a bifunctor
+a monoidal category (or tensor category) is a category C equipped with a
+bifunctor
 
 $⊗ : C × C → C$
 
@@ -592,14 +591,13 @@ $\text{hom}(X, Y)$ and called the hom-set between X and Y.
 A faithful functor is injective on hom-sets.
 A full functor is surjective on hom-sets.
 
-Constant funtor, $\Delta_c$, collapses all morphism to the id of the single object c.
+Constant funtor, $\Delta_c$, collapses all morphism to the id of the single
+object c.
 
-Suppose that P is a property that arrows in any category
-may or may not have.
+Suppose that P is a property that arrows in any category may or may not have.
 (i) A functor F preserves P if f having property P implies that F (f ) has
-property P .
-(ii) A functor F reflects P if F (f ) having property P implies that f has
-property P .
+property P .  (ii) A functor F reflects P if F (f ) having property P implies
+that f has property P .
 
 (i) All functors preserve isomorphisms.
 (ii) All full and faithful functors reflect isomorphisms.

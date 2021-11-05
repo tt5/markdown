@@ -42,5 +42,5 @@ $\displaystyle
 3x^2+10x+4
 $
 
-"Form" (wie in bilinear-form) meint, dass der Definitionsbereich nur ein Grundkörper ist und
+"Form" (as in bilinear form) means that the domain is just a base field and not any vector space.
 kein beliebiger Vektorraum.

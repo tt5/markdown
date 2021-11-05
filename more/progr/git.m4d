@@ -58,3 +58,7 @@ request a review and merge
 repository
 
 find . -type l | sed -e s'/^\.\///g' >> .gitignore
+
+
+You can use this syntax to rename the old branch to something new.
+`git branch -m old-branch new-branch`

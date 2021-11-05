@@ -5,8 +5,6 @@ https://github.com/cplusplus/draft
 -std=c++20
 N4860
 
-`#pragma once`
-
 c++20 modules
 
 # Template
@@ -26,7 +24,8 @@ auto z2 = std::polar(1., .31415);
 
 # Language
 
-\minisec{entities}
+## entities
+
 values  
 objects  
 references  
@@ -45,7 +44,6 @@ associate them with names and define their properties.
 
 The declarations that define all properties required to use
 an entity are **definitions**.
-
 Definitions of functions include sequences of statements,
 some of which include expressions.
 
@@ -156,7 +154,9 @@ std::ostream& operator<<(std::ostream& out, const std::pair<T, U>& p) {
 }
 ```
 
-# Class template SFINAE
+# SFINAE
+
+## class
 
 Substitution failure is not an error (SFINAE) refers to a situation in
 C++ where an invalid substitution of template parameters is not in itself an error.
@@ -178,7 +178,7 @@ class foo<T,
 { };
 ```
 
-# Function template SFINAE
+## Function
 
 ```cpp
 #include <type_traits>
@@ -202,7 +202,7 @@ return std::abs(lhs - rhs) < 0.0001;
 }
 ```
 
-## Identifiers
+# Identifiers
 
 C++ grammar formally requires Unicode characters to be escaped with `\u` or
 `\U`, but due to translation phase 1, that is exactly how raw unicode
@@ -233,61 +233,61 @@ classified with them: bitset and valarray.
 Sequence containers:
 
 array
-    Array class (class template )
+:    Array class (class template )
 
 vector
-    Vector (class template )
+:    Vector (class template )
 
 deque
-    Double ended queue (class template )
+:    Double ended queue (class template )
 
 forward_list
-    Forward list (class template )
+:    Forward list (class template )
 
 list
-    List (class template )
+:    List (class template )
 
 
 Container adaptors:
 
 stack
-    LIFO stack (class template )
+:    LIFO stack (class template )
 
 queue
-    FIFO queue (class template )
+:    FIFO queue (class template )
 
 priority_queue
-    Priority queue (class template )
+:    Priority queue (class template )
 
 
 Associative containers:
 
 set
-    Set (class template )
+:    Set (class template )
 
 multiset
-    Multiple-key set (class template )
+:    Multiple-key set (class template )
 
 map
-    Map (class template )
+:    Map (class template )
 
 multimap
-    Multiple-key map (class template )
+:    Multiple-key map (class template )
 
 
 Unordered associative containers:
 
 unordered_set
-    Unordered Set (class template )
+:    Unordered Set (class template )
 
 unordered_multiset
-    Unordered Multiset (class template )
+:    Unordered Multiset (class template )
 
 unordered_map
-    Unordered Map (class template )
+:    Unordered Map (class template )
 
 unordered_multimap
-    Unordered Multimap (class template )
+:    Unordered Multimap (class template )
 
 # Algorithms
 
@@ -300,140 +300,140 @@ though, that algorithms operate through iterators directly on the values, not
 affecting in any way the structure of any possible container (it never affects
 the size or storage allocation of the container).
 
-Functions in <algorithm>
+Functions in \<algorithm\>
 
 all_of
-    Test condition on all elements in range (function template )
+:    Test condition on all elements in range (function template )
 
 any_of
-    Test if any element in range fulfills condition (function template )
+:    Test if any element in range fulfills condition (function template )
 
 none_of
-    Test if no elements fulfill condition (function template )
+:    Test if no elements fulfill condition (function template )
 
 for_each
-    Apply function to range (function template )
+:    Apply function to range (function template )
 
 find
-    Find value in range (function template )
+:    Find value in range (function template )
 
 find_first_of
-    Find element from set in range (function template )
+:    Find element from set in range (function template )
 
 adjacent_find
-    Find equal adjacent elements in range (function template )
+:    Find equal adjacent elements in range (function template )
 
 count
-    Count appearances of value in range (function template )
+:    Count appearances of value in range (function template )
 
 mismatch
 
 copy
-    Copy range of elements (function template )
+:    Copy range of elements (function template )
 
 copy_n
-    Copy elements (function template )
-    Return first position where two ranges differ (function template )
+:    Copy elements (function template )
+     Return first position where two ranges differ (function template )
 
 equal
-    Test whether the elements in two ranges are equal (function template )
+:    Test whether the elements in two ranges are equal (function template )
 
 is_permutation
-    Test whether range is permutation of another (function template )
+:    Test whether range is permutation of another (function template )
 
 move
-    Move range of elements (function template )
+:    Move range of elements (function template )
 
 move_backward
-    Move range of elements backward (function template )
+:    Move range of elements backward (function template )
 
 swap
-    Exchange values of two objects (function template )
+:    Exchange values of two objects (function template )
 
 swap_ranges
-    Exchange values of two ranges (function template )
+:    Exchange values of two ranges (function template )
 
 fill
-    Fill range with value (function template )
+:    Fill range with value (function template )
 
 transform
-    Transform range (function template )
+:    Transform range (function template )
 
 generate
-    Generate values for range with function (function template )
+:    Generate values for range with function (function template )
 
 unique
-    Remove consecutive duplicates in range (function template )
+:    Remove consecutive duplicates in range (function template )
 
 reverse
-    Reverse range (function template )
+:    Reverse range (function template )
 
 rotate
-    Rotate left the elements in range (function template )
+:    Rotate left the elements in range (function template )
 
 shuffle
-    Randomly rearrange elements in range using generator (function template )
+:    Randomly rearrange elements in range using generator (function template )
 
 sort
-    Sort elements in range (function template )
+:    Sort elements in range (function template )
 
 stable_sort
-    Sort elements preserving order of equivalents (function template )
+:    Sort elements preserving order of equivalents (function template )
 
 partial_sort
-    Partially sort elements in range (function template )
+:    Partially sort elements in range (function template )
 
 is_sorted
-    Check whether range is sorted (function template )
+:    Check whether range is sorted (function template )
 
 is_sorted_until
-    Find first unsorted element in range (function template )
+:    Find first unsorted element in range (function template )
 
 binary_search
-    Test if value exists in sorted sequence (function template )
+:    Test if value exists in sorted sequence (function template )
 
 min
-    Return the smallest (function template )
+:    Return the smallest (function template )
 
 max
-    Return the largest (function template )
+:    Return the largest (function template )
 
 minmax
-    Return smallest and largest elements (function template )
+:    Return smallest and largest elements (function template )
 
 min_element
-    Return smallest element in range (function template )
+:    Return smallest element in range (function template )
 
 max_element
-    Return largest element in range (function template )
+:    Return largest element in range (function template )
 
 minmax_element
-    Return smallest and largest elements in range (function template )
+:    Return smallest and largest elements in range (function template )
 
 
 lexicographical_compare
-    Lexicographical less-than comparison (function template )
+:    Lexicographical less-than comparison (function template )
 
 next_permutation
-    Transform range to next permutation (function template )
+:    Transform range to next permutation (function template )
 
 prev_permutation
-    Transform range to previous permutation (function template )
+:    Transform range to previous permutation (function template )
 
 push_heap
-    Push element into heap range (function template )
+:    Push element into heap range (function template )
 
 pop_heap
-    Pop element from heap range (function template )
+:    Pop element from heap range (function template )
 
 make_heap
-    Make heap from range (function template )
+:    Make heap from range (function template )
 
 sort_heap
-    Sort elements of heap (function template )
+:    Sort elements of heap (function template )
 
 is_heap
-    Test if range is heap (function template )
+:    Test if range is heap (function template )
 
 # libraries
 

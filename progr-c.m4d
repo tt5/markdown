@@ -161,16 +161,14 @@ iterationstat
 **block (compound stat)** ²q¹ *def*  
 `{` *[* decl *or* stat *]*²s¹ `}`
 
-**iterationstat**\q *def*  
-\ttfamily
-while ( expr ) stat\\
-do stat while ( expr ) ;\\
-for ( [ expr? ; or decl ] expr? ; expr? ) stat
-\normalfont
+**iterationstat** ²q¹ *def*  
+`while ( expr ) stat`  
+`do stat while ( expr ) ;`  
+`for ( [ expr? ; or decl ] expr? ; expr? ) stat`
 
 **typename**  
-(name of a type) \textit{def}\\
-spqul abstrdeclarator\_opt
+(name of a type) *def*  
+spqul abstrdeclarator$_{\text{opt}}$
 
 In several contexts, it is necessary to specify a type. This is accomplished
 using a *type name*, which is syntactically a declaration for a function or
@@ -1562,3 +1560,8 @@ Code generation SHALL be treated as a form of dangerous abstraction that
 creates significant barriers to readers. A good rule of thumb is that for code
 generation to be profitable, it should reduce the lines of code written by hand
 by 80-90%.
+
+# preprocessor
+
+`#pragma once`  
+serves the same purpose as include guards

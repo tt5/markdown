@@ -7,7 +7,7 @@ object:
 **\{** *[* string : value *[* , string : value *]*$^{ ²s¹ }$ *]*$^?$ **\}**
 
 array:  
-**[** *[* value *[*, value *]* \star *]*$^?$ **]**
+**[** *[* value *[*, value *]*$^{ ²s¹ }$ *]*$^?$ **]**
 
 value:  
 •  
@@ -23,19 +23,19 @@ int *[* . *[* 0 *to* 9 *]*$^?$
 *[* 0 *to* 9 *]*+ *]*$^?$
 
 int:  
-*[* - *]*$^?$ \textit{[} 0 *or* \textit{[}
-\textit{[} 1 *to* 9 \textit{]} \textit{[} 0 *to* 9 \textit{]} ²s¹ \textit{]} \textit{]}
+*[* - *]*$^?$ *[* 0 *or* *[*
+*[* 1 *to* 9 *]* *[* 0 *to* 9 *]* ²s¹ *]* *]*
 
----
+# ---
 
 string:  
-**"** \textit{[} char \textit{]} ²s¹ **"**
+**"** *[* char *]* ²s¹ **"**
 
 char:  
 *any Unicode character except* " *or* \\ *or* control-character
 
 control-character:  
-\\ \textit{[} *one of* " \\ / b f n r t u*four-hex-digits* \textit{]}
+`\` *[* *one of* " `\` / b f n r t u*four-hex-digits* *]*
 
 # jshon
 
@@ -43,10 +43,10 @@ https://github.com/keenerd/jshon
 
 `jshon [`actions`]`
 
-`-u`\quad unescape string  
-`-t`\quad id type (str, object, list, number, bool, null)  
-`-l`\quad length  
-`-k`\quad keys (object)  
+`-u` ²q¹ unescape string  
+`-t` ²q¹ id type (str, object, list, number, bool, null)  
+`-l` ²q¹ length  
+`-k` ²q¹ keys (object)  
 
 `-e` *index*\quad extract (object, array).  
 `-i` *index* insert, opposite of extract, merges json up
@@ -73,7 +73,7 @@ Use *extract* (`-e`) to dive into json tree, *delete* (`-d`,)
 *string* (`-s`), *nonstring* (`-n`) to change things, and
 *insert* (`-i`) to push the changes back up the tree.
 
-```
+```json
 {
  "a": 1,
  "b": [
@@ -104,7 +104,7 @@ m4 esyscmd(¹ cat markdown/epjson.json | jshon -e "c" -s "d" -i "f" -d "d" ²)
 ```
 
 `jshon -e "c" -n 1 -i "f" -d "d"`
-```
+```json
 {
  "e": 5,
  "f": 1
@@ -112,7 +112,7 @@ m4 esyscmd(¹ cat markdown/epjson.json | jshon -e "c" -s "d" -i "f" -d "d" ²)
 ```
 
 `jshon -e "c" -n 1 -i "f" -d "d" -i "c"`
-```
+```json
 {
  "a": 1,
  "b": [
@@ -129,7 +129,7 @@ m4 esyscmd(¹ cat markdown/epjson.json | jshon -e "c" -s "d" -i "f" -d "d" ²)
 ```
 
 `jshon -e b -d 0 -s foo -i 0`
-```
+```json
 [
  "foo",
  false,
@@ -139,7 +139,7 @@ m4 esyscmd(¹ cat markdown/epjson.json | jshon -e "c" -s "d" -i "f" -d "d" ²)
 ```
 
 `jshon -e b -a -t`
-```
+```text
 bool
 bool
 null
@@ -150,7 +150,7 @@ string
 == `jshon -ec -ed -upee -u`
 
 `jshon -n {} -s one -i vara`
-```
+```json
 {
  "vara": "one"
 }

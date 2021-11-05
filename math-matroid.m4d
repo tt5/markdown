@@ -27,10 +27,17 @@ A closed subset of $M$ (i.e. a set that is its own closure) is called
 a **flat** of $M$.
 
 independent sets
-$\mathcal{I} =  \{ X \subseteq E: \exists B \in \mathcal{B}$ s.t. $X\subseteq B \}$  
+
+$\mathcal{I} =  \lbrace X \subseteq E:$
+$\exists B \in \mathcal{B}$
+s.t.
+$X\subseteq B \rbrace$
+
 $\mathcal{I} \subseteq 2^E$
 
-$\mathcal{C} = \{ X \cup E : X \in 2^E - \mathcal{I}, X$ is minimal \}
+$\mathcal{C} = \lbrace X \cup E : X \in 2^E - \mathcal{I}, X$
+is minimal
+$\rbrace$
 
 $E(M)$, ground set
 

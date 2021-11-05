@@ -2,10 +2,9 @@
 
 matrix $A\in \mathbb{F}^{m\times n}$
 
-$A_{m\times n}$ produces a linear transformation from $R^n$ to  $R^m$,
-the action of $A$ on the four subspaces of $R^n$ and $R^m$ with the
-right bases. Those bases come from the *singular value decomposition*
-(SVD).
+$A_{m\times n}$ produces a linear transformation from $R^n$ to  $R^m$, the
+action of $A$ on the four subspaces of $R^n$ and $R^m$ with the right bases.
+Those bases come from the singular value decomposition (SVD).
 
 $Ax = b$
 

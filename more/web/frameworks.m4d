@@ -99,6 +99,14 @@ image prune
 rmi
 apk add
 
+docker create --name mycontainer someimage
+docker start mycontainer
+
+docker run -itd --name mycontainer someimage
+
+pause
+unpause
+
 ## podman
 
 /etc/containers/storage.conf
