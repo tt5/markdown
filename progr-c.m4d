@@ -180,13 +180,13 @@ an object of that type that omits the identifier.
 `ifdef` id  
 `ifndef` id  
 ] nl [grp]$_{nopt}$  
+
+**initialzer-list** ²q¹ *def*  
+[ [ designator ]$\_n$
+= ]$\_{opt}$
+initializer [, <$\gets\bullet$>]$_{nopt}$
+
 m4 m4exit
-
-**initialzer-list**\q *def*  
-\ttfamily
-[[designator]\_n = ]\_opt initializer [, <<-o>]nopt
-\normalfont
-
 **initializer**\q *def*  
 \ttfamily
 aexpr\\

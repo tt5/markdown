@@ -1,0 +1,5 @@
+
+the done callback is not available when using async/await or returning a Promise.
+
+Request and Reply are the core Fastify objects.
+done is the function to continue with the lifecycle.

@@ -116,18 +116,6 @@ $$\hat H = -\frac{\hbar^2}{2m}\nabla^2 +\frac{m\omega^2}{2}r^2$$
 $r$ three-dimensional position vector using
 cartesian coordinates.
 
-### Particle on a ring
-
-
-
-```txt
-### Potential well
-
-### Spherically symmetric potential
-
-## Solutions for many Particles
-```
-
 # wavefunction
 
 A free particle is described by a wave function
@@ -834,10 +822,6 @@ In the context of species or mass transfer, the Péclet number is the
 product of the Reynolds number and the Schmidt number. In the context
 of the thermal fluids, the thermal Peclet number is equivalent to the
 product of the Reynolds number and the Prandtl number.
-
-# Two different Atoms di-atom
-
-$E_j = hBJ(J+1) - \underbrace{hDJ^2(J+1)^2{\text{centrifugal distortion term
 
 # some
 

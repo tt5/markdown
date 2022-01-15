@@ -101,7 +101,7 @@ around the loop to begin immediately.
 
 `delete` *array*`[`*index-expression*`]`
 
-\minisec{control statements}
+control statements:
 
 `if` `(` *condition* `)` *statement* \emph{[} `else` *statement* \emph{]}  
 
@@ -130,13 +130,13 @@ controlled or changed.
 Once a match to a given case is made, the case statement bodies execute until a
 `break`, `continue`, `next`, `nextfile` or `exit` is encountered
 
-\minisec{compound statements}
+compound statements:
 
 Consist of one or more statements enclosed in curly braces. A compound
 statement is used in order to put several statements together in the body of an `if`,
 `while`, `do`, or `for` statement.
 
-\minisec{input statements}
+input statements:
 
 `getline`  
 the rest of the current action executes
@@ -174,12 +174,12 @@ If an argument is supplied to exit, its value is used as the exit status code
 for the awk process. If no argument is supplied, exit causes awk to return a
 “success” status.
 
-\minisec{output statements}
+output statements:
 
 `print` [ *expression-list* ] [ `>` *expression* ]  
 `printf` *format* [ `,` *expression-list* ] [ `>` *expression* ]
 
-`$`*N*\quad positional specifier
+`$`*N* ²q¹ positional specifier
 
 `printf(`*Format*`,`*variable*`,` *variable*`,`...`)`
 

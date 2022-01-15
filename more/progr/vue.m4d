@@ -1,0 +1,11 @@
+
+Directives are special attributes with the v- prefix.
+A directive's job is to reactively apply side effects to the DOM when the value of its expression changes.
+Some directives can take an "argument", denoted by a colon after the directive name.
+It is also possible to use a JavaScript expression in a directive argument by wrapping it with square brackets.
+
+Template expressions are sandboxed and only have access to a restricted list of globals
+
+The double mustaches interprets the data as plain text, not HTML. In order to output real HTML, you will need to use the v-html directive.
+
+Mustaches cannot be used inside HTML attributes. Instead, use a v-bind directive.

@@ -3,7 +3,7 @@
 The concepts of categories, functors and natural transformations constitute the
 “language of categories”. This language now allows to formulate the concept of
 adjoint functors and more generally that of adjunctions
-below. This is concept that category theory, as a theory, is all about.
+This is concept that category theory, as a theory, is all about.
 
 Part of the data involved in an adjunction is its adjunction unit and
 adjunction counit and depending on their behaviour special
@@ -26,34 +26,38 @@ by objects in the category on which it acts.
 
 A category $\mathcal{C}$ is
 
-1)\q a class $Obj_{\mathcal{C}}$, called the class of objects;
+1:
 
-2)\q for each pair $X,Y \in Obj_{\mathcal{C}}$ of objects, a set $Hom_{\mathcal{C}}(X,Y)$, called the set of morphisms from $X$ to $Y$, or the hom-set, for short.
+a class $\text{Obj}_{\mathcal{C}}$, called the class of objects;
 
+2:
+
+for each pair $X,Y \in \text{Obj}\_\mathcal{C}$
+of objects, a set $\text{Hom}_\mathcal{C}(X,Y)$, called the set of morphisms from $X$ to $Y$, or the hom-set, for short.
 We denote the elements of this set by arrows like this:
+$X \overset{f}{\longrightarrow} Y \in \text{Hom}\_{\mathcal{C}}(X,Y) \,$.
 
-$X \overset{f}{\longrightarrow} Y \;\;\in Hom_{\mathcal{C}}(X,Y) \,$.
+3:
 
-3)\q for each object $X \in Obj_{\mathcal{C}}$ a morphism $X \overset{id_X}{\to} X \;\; \in Hom_{\mathcal{C}}(X,X)$
-
+for each object
+$X \in \text{Obj}\_{\mathcal{C}}$
+a morphism
+$X \overset{id_X}{\to} X $
+$\in \text{Hom}\_{\mathcal{C}}(X,X)$
 called the identity morphism on $X$;
 
-4)\q for each triple $X_1, X_2, X_3 \in Obj$ of objects, a function
+4:
 
-$ \text{Hom}_\mathcal{C}(X_1, X_2)\times $
-
-$\text{Hom}_\mathcal{C}(X_2, X_3)$
-
-$\overset{\circ_{X_1,X_2,X_3}}{\longrightarrow} \text{Hom}_\mathcal{C}(X_1, X_3)$
-
-$X_1 \overset{f}{\to} X_2    ,      X_2 \overset{f}{\to} X_3 \mapsto    X_1 \overset{ g \circ f }{\longrightarrow} X_3
-$
-
+for each triple $X_1, X_2, X_3 \in \text{Obj}$ of objects, a function
+$ \text{Hom}\_\mathcal{C}(X_1, X_2)\times $
+$\text{Hom}\_\mathcal{C}(X_2, X_3)$
+$\overset{\circ\_{X_1,X_2,X_3}}{\longrightarrow} \text{Hom}\_\mathcal{C}(X_1, X_3)$
+$X_1 \overset{f}{\to} X_2, X_2 \overset{f}{\to} X_3 \mapsto X_1 \overset{ g \circ f }{\longrightarrow} X_3$
 called composition;
 
 such that:
 
-1)\q
+1)
 for all pairs of objects $X,Y \in Obj_{\mathcal{C}}$ unitality holds: given
 
 $X \overset{f}{\to} Y \;\;\in Hom_{\mathcal{C}}(X,Y)$
@@ -64,7 +68,7 @@ $
 X \overset{id_Y \circ f}{\longrightarrow} Y \;=\; X \overset{f}{\longrightarrow} Y \;=\; X \overset{f \circ id_X }{\longrightarrow} Y \,;
 $
 
-2)\q
+2)
 for all quadruples of objects $X_1, X_2, X_3, X_4 \in Obj_{\mathcal{C}}$ composition satifies associativity: given
 
 $X_1 \overset{f_{12}}{\to} X_2 \overset{f_{23}}{\to} X_3 \overset{f_{34}}{\to} X_4$
@@ -178,17 +182,6 @@ what to do with such objects.
 
 A quiver is just a directed graph (pseudograph, to be explicit).
 
-%\begin{center}
-%\line(1,0){25}
-%\end{center}
-%
-%\bfig
-%\efig
-%
-%\begin{center}
-%{\color{gray} \line(1,0){25}}
-%\end{center}
-
 But one says quiver instead of directed graph when one is interested in
 studying quiver representations: functors from the free category on that graph
 to the category of finite-dimensional vector spaces.  On the other hand, beware
@@ -202,7 +195,7 @@ saying how to compose two edges that fit together to get a new edge.
 Furthermore, each vertex has an edge starting and ending at that vertex, which
 acts as an identity for this composition.
 
-$\symbf{Cat}$ is the category with:
+$\mathbf{Cat}$ is the category with:
 
 -    small categories as objects
 
@@ -210,9 +203,9 @@ $\symbf{Cat}$ is the category with:
 
 -    composition of morphisms the evident composition of functors
 
-A *small category* is an internal category in the category $\symbf{Set}$.
+A *small category* is an internal category in the category $\mathbf{Set}$.
 
-$\symbf{Set}$ is the (or a) category with sets as objects and functions between sets as morphisms.
+$\mathbf{Set}$ is the (or a) category with sets as objects and functions between sets as morphisms.
 
 There are two broad ways to write down the definition of category; in the usual
 foundations of mathematics. Here is one of them:
@@ -721,3 +714,6 @@ Not all mathematical structures are F-algebras.
 Monoids are F-algebras of signature $F(M) = 1 + M\times M$.
 In the same vein, semigroups are F-algebras of signature $F(S) = S\times S$.
 
+# ---
+
+A **point** of a set $X$ is a map $1 \to X$.

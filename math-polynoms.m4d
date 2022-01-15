@@ -154,11 +154,11 @@ Every set of polynomials can be transformed into a Gröbner basis (Gb).
 $S(f,g) = \frac{M}{\text{in}(f)}f - \frac{M}{\text{in}(g)}g$
 
 $M$= monic least common multiple of in($f$), in($g$).
-The smallest combination of $f$ an $g$ that cancels their leading term ("in()").
+The smallest combination of $f$ an $g$ that cancels their leading term ("$\operatorname{in}()$").
 
 Buchberger's criterion:
 
-$I = <G> = <g_1, ..., g_n>$
+$I = \langle G \rangle = \langle g_1, ..., g_n \rangle$
 
 $G$ is a Gröbner bases <-> $S(g_i,g_j)\equiv 0 \mod G$, for each
 $i,j$ $S(g_i,g_j)$ leaves remainder 0 upon long division by
@@ -305,8 +305,11 @@ $$
 
 The generating function for them is
 
+$$ \sum _n^\infty t^n L_n^{(\alpha )}(x)= $$
+
 $$
-\sum _{n}^{\infty }t^{n}L_{n}^{(\alpha )}(x)={\frac {1}{(1-t)^{\alpha +1}}}e^{-{\frac {tx}{1-t}}}.
+\frac {1}{(1-t)^{\alpha +1}}
+e^{-\frac{tx}{1-t}}.
 $$
 
 

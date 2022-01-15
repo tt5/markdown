@@ -1,9 +1,8 @@
 # cpp
 
-https://github.com/cplusplus/draft
-
--std=c++20
-N4860
+https://github.com/cplusplus/draft  
+N4860  
+-std=c++20  
 
 c++20 modules
 
@@ -233,61 +232,45 @@ classified with them: bitset and valarray.
 Sequence containers:
 
 array
-:    Array class (class template )
 
 vector
-:    Vector (class template )
 
 deque
-:    Double ended queue (class template )
 
 forward_list
-:    Forward list (class template )
 
 list
-:    List (class template )
 
 
 Container adaptors:
 
 stack
-:    LIFO stack (class template )
 
 queue
-:    FIFO queue (class template )
 
 priority_queue
-:    Priority queue (class template )
 
 
 Associative containers:
 
 set
-:    Set (class template )
 
 multiset
-:    Multiple-key set (class template )
 
 map
-:    Map (class template )
 
 multimap
-:    Multiple-key map (class template )
 
 
 Unordered associative containers:
 
 unordered_set
-:    Unordered Set (class template )
 
 unordered_multiset
-:    Unordered Multiset (class template )
 
 unordered_map
-:    Unordered Map (class template )
 
 unordered_multimap
-:    Unordered Multimap (class template )
 
 # Algorithms
 
@@ -457,4 +440,16 @@ int main() {
   auto out = fmt::output_file("guide.txt");
   out.print("Don't {}", "Panic");
 }
+```
+
+## function template
+
+```cpp
+template <typename T> // this is the template parameter declaration
+T max(T x, T y) // this is the function template definition for max<T>
+{
+    return (x > y) ? x : y;
+}
+
+max<int>(1, 2); // instantiates and calls function max<int>(int, int)
 ```

@@ -171,9 +171,7 @@ $$
 \text{lim sup}_{n\to\infty} \frac{\sigma(n)}{n\log\log n}= e^\gamma
 $$
 
-```txt
-$ \sigma (n) \text{<} e^\gamma n \log \log n$, $n>5040$, if and only if RH.
-```
+$ \sigma (n) < e^\gamma n \log \log n$, $n > 5040$, if and only if RH.
 
 A **perfect** number has a repeating aliquot sequence of period 1.
 A **amicable** number has a repeating aliquot sequence of period 2.
@@ -238,6 +236,8 @@ of unity.
 ```txt
 \includegraphics[width=0.225\textwidth]{kreismitdots}
 ```
+
+{{< figure src="data/kreismitdots.png" >}}
 
 If we suppose the circles to be centered at the origin and have radius 1 (which
 turns out to work nicely), then the above blue dots happen to correspond to the
@@ -316,13 +316,18 @@ The sum is taken over all possible factorizations of n into a product ab of
 positive integers. For example, suppose $f(n) = n$ and $g(n) = n^2$. Then
 
 $$
-\begin{array}{rcl}(f \ast g)(6) &=& \sum_{ab = 6}
-f(a) g(b) \\[1.5em] &=& f(1)g(6) + f(2)g(3) + f(3)g(2) + f(6)g(1) \\[1em] &=& 1
-\cdot 6^2 + 2 \cdot 3^2 + 3 \cdot 2^2 + 6 \cdot 1^2 \\[1em] &=& 36 + 18 + 12 +
-6 = 72.\end{array} 
+\begin{array}{rcl} (f \ast g)(6) &=& \sum_{ab = 6}
+²nn¹ f(a) g(b) &=& f(1)g(6) + f(2)g(3) + f(3)g(2) + f(6)g(1) &=& 1
+²nn¹ 6^2 + 2 \cdot 3^2 + 3 \cdot 2^2 + 6 \cdot 1^2 &=& 36 + 18 + 12 + 6 = 72.
+²nn¹ \end{array} 
 $$
 
-$$\varepsilon(n) = \begin{cases} 1 & \text{if } n=1 \\ 0 & \text{otherwise.} \end{cases}$$
+$$
+\varepsilon(n) =
+\begin{cases} 1 & \text{if } n=1
+²nn¹ 0 & \text{otherwise.}
+²nn¹ \end{cases}
+$$
 
 $f \ast \varepsilon = \varepsilon \ast f = f$
 
@@ -340,7 +345,7 @@ $\mu(n)$ Möbius function
 $\mu$ satisfies the same equation as S, that is,
 
 $$
-\sum_{d \mid n} \mu(d) = \begin{cases}1 \qquad n=1 \\ 0 \qquad n>1,\end{cases}
+\sum_{d \mid n} \mu(d) = \begin{cases}1 \qquad n=1 \\\\ 0 \qquad n>1\end{cases}
 $$
 
 and that therefore $\mu(n) = S(n)$ for all $n \geq 1$, that is, $\mu(n)$ is the sum
@@ -459,12 +464,17 @@ Any divisor of a Carmichael number must be odd and cyclic.
 
 The Legendre symbol (a/p) is defined for all integers a and all odd primes p by
 
+
+$ ( \frac{a}{p} ) = \lbrace$
+
 $$
-\left({\frac {a}{p}}\right)=\left\{{\begin{array}{rl}0&{\text{if }}a\equiv
-  0{\pmod {p}},\\1&{\text{if }}a\not \equiv 0{\pmod {p}}{\text{ and for some
-  integer }}x\colon \;a\equiv x^{2}{\pmod {p}},\\-1&{\text{if }}a\not \equiv
-  0{\pmod {p}}{\text{ and there is no such }}x.\end{array}}\right.
+\begin{array}{rl} 0 & \text{if } a \equiv 0 \pmod{p},
+²nn¹ 1&{\text{if }}a\not \equiv 0{\pmod {p}}{\text{ and for some integer }}x\colon a\equiv x^{2}{\pmod {p}},
+²nn¹ -1 & {\text{if }}a\not \equiv 0 {\pmod {p}}{\text{ and there is no such }}x.
+²nn¹ \end{array}
 $$
+$\rbrace$
+
 
 Following the normal convention for the empty product, (a/1) = 1.
 

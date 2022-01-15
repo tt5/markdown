@@ -110,43 +110,7 @@ for prenilpotent pair of elementary matrices.
 Theorem 2:  
 LDU decomposition
 
-Zu einem Vektorraum  $V$ über einem Körper  $K$ bezeichnet $V^{\star}$ den zu $V$
-gehörigen Dualraum, das heißt die Menge aller linearen Abbildungen von $V$ nach
-$K$. Seine Elemente werden je nach Kontext auch Funktionale, Linearformen oder
-auch 1-Formen genannt. Insbesondere in der Physik verwendet man gerne die
-Sprache der Tensoralgebra; dann heißen die Elemente von  $V$ kontravariante,
-die von $V^{\star}$ kovariante Vektoren
-
-$V,W$ endlich dimensionale K-Vektorräume.
-
-$\text{Hom}_K(V,K) := \{ f : V \to W | \text{f ist K-linear}\}$
-
-$V^\star := \text{Hom}_K(V,K)$
-
-# Bilinearform
-
-$V,W$ Vektorräume über einem Körper $K$.
-
-Eine Abbildung
-
-$$B\colon V\times W\to K,\quad (v,w)\mapsto B(v,w)=\langle v,w\rangle$$
-
-heißt Bilinearform, wenn die zwei Bedingungen einer linearen Abbildung (Additivität und Homogenität)
-in beiden Argumenten gelten.
-
-$$\langle v_1+v_2,w\rangle =\langle v_1,w\rangle +\langle v_2,w\rangle $$
-$$\langle v,w_1+w_2\rangle =\langle v,w_1\rangle +\langle v,w_2\rangle $$
-$$\langle \lambda v,w\rangle =\lambda \langle v,w\rangle $$
-$$\langle v,w\lambda \rangle =\langle v,w\rangle \lambda$$
-
-$v,v_1,v_2 \in V$  
-$w,w_1,w_2 \in W$  
-$\lambda \in K$
-
-Wenn beide Argumente aus dem gleichen Vektorraum $V$ stammen,
-bezeichnet man $B(x,x), x\in V$ als den Formwert des Vektors $x$
-(bezüglich $B$). Die Bilinearform $B: V\times V \rightarrow K$
-kann zusätzliche Symmetrieeigenschaften haben.
+# ---
 
 A symmetric bilinear form $⟨\cdot,\cdot ⟩$ is **positive definite**
 if and only if it is the Euclidean inner product with respect to some bases.
@@ -159,14 +123,6 @@ $B : V × V → K$ which is linear in each argument separately:
 $B(u + v, w) = B(u, w) + B(v, w)$,
 $B(u, v + w) = B(u, v) + B(u, w)$,
 $B(λu, v) = B(u, λv) = λB(u, v)$.
-
-Sei $V$ ein $R$-Vectorraum.
-Dann nennt man $q:V\to R$ eine **Quadratische Form**
-auf $V$, wenn es eine symmetrische Bilinearform $s:V\times V \to R$ gibt,
-so dass gilt $q(v)=s(v,v)$.
-
-**Quadratische Form**:
-$$q=\sum_{i=1}^n a_i X_i^2 =: \langle a_1, ..., a_n \rangle $$
 
 A **symplectic bilinear form** is
 
@@ -193,18 +149,6 @@ of its rows or columns.
 
 **Projection** $P$. $P=A(A^TA)^{-1}A^T$.
 $P$ symmetric. $PP=P$.
-
-$A\in M_{n\times n}(\mathbb{R})$ **symmetrisch**,
-falls $A^T=A$; **orthogonal** (orthonormal
-column (or row) vectors), falls $A^TA=E$.
-$A\in M_{n\times n}(\mathbb{C})$ **hermetisch**, falls
-$A^T=\overline{A}$; **unitär**, falls $A^T\overline{A}=E$.
-
-$U$ unitäre Matrix. $U^\star=U^{-1}$.
-
-$U$ orthogonale Matrix $\iff U^T=U^{-1}$.
-
-$U^\star=\overline{U^T}$
 
 For every Matrix the column rank is equal
 to the row rank.
@@ -235,7 +179,11 @@ The most important subclass of symmetric matrices are the positive definite matr
 
 The term **spectrum** refers to the eigenvalues of a matrix.
 
+The set (multi-set) of all the eigenvalues of a square complex matrix $A$ is called
+the *spectrum* of $A$, and is denoted by $\sigma(A)$.
+
 **Spectral radius**: the maximum absolute value of any of the eigenvalues.
+$\rho(A) = \text(max)\lbrace |\lambda| : \lambda \in \sigma(A)\rbrace$
 
 A **defective** matrix $n\times n$ does not have
 $n$ linearly independent eigenvectors.
@@ -360,8 +308,6 @@ are eigenvalues of $MM^\star $ (respectivelly $M^\star M$).
 The non-zero singular values of $M$ are the square roots
 of the non-zero eigenvalues of both $M^\star M$ and $MM^\star $.
 
-Die Standartbasis ist positiv orientiert.
-
 \minisec{linear Transformation}
 
 **Linear map**. Homomorphism of vector spaces.
@@ -374,8 +320,9 @@ $T(cv+dw)=cT(v)+dT(w)$
 
 $T(v)=\mathbf{A}\mathbf{v}$
 
-Die Hintereinanderausführung von linearen Abbildungen entspricht
-der Multiplikation von Matrizen.
+If $A* = -A$, then $A$ is called **skew-Hermitian**.
+
+If $A*A = I$, then $A$ is called **unitary**.
 
 The Cholesky decomposition of a Hermitian positive-definite matrix A is a
 decomposition of the form $\mathbf{A = L L}^{\star }$ where $L$ is a lower
@@ -412,13 +359,13 @@ entries are less than or equal to zero
 Let A be a n × n real Z-matrix, then the following statements are equivalent to
 A being a non-singular M-matrix:
 
--\q All the principal minors of A are positive.  
--\q Every real eigenvalue of A is positive.  
--\q All the leading principal minors of A are positive.  
--\q There exist lower and upper triangular matrices L and U respectively, with positive diagonals, such that A = LU.  
--\q A is positive stable. That is, the real part of each eigenvalue of A is positive.  
--\q A is semi-positive. That is, there exists $x>0$ with $Ax>0$  
--\q There exists x ≥ 0 with $Ax>0$.  
+- ²q¹ All the principal minors of A are positive.  
+- ²q¹ Every real eigenvalue of A is positive.  
+- ²q¹ All the leading principal minors of A are positive.  
+- ²q¹ There exist lower and upper triangular matrices L and U respectively, with positive diagonals, such that A = LU.  
+- ²q¹ A is positive stable. That is, the real part of each eigenvalue of A is positive.  
+- ²q¹ A is semi-positive. That is, there exists $x>0$ with $Ax>0$  
+- ²q¹ There exists x ≥ 0 with $Ax>0$.  
 
 \minisec{Smith Normal Form}
 
@@ -1117,39 +1064,6 @@ $M(10)=1$
 
 $$M(n) = \sum_{k=1}^n \mu(k)$$ ($\mu$ Möbius function)
 
-## Skalarprodukt
-
-*Inner Produkt* ist das Gleiche wie *Skalarprodukt*.
-
-Ein **Skalarprodukt** oder inneres Produkt auf einem reellen Vektorraum $V$ ist eine
-*positiv definite symmetrische Bilinearform*.
-Ein Skalarprodukt oder inneres Produkt auf einem komplexen Vektorraum $V$ ist eine
-positiv definite hermitesche Sesquilinearform
-
-Eine **Bilinearform** $B$ heisst symmetrisch, wenn
-$B(x,y)=B(y,x)$ für alle $x,y\in V$
-
-**Dotproduct** Gleich Skalarprodukt. $\mathbf{a}\cdot
-\mathbf{b}=\langle \mathbf{a},\mathbf{b}\rangle$
-
-**kanonisches Skalarprodukt**. $\mathbf{x},\mathbf{y}\in \mathbb{R}^n$
-
-```txt
-$$
-\langle \mathbf{x},\mathbf{y}\rangle =
-\begin{pmatrix}
-x_1,...,x_n
-\end{pmatrix}
-\begin{pmatrix}
-y_1 ²nn¹ 
-\vdots ²nn¹ 
-y_n
-\end{pmatrix}
-$$
-```
-
-Die induzierte Norm ist die euklidische Norm.
-
 **Inner product**. $\langle ·,·\rangle :V\times V\to F$, $V$ vector space,
 $F=\mathbb{R}$ or $\mathbb{C}$.  
 $\langle x,y\rangle =\langle y,x\rangle$  
@@ -1400,33 +1314,4 @@ that the matrix is singular.
 
 The number of non-zero singular values
 indicates the rank of the matrix.
-
-# Basiswechsel
-
-Es sei $V$ ein $n$-dimensionaler Vektorraum über dem Körper $K$.
-
-In $V$ seien zwei geordnete Basen gegeben,
-$B=(b_i,\dots,b_n)$ und $B'=(b'_1,\dots,b'_n)$
-
-Die **Basiswechselmatrix** $T_{B'}^B$ für den Basiswechsel von $B$
-nach $B'$ ist eine $n\times n$ Matrix.
-
-Es handelt sich um die Abbildungsmatrix der Identitätsabbildung auf $V$
-bezüglich der Basen $B$ im Urbild und $B'$ im Bild:
-$$
-T_{B'}^B = M_{B'}^B(\text{id}_V)
-$$
-
-Man erhält sie, indem man die Vektoren der alten Basis $B$
-als Linearkombination der Vektoren der neuen Basis $B'$
-darstellt:
-$\sum_{i=1}^{n}a_{ij}b'_i$,\, $j=1,\dots,n$
-
-$$
-T_{B'}^B =
-\begin{pmatrix} a_{11} & \dots & a_{ij} & \dots & a_{in}
-²nn¹ \vdots &&&&
-²nn¹ a_{n1} & \dots & a_{nj} & \dots & a_{nn}
-²nn¹ \end{pmatrix}
-$$
 

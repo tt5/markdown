@@ -41,6 +41,3 @@ $\displaystyle
 \begin{pmatrix} 1\cdot 4 ²nn¹ 2\cdot 5 ²nn¹ 3\cdot 1 ²nn¹ \vdots ²nn¹ \end{pmatrix} =
 3x^2+10x+4
 $
-
-"Form" (as in bilinear form) means that the domain is just a base field and not any vector space.
-kein beliebiger Vektorraum.

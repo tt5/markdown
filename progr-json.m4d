@@ -26,8 +26,6 @@ int:
 *[* - *]*$^?$ *[* 0 *or* *[*
 *[* 1 *to* 9 *]* *[* 0 *to* 9 *]* ²s¹ *]* *]*
 
-# ---
-
 string:  
 **"** *[* char *]* ²s¹ **"**
 
@@ -48,26 +46,26 @@ https://github.com/keenerd/jshon
 `-l` ²q¹ length  
 `-k` ²q¹ keys (object)  
 
-`-e` *index*\quad extract (object, array).  
+`-e` *index* ²q¹ extract (object, array).  
 `-i` *index* insert, opposite of extract, merges json up
 the stack. objects will overwrite, arrays will insert. Arrays
 can take negative numbers or 'append'  
-`-d` *index*\quad remove an element from an objet or array. Negative array indexes will wrap around.  
-`-a`\quad (across) maps the remaining actions across the selected element. Only
+`-d` *index* ²q¹ remove an element from an objet or array. Negative array indexes will wrap around.  
+`-a` ²q¹ (across) maps the remaining actions across the selected element. Only
 works on objects and arrays. Multiple -a calls can be nested, though the need
 is rare in practice.  
 `-s` *value*\quad load string (adds json escapes)  
 `-n` *value*\quad load nonstring (`t f n [] {}`)  
-`-p`\quad pop stack / undo last manipulation  
-`-j`\q json literal (preserves json escapes, display value)
+`-p` ²q¹ pop stack / undo last manipulation  
+`-j` ²q¹ json literal (preserves json escapes, display value)
 
 `-F` *file*  
-`-I`\quad in-place file editing (requires -F)  
-`-S`\quad sort keys when writing objects  
-`-Q`\quad quiet  
-`-C`\quad continue through errors  
-`-P`\q detect and ignore JSONP wrapper, if present
-`-0`\q null delimiters
+`-I` ²q¹ in-place file editing (requires -F)  
+`-S` ²q¹ sort keys when writing objects  
+`-Q` ²q¹ quiet  
+`-C` ²q¹ continue through errors  
+`-P` ²q¹ detect and ignore JSONP wrapper, if present  
+`-0` ²q¹ null delimiters
 
 Use *extract* (`-e`) to dive into json tree, *delete* (`-d`,)
 *string* (`-s`), *nonstring* (`-n`) to change things, and

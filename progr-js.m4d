@@ -6,8 +6,9 @@
 
 Install node with nvm (install script).
 
-`nvm use 16`  
-`nvm alias default N.N.N`
+`nvm use 17`  
+`nvm alias default N.N.N`  
+`node --version`:
 m4 esyscmd(¹ node --version ²)
 
 ²q¹  

@@ -18,7 +18,7 @@ platform-dependent.
 ```
 
 the expression `a+b` is actually calling the function `` `+`()`` with the
-arguments a and b, as `` `+` (a, b)`` It is possible to create user-defined
+arguments a and b, as `` `+` (a, b)``. It is possible to create user-defined
 infix operators in R.  This is done by naming a function that starts and ends
 with \%.
 
@@ -28,38 +28,37 @@ The complete list of built-in infix operators that don't need  `%` is:
 The following unary and binary operators are defined. They are listed in
 precedence groups, from highest to lowest.
 
-`:: :::` access variables in a namespace
-`$ @` component / slot extraction
-`[ [[` indexing
-`^` exponentiation (right to left)
-`- +` unary minus and plus
-`:` sequence operator
-`%any%` special operators (including %% and %/%)
-`* /` multiply, divide
-`+ -` (binary) add, subtract
-`< > <= >= == !=` ordering and comparison
-`!` negation
-`& &&` and
-`| ||` or
-`~` as in formulae
-`-> ->>` rightwards assignment
-`<- <<-` assignment (right to left)
-`=` assignment (right to left)
-`?` help (unary and binary)
+`:: :::` access variables in a namespace  
+`$ @` component / slot extraction  
+`[ [[` indexing  
+`^` exponentiation (right to left)  
+`- +` unary minus and plus  
+`:` sequence operator  
+`%any%` special operators (including %% and %/%)  
+`* /` multiply, divide  
+`+ -` (binary) add, subtract  
+`< > <= >= == !=` ordering and comparison  
+`!` negation  
+`& &&` and  
+`| ||` or  
+`~` as in formulae  
+`-> ->>` rightwards assignment  
+`<- <<-` assignment (right to left)  
+`=` assignment (right to left)  
+`?` help (unary and binary)  
 
 (Note that `=` is not necessarily an operator.)
 
 The binary operators ::, :::, $ and @ require names or string constants on the
 right hand side, and the first two also require them on the left. 
 
-The reserved words in R's parser are
+The reserved words in R's parser are:
+`if else repeat while function for in next break`
 
-if else repeat while function for in next break
+`TRUE FALSE NULL Inf NaN NA NA_integer_ NA_real_ NA_complex_ NA_character_`
 
-TRUE FALSE NULL Inf NaN NA NA_integer_ NA_real_ NA_complex_ NA_character_
-
-... and ..1, ..2 etc, which are used to refer to arguments passed down from a
-calling function
+`...` and `..1`, `..2` etc, which are used to refer to arguments passed down from a
+calling function.
 
 ``` r
 tst <- function(n, ...) ...elt(n)
@@ -67,7 +66,7 @@ tst(1, pi=pi*0:1, 2:4) ## [1] 0.000000 3.141593
 tst(2, pi=pi*0:1, 2:4) ## [1] 2 3 4
 ```
 
-Open parenthesis, (, and open brace, {, are .Primitive functions in R. 
+Open parenthesis, `(`, and open brace, `{`, are .Primitive functions in R.
 
 Inf and NaN are numeric constants (with typeof(.) "double"). In text input
 (e.g., in scan and as.double), these are recognized ignoring case as is
@@ -159,16 +158,16 @@ m <- t(m)
 `install.packages`  
 `install_github`
 
-magrittr
-Rcpp
-BH
+magrittr  
+ggmap (ggplot2)  
+
+Rcpp  
+BH  
 jsonlite  
-remotes
+remotes  
 littler  
 renv
-
-ggmap (ggplot2)  
-rstudio/renv
+rstudio/renv  
 daqana/tikzDevice  
 RcppArmadillo  
 RcppCore/RcppParallel  
