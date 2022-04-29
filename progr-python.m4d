@@ -126,3 +126,8 @@ dict(zip(Color, Code))
 numb = (22, 10, 5, 34, 29)
 list(reversed(numb))
 ```
+
+# alembic
+
+alembic revision --autogenerate -m "..."
+alembic upgrade head

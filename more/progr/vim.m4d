@@ -7,7 +7,7 @@ vim -S file.vim
 
 > + ^
 * ()
-# . []
+\# . []
 $ $$$ {}
 
 $@N
@@ -21,9 +21,6 @@ c-w z
 g<c-]>
 
 ## ---
-
-:Async make
-:cn :cp
 
 c-x c-]
 c-x c-n

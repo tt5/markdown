@@ -1,0 +1,7 @@
+sudo su - postgres
+createuser --pwprompt username
+createdb -O username databasename
+
+sudo -i -u postgres psql
+sudo su postgres -c psql
+

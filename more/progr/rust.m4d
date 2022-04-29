@@ -47,3 +47,11 @@ rustfmt
 clippy
 rust-src
 rust-docs
+
+# lang
+
+Result
+Ok Err
+
+Ordering
+Less Greater Equal
